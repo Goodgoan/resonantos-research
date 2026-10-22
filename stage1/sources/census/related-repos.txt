@@ -1,0 +1,21 @@
+== vijayee/resonantdao-example
+2026-09-21	2026-10-16	false			TypeScript	2098	0	
+.gitignore client docs jest.config.js package-lock.json package.json scripts server shared test-voting-browser.js test tsconfig.json
+== Sanmarcsoft/resonantos-alpha
+2026-02-18	2026-04-04	false		NOASSERTION	HTML	13232	1	building the DAO of AI
+.gitignore LICENSE README.md assets config dashboard data extensions install.js requirements.txt shield ssot-template tools
+== dwillitzer/resonantos-alpha
+2026-02-22	2026-02-21	false		NOASSERTION		13150	0	ResonantOS Alpha: an OpenClaw-powered orchestration layer for sovereign human-AI collaboration.
+.gitignore LICENSE README.md assets config dashboard data extensions install.js requirements.txt shield ssot-template tools
+== vonstegen/resonant-vcs
+2026-06-07	2026-06-09	false			Python	7060	1	
+.gitignore AGENTS.md CHANGELOG.md README.md docs index.html node_modules package-lock.json package.json project.md public pyproject.toml src tests tsconfig.json tsconfig.node.json vite.config.ts
+== vonstegen/RCC-OS
+2026-08-12	2026-08-12	false		NOASSERTION	JavaScript	1822	0	Resonant Cognitive Core Operating System: a local-first, hardware-adaptive AI operating substrate forked from ResonantOS/2.0.0-alpha.
+.github .gitignore CODE_OF_CONDUCT.md CONTRIBUTING.md LICENSE README.md SECURITY.md SUPPORT.md baseline docs latex
+== simongonzalezdc/resonant-authority
+2026-08-31	2026-10-01	false		MIT	Shell	14	0	A self-contained POSIX add-on that implements contextual authority — the ResonantDAO whitepaper's mechanism: weight comes from verified outcomes in exactly the dimensions a question declares salient, never blanket scores, capital, or activity. Non-canonical community implementation for ResonantOS 2.0.0-alpha.
+.fl4write.yaml DEMO_SOURCE.md LICENSE README.md authority-ledger entrypoint.sh llms.txt manifest.json tools
+== michelnavarra/resonant-os-design-system
+2026-05-29	2026-06-16	false		MIT	HTML	1065	3	ROSI — Resonant OS Interface Design Tokens. W3C spec color tokens, CSS custom properties, and visual design system guide for the ResonantOS community.
+.github .gitignore CHANGELOG.md DEV-TEAM-REPORT.md LICENSE README.md ROADMAP.md guide reference tokens

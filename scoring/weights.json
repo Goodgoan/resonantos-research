@@ -1,0 +1,68 @@
+{
+  "_about": "Stage 3 scoring weights (master prompt 8.4), set by the lead on 2026-10-20 BEFORE any dossier exists, derived from threat-model-draft.md section 4 and the gaps.md standing constraints. Scores are 0-5 per criterion, N/A and unknown allowed (unknown scores 0 and is flagged; N/A is dropped and weights renormalised). Totals are reported with reasons, never as the decision by themselves. The sensitivity script perturbs every weight by +-25 percent and drops one criterion at a time; a candidate whose rank changes under either check is marked fragile in the comparison matrix.",
+  "criteria": [
+    "requirement_fit",
+    "demonstrated_maturity",
+    "isolation_and_security",
+    "licence_suitability",
+    "integration_effort",
+    "maintenance_sustainability",
+    "sovereignty_and_portability",
+    "interoperability",
+    "operational_complexity"
+  ],
+  "profiles": {
+    "os_kernel": {
+      "_use_for": "components that would sit inside or next to the bridge's trust boundary: authorization (R01), containment (R02), secret brokering (R03), supervision (R04), loopback model (R05), approval and audit ledger (R11), durable execution (R10), signed manifests (R18), host-side browser gate (R19), channel (R20), add-on isolation (R21)",
+      "requirement_fit": 0.18,
+      "demonstrated_maturity": 0.14,
+      "isolation_and_security": 0.22,
+      "licence_suitability": 0.10,
+      "integration_effort": 0.08,
+      "maintenance_sustainability": 0.10,
+      "sovereignty_and_portability": 0.08,
+      "interoperability": 0.04,
+      "operational_complexity": 0.06
+    },
+    "user_facing_app": {
+      "_use_for": "components the user interacts with or that hold user data: memory and promotion (R14), vault (R15), sync (R16), retrieval (R17), provider abstraction (R08), MCP surface (R06), runtime adapters (R07), skills (R09), thin-layer candidates (R29)",
+      "requirement_fit": 0.18,
+      "demonstrated_maturity": 0.14,
+      "isolation_and_security": 0.12,
+      "licence_suitability": 0.10,
+      "integration_effort": 0.12,
+      "maintenance_sustainability": 0.12,
+      "sovereignty_and_portability": 0.12,
+      "interoperability": 0.06,
+      "operational_complexity": 0.04
+    },
+    "dao_contract": {
+      "_use_for": "on-chain or governance-bearing components: credentials (R22), registry and anchoring (R23), governance (R24), personhood (R25), contribution ledger (R26), collusion resistance (R27), attribution (R28), off-chain Phase 1 (R30), provenance formats when anchored (R12)",
+      "requirement_fit": 0.16,
+      "demonstrated_maturity": 0.16,
+      "isolation_and_security": 0.18,
+      "licence_suitability": 0.08,
+      "integration_effort": 0.06,
+      "maintenance_sustainability": 0.14,
+      "sovereignty_and_portability": 0.08,
+      "interoperability": 0.06,
+      "operational_complexity": 0.08
+    }
+  },
+  "hard_gates": {
+    "_about": "Checked before scoring. A candidate failing a hard gate is scored for information but cannot be selected for a reference architecture; the dossier must say which gate failed.",
+    "G1": "No mandatory cloud service or telemetry for the core function (gaps.md standing constraint).",
+    "G2": "Runs on Windows, macOS and Linux, or states its per-OS matrix honestly and degrades visibly (R02 constraint; 'unconfined' reported is acceptable, silent no-op is not).",
+    "G3": "Licence compatible with the MIT Alpha, or flagged for legal review with the specific clause named; AGPL, SSPL, BUSL/FSL and 'source-available with commercial restriction' pass only as reference-only reuse decisions.",
+    "G4": "For DAO components: chain is Solana, chain-agnostic, or none; EVM-only is reference-only.",
+    "G5": "Preserves the project invariants: human-only actions remain human-only; no DAO credential becomes runtime authority; ResonantOS stays useful without the DAO (interaction.md I1, I2, I4)."
+  },
+  "criterion_anchors": {
+    "isolation_and_security": "5 = property demonstrated by test or audit for the threat family it addresses (threat-model section 4); 3 = property designed and partly tested; 1 = claimed in docs only; 0 = contrary evidence (advisory, counterexample row). Clarified 2026-10-21 after review (state.md D3.7, security review W-4; scale unchanged): (a) 0 applies when the advisory or contrary evidence is unfixed in the version or artifact that would actually be used (the pinned release, or the deployed binary); a fix present only in later, unpinned or unaudited source does not lift that artifact above 0; (b) 3 requires a test that exercises the property itself, not only a helper the property depends on; (c) the score rates the upstream artifact as inspected, not the proposed Resonant layer around it; (d) contrary evidence means a verified finding (advisory, counterexample row, or an inspected code path in the artifact as the dossier proposes to use and configure it) that defeats one of the threat-model properties the dossier checks; the mere absence of a mechanism does not justify 0 (it scores 1 at most when it is the only evidence), and it does not cap a score where other checked properties are demonstrated (D3.8).",
+    "demonstrated_maturity": "5 = releases, CI, tests, issue response and documented production use; 3 = tests and releases but thin usage evidence; 1 = pre-release or single author under six months; 0 = archived or no commits in twelve months.",
+    "licence_suitability": "5 = MIT/BSD/Apache-2.0/ISC/MPL-2.0 file-level; 3 = LGPL or dual with a permissive option; 1 = copyleft usable only as a separate process or service; 0 = source-available with use restriction or no licence file.",
+    "integration_effort": "5 = embeddable library in Node/TS with typed API; 3 = sidecar process with a stable protocol; 1 = requires a server stack or a language runtime the team does not have; 0 = would require forking.",
+    "sovereignty_and_portability": "5 = local-first, user-readable data, no account; 3 = local with optional relay; 1 = relay sees plaintext or data locked in a service; 0 = hosted only.",
+    "operational_complexity": "5 = one process, no external services; 3 = one database or one sidecar; 1 = several services; 0 = orchestrator (Kubernetes) or managed cloud required."
+  }
+}

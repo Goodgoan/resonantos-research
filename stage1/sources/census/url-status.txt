@@ -1,0 +1,12 @@
+fetched 2026-10-20
+https://github.com/ManoloRemiddi/ResonantDAO 404
+https://github.com/ManoloRemiddi/ResonantDAO/blob/main/docs/architecture/smart-contract-roadmap.md 404
+https://resonantdao.com/whitepaper/ 200
+https://resonantdao.com/dao/ 200
+https://resonantos.com/ 200
+https://resonantos.com/dao/ 404
+https://resonantos.com/symbiotic-license/ 404
+https://augmentatism.com/ 200
+https://hub.resonantclaw.com/ 200
+https://resonantclaw.com/ 200
+https://augmentoragent.com/ 200

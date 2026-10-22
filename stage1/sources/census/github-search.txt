@@ -1,0 +1,139 @@
+fetched 2026-10-20 via gh api search
+## code: ResonantDAO
+161
+cirosantilli/expired-domain-names-by-day-2019 03/14/29
+ResonantOS/resonantos-website README.md
+simongonzalezdc/resonant-authority llms.txt
+simongonzalezdc/resonant-gifts llms.txt
+simongonzalezdc/resonant-gifts README.md
+simongonzalezdc/resonant-authority README.md
+ResonantOS/resonantos-website archive/README.md
+vonstegen/resonant-vcs AGENTS.md
+vonstegen/resonant-vcs project.md
+vonstegen/resonant-vcs CHANGELOG.md
+ResonantOS/resonantos-economy-research AGENTS.md
+ResonantOS/resonantos-economy-research CLAUDE.md
+ResonantOS/resonantos-economy-research authority/README.md
+ResonantOS/resonantos-economy-research levels/L0-corpus.md
+vonstegen/resonant-vcs README.md
+## code: resonantdao
+161
+cirosantilli/expired-domain-names-by-day-2019 03/14/29
+ResonantOS/resonantos-website README.md
+simongonzalezdc/resonant-authority llms.txt
+simongonzalezdc/resonant-gifts llms.txt
+simongonzalezdc/resonant-gifts README.md
+simongonzalezdc/resonant-authority README.md
+ResonantOS/resonantos-website archive/README.md
+vonstegen/resonant-vcs AGENTS.md
+vonstegen/resonant-vcs project.md
+vonstegen/resonant-vcs CHANGELOG.md
+ResonantOS/resonantos-economy-research AGENTS.md
+ResonantOS/resonantos-economy-research CLAUDE.md
+ResonantOS/resonantos-economy-research authority/README.md
+ResonantOS/resonantos-economy-research levels/L0-corpus.md
+vonstegen/resonant-vcs README.md
+## code: ResonantOS+solana
+41
+ResonantOS/2.0.0-alpha browser-first/resonantos-side-panel-extension/src/content.js
+ResonantOS/2.0.0-alpha browser-first/resonantos-side-panel-extension/src/lib/wallet-state.js
+Sanmarcsoft/resonantos-alpha install.js
+ResonantOS/2.0.0-alpha docs/architecture/ADR-035-electron-host-rust-core-runtime.md
+ResonantOS/2.0.0-alpha browser-first/resonantos-side-panel-extension/src/lib/browser-page-actions.js
+vonstegen/RCC-OS baseline/browser-first/resonantos-side-panel-extension/src/content.js
+Sanmarcsoft/resonantos-alpha README.md
+ResonantOS/2.0.0-alpha docs/architecture/ADR-025-native-embedded-browser-host.md
+Sanmarcsoft/resonantos-alpha ssot-template/L1/SYSTEM-ARCHITECTURE.md
+vonstegen/RCC-OS baseline/browser-first/resonantos-side-panel-extension/src/lib/wallet-state.js
+Sanmarcsoft/resonantos-alpha dashboard/static/js/crypto-payment.js
+vonstegen/RCC-OS baseline/browser-first/resonantos-side-panel-extension/src/lib/browser-page-actions.js
+ResonantOS/2.0.0-alpha src/App.tsx
+Sanmarcsoft/resonantos-alpha ssot-template/L0/OVERVIEW.md
+Sanmarcsoft/resonantos-alpha dashboard/server_v2.py
+## code: RCT+RES+resonant+anchor
+19424
+openethereum/wordlist res/wordlist.txt
+hakank/hakank picat/unixdict.txt
+mahavivo/english-wordlists COCA_20000.txt
+prediqtiv/alpha-vantage-cookbook data/NASDAQ.txt
+conwnet/wpa-dictionary other-2.txt
+itm4n/PrivescCheck data/WordList.txt
+machineboy2045/fast-boggle-solver results.txt
+han-yuexing/NER-SciBERT-Fasttext-BiLSTM-CRF resource/vocab.txt
+stewart-lab/kinderminer_kg 1_label/vocab.txt
+beskridge/Linux101-Resources files/wordlist.txt
+shariq/burgundy rnn/20k.txt
+petelomax/Phix demo/unixdict.txt
+agilebits/crackme doc/AgileWords.txt
+perl6/bench-scripts unixdict.txt
+arzon4dt/bot-experiment modifiers.txt
+## code: resonantos+anchor_lang
+{
+	"message": "API rate limit exceeded for user ID 226257828. If you reach out to GitHub Support for help, please include the request ID 4FD2:1D1C60:5FF94A8:89F1CBB:6AD6987D and timestamp 2026-10-19 22:23:57 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https:\/\/docs.github.com\/en\/site-policy\/github-terms\/github-terms-of-service)",
+	"documentation_url": "https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api#rate-limiting",
+	"status": "403"
+}
+gh: API rate limit exceeded for user ID 226257828. If you reach out to GitHub Support for help, please include the request ID 4FD2:1D1C60:5FF94A8:89F1CBB:6AD6987D and timestamp 2026-10-19 22:23:57 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)
+## code: ResonantDAO+realms
+{
+	"message": "API rate limit exceeded for user ID 226257828. If you reach out to GitHub Support for help, please include the request ID 4FDA:29C844:61BFE0C:8C740C8:6AD69885 and timestamp 2026-10-19 22:24:05 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https:\/\/docs.github.com\/en\/site-policy\/github-terms\/github-terms-of-service)",
+	"documentation_url": "https://docs.github.com/en/rest/using-the-rest-api/getting-started-with-the-rest-api#rate-limiting",
+	"status": "403"
+}
+gh: API rate limit exceeded for user ID 226257828. If you reach out to GitHub Support for help, please include the request ID 4FDA:29C844:61BFE0C:8C740C8:6AD69885 and timestamp 2026-10-19 22:24:05 UTC. For more on scraping GitHub and how it may affect your rights, please review our Terms of Service (https://docs.github.com/en/site-policy/github-terms/github-terms-of-service) (HTTP 403)
+## code: Resonant+Contribution+Token
+24192
+aevov/afolabi-unified-framework RESONANT_ECONOMY.md
+dennykjohn/data-syncher-ui CONTRIBUTION.md
+khandelwal-arpit/springboot-starterkit readme.md
+mahavivo/english-wordlists COCA_20000.txt
+ChatScript/ChatScript DICT/BASIC/c.txt
+Kim-Hammar/awesome-rl-for-cybersecurity README.md
+SMTG-Bham/easyunfold docs/index.md
+khandelwal-arpit/springboot-starterkit-mysql readme.md
+simongonzalezdc/resonant-gifts README.md
+godelcomplete9/open-deepthink README.md
+josuamarcelc/common-password-list totse.info.txt
+AXYZdong/awesome-snn-conference-paper README.md
+jpvantassel/hvsrpy README.md
+Resonant-Jones/Codexify CONTRIBUTING.md
+petelomax/Phix demo/unixdict.txt
+## repos: resonantdao
+3
+ManoloRemiddi/ResonantDAO.com 2026-10-19 ResonantDAO public website
+vijayee/resonantdao-example 2026-10-16 
+simongonzalezdc/resonant-authority 2026-10-01 A self-contained POSIX add-on that implements contextual authority — t
+## repos: resonantos
+36
+dwillitzer/resonantos-alpha 2026-02-21 ResonantOS Alpha: an OpenClaw-powered orchestration layer for sovereig
+munchbyte/avery-resonantos-vnext-framework 2026-05-05 ResonantOS vNext: modular desktop shell and add-on SDK for human-AI co
+ManoloRemiddi/ResonantOS-Open-Toolkit 2026-02-08 An open-source toolkit for architecting a symbiotic human-AI partnersh
+michelnavarra/resonant-os-design-system 2026-06-16 ROSI — Resonant OS Interface Design Tokens. W3C spec color tokens, CSS
+ResonantOS/resonant-hub 2026-06-02 ResonantOS Community Hub — hub.resonantclaw.com
+ResonantOS/rcode 2026-04-13 ResonantCode, a ResonantOS fork of ClawCode with guided model setup.
+ResonantOS/ResonantOS-Team-Coordination-Hub 2026-07-03 ResonantOS_Team_Planner_Combined_MVP_v3
+ResonantOS/resonantos-website 2026-09-03 
+ResonantOS/resonantos-economy-research 2026-07-18 Governed research tower for ResonantOS economy resilience
+vonstegen/resonantos-rag 2026-04-07 RAG (Retrieval-Augmented Generation) Layer 4 for ResonantOS — semantic
+omniaintelligenceteam-ctrl/resonantos-alpha 2026-03-16 
+dkaygithub/local_agent 2026-05-14 Personal workbench for AI coding/control agents — HEB MCP, NemoClaw, i
+Sanmarcsoft/resonantos-alpha 2026-04-04 building the DAO of AI
+cthiam23-collab/resonantos-open-system-toolkit 2026-02-09 Resonant Open System Toolkit (Multi-Agent AI) - Runs on OpenClaw + you
+tompennington/resonantos-vnext-Experimental 2026-05-31 
+vonstegen/RCC-OS 2026-08-12 Resonant Cognitive Core Operating System: a local-first, hardware-adap
+simongonzalezdc/resonant-field 2026-10-15 Resonant Field: a proposed extension to the ROSI design system within 
+simongonzalezdc/resonant-stack-bench 2026-10-01 Honest local-AI benchmark as a ResonantOS add-on: measures a local lla
+simongonzalezdc/resonant-context-kit 2026-10-01 Context-kit as a ResonantOS local-service add-on — style steering, san
+simongonzalezdc/resonant-innerscape 2026-10-01 Local-only ResonantOS add-on exposing Innerscape's personal-growth-OS 
+## repos: resonant+dao+solana
+0
+## repos: augmentatism
+6
+ResonantOS/augmentatism.com 2026-03-22 The Augmentatism Manifesto
+themeticus/Augmentatism 2026-07-02 Augementatism
+oldmanbombin/MotionAugment 2026-09-28 Motion Augmentat-inator
+vasilevladilie/iara-tema 2020-12-29 Tema pentru disciplina Inteligenta Ambientala si Realitate Augmentat
+gmjadeja/rag_demo 2026-03-16 This is educational demo repository for RAG(Retrieval Augmentat)
+ioan-ung/RAG 2026-08-20 i build the very basis of rag algorithm(retrieval-augmentat-generation
+## repos: resonant+contribution+token
+0

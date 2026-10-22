@@ -1,0 +1,26 @@
+Agent Control live-browser certification	Set up job	success
+Agent Control live-browser certification	Checkout	success
+Agent Control live-browser certification	Setup Node.js	success
+Agent Control live-browser certification	Install dependencies	success
+Agent Control live-browser certification	Install stable Chrome	success
+Agent Control live-browser certification	Check rendered Settings component shapes	success
+Agent Control live-browser certification	Run live Agent Control certification	success
+Agent Control live-browser certification	Run the harness swap demo through the real bridge	success
+Agent Control live-browser certification	Upload live certification evidence	success
+Agent Control live-browser certification	Reject uncertified run	skipped
+Agent Control live-browser certification	Post Setup Node.js	success
+Agent Control live-browser certification	Post Checkout	success
+Agent Control live-browser certification	Complete job	success
+Live SDK certification	Set up job	success
+Live SDK certification	Checkout	success
+Live SDK certification	Setup Node.js	success
+Live SDK certification	Install dependencies	success
+Live SDK certification	Install stable Chrome	success
+Live SDK certification	Install pinned OpenCode	success
+Live SDK certification	Run live SDK fault self-tests	success
+Live SDK certification	Run live SDK certification	success
+Live SDK certification	Upload live SDK evidence	success
+Live SDK certification	Reject uncertified live SDK run	skipped
+Live SDK certification	Post Setup Node.js	success
+Live SDK certification	Post Checkout	success
+Live SDK certification	Complete job	success

@@ -1,0 +1,1057 @@
+# git log --format='%h|%ad|%an|%s' --date=short (all branches origin/dev ancestors), run 2026-10-20 in _untrusted/resonantos-2.0.0-alpha
+578fbbc|2026-10-18|Dr. Tom|Merge pull request #534 from ResonantOS/feat/dsh-native-auth
+fc9db2a|2026-10-17|Dr. Tom|fix(dsh-native): close the final-gate findings on crash cleanup and home ancestry
+5b26f7c|2026-10-17|Dr. Tom|test(dsh-native): conductor live drivers for Task 12, all 13 observations passing
+d63f7b2|2026-10-15|Dr. Tom|feat(harness): plugin-free DSH authentication with a bridge-owned child
+cc27ce2|2026-10-13|Dr. Tom|docs(planning): second plan revision for DSH native auth; record Task 0
+5b02702|2026-10-13|Dr. Tom|docs(planning): revise the DSH native auth plan after review
+4a3d153|2026-10-13|Dr. Tom|docs(planning): implementation plan for plugin-free DSH authentication
+d1af9a0|2026-10-13|Dr. Tom|docs(planning): make the whole DSH install prefix the trust boundary
+bc3d3ce|2026-10-13|Dr. Tom|docs(planning): revise the DSH native auth draft after review round 2
+a2eb6b0|2026-10-13|Dr. Tom|docs(planning): revise the DSH native auth draft after review round 1
+a4ae381|2026-10-13|Dr. Tom|docs(planning): draft design for plugin-free DSH authentication
+cc66621|2026-10-13|Dr. Tom|Merge pull request #532 from ResonantOS/fix/227-trail-activity-label
+01777d0|2026-10-13|Dr. Tom|test(extension): assert the status line on an unconfirmed trail save; align the #227 plan
+572b2a1|2026-10-13|Dr. Tom|fix(extension): keep the research-trail activity label consistent with an unconfirmed save (#227)
+add0561|2026-10-13|Dr. Tom|Merge pull request #529 from ResonantOS/docs/519-dsh-telemetry-off
+064d3d6|2026-10-13|Dr. Tom|Merge pull request #526 from ResonantOS/feat/227-research-trail
+5547cfc|2026-10-13|Dr. Tom|Merge pull request #527 from ResonantOS/docs/dsh-0.2-live-pass
+53af17a|2026-10-13|Dr. Tom|Merge pull request #524 from ResonantOS/fix/523-dsh-model-catalog
+05d8260|2026-10-13|Dr. Tom|Merge pull request #525 from ResonantOS/test/521-demo-stall-diagnostics
+3d6654b|2026-10-13|Dr. Tom|docs(addons): say who turns DSH telemetry off (#519)
+6768d14|2026-10-13|Dr. Tom|fix(extension): grade over-limit tabs by site permission; never claim nothing was saved (#227)
+0651b4e|2026-10-13|Dr. Tom|docs(addons): correct where DSH 0.2 mounts product analytics
+358ef05|2026-10-08|Dr. Tom|docs(addons): DSH telemetry is off by default in ResonantOS (#519)
+ef35403|2026-10-07|Dr. Tom|docs(addons): record the DSH 0.2 live-pass result
+a82507a|2026-10-07|Dr. Tom|fix(extension): keep the research question as typed and name each skip reason (#227)
+422eb6a|2026-10-07|Dr. Tom|test(extension): prove research trail save in live CI lane (#227)
+529ee18|2026-10-07|Dr. Tom|docs(planning): restore the approved review-queue failure message (#227)
+db85f84|2026-10-07|Dr. Tom|fix(extension): report research trail save and review failures (#227)
+fe49892|2026-10-07|Dr. Tom|feat(extension): hand research trails to archive review (#227)
+feb79c5|2026-10-07|Dr. Tom|feat(extension): build deterministic research trail intake (#227)
+c88c28d|2026-10-07|Dr. Tom|docs(planning): design and implementation plan for the research trail (#227)
+db6734c|2026-10-07|Dr. Tom|test(demo): make a harness-demo stall name its cause in the log
+689f222|2026-10-07|Dr. Tom|fix(harness): parse the DSH model catalog in the shape DSH actually sends
+ed95e99|2026-10-07|Dr. Tom|Merge pull request #515 from ResonantOS/dependabot/npm_and_yarn/apps/augmentor/test/source-map-js-1.2.2
+b07dcd0|2026-10-06|Dr. Tom|Merge pull request #522 from ResonantOS/security/sanitizer-bearer-basic
+3aaeddd|2026-10-06|Dr. Tom|Merge pull request #520 from ResonantOS/test/live-proof-site-permission-fail-closed
+f14a7d3|2026-10-06|Dr. Tom|Merge pull request #518 from ResonantOS/docs/dsh-0.2-compatibility-note
+f263efb|2026-10-06|Dr. Tom|Merge pull request #517 from ResonantOS/docs/project2-done-automation
+4f45ce9|2026-10-06|Dr. Tom|security(extension): strip credentials from the url, title and links the intake sends to the model
+998b444|2026-10-06|Dr. Tom|security(extension): sanitize the page excerpt the opt-in summary templates send
+9e67ca7|2026-10-06|Dr. Tom|test(live): run the fail-closed proof in every profile, including the CI lane
+dc60481|2026-10-06|Dr. Tom|security(extension): close the inline-assistant and archive-intake credential paths
+4c8b5a6|2026-10-06|Dr. Tom|test(live): prove the site-permission and inline-assistant gates fail closed in a real browser
+dd73076|2026-10-06|Dr. Tom|security(extension): redact bearer and basic credentials before the labelled-secret pass
+0919ed9|2026-10-06|Dr. Tom|docs(addons): DSH 0.2 compatibility note for the harness adapter
+abc8c1f|2026-10-06|Dr. Tom|docs(governance): record that project automation sets Done on close
+ff9140b|2026-10-06|Dr. Tom|Merge pull request #516 from ResonantOS/security/content-inline-gate-fail-closed
+ecd3a84|2026-10-06|Dr. Tom|Merge pull request #514 from ResonantOS/security/site-permission-fail-closed
+38bda5c|2026-10-06|Dr. Tom|Merge remote-tracking branch 'origin/dev' into security/content-inline-gate-fail-closed
+f11ddec|2026-10-06|Dr. Tom|Merge remote-tracking branch 'origin/dev' into security/site-permission-fail-closed
+2dfd28c|2026-10-06|dependabot[bot]|chore(deps): bump source-map-js in /apps/augmentor/test
+6ee4d9e|2026-10-06|Dr. Tom|Merge pull request #513 from ResonantOS/chore/source-map-js-advisory
+8fa2045|2026-10-06|Dr. Tom|security(extension): inline-assistant message never surfaces the button on a blocked site
+bc9c7d1|2026-10-06|Dr. Tom|security(extension): content script refuses inline actions when site permission is blocked or unreadable
+b2e826e|2026-10-06|Dr. Tom|chore(deps): take source-map-js 1.2.2 for GHSA-68fv-2mgg-jv7q
+ae7ae2a|2026-10-06|Dr. Tom|fix(browser-first): surface refused site-permission writes instead of rejecting unhandled
+95e8434|2026-10-06|Dr. Tom|security(extension): refuse to act when site permissions cannot be read
+3d557cf|2026-10-05|Dr. Tom|Merge pull request #507 from simongonzalezdc/docs/maintainer-optional-followups-20261001
+b555518|2026-10-02|Dr. Tom|Merge pull request #508 from ResonantOS/ci/harness-demo-lane
+b3479f4|2026-10-02|Dr. Tom|ci: run the harness swap demo in the live-certification lane
+48d7ef3|2026-10-02|Dr. Tom|Merge pull request #506 from ResonantOS/fix/harness-demo-ci-chrome
+8d9a833|2026-10-02|Dr. Tom|Merge pull request #505 from ResonantOS/docs/registry-refused-recovery
+8f8f035|2026-10-02|Dr. Tom|Merge pull request #500 from simongonzalezdc/examples/sanitising-relay-20260929
+4508dbd|2026-10-02|Dr. Tom|fix(harness-demo): launch the Chrome CI installs, as the other live lanes do
+f629c49|2026-10-02|Dr. Tom|docs(addons): say what an operator does when the host refuses the saved registry
+7ca864b|2026-10-02|simongonzalezdc|test: isolate CLI smoke tests from ambient provider selection
+1c83e6d|2026-10-01|simongonzalezdc|fix: complete scoped maintainer follow-ups
+66bede7|2026-10-01|Dr. Tom|Merge pull request #504 from ResonantOS/feat/registry-rollback-watermark
+404ac12|2026-10-01|Dr. Tom|Merge branch 'dev' into feat/registry-rollback-watermark
+7b7e08c|2026-10-01|Dr. Tom|Merge pull request #503 from ResonantOS/feat/registry-install-remove-cas
+d104812|2026-10-01|simongonzalezdc|test(examples): construct synthetic relay key at runtime
+e4ad7ae|2026-10-01|simongonzalezdc|fix(examples): scrub self-overlapping upstream keys before buffering
+5012fb6|2026-09-30|simongonzalezdc|fix(examples): accept standard SSE line endings
+ecf11e2|2026-09-30|simongonzalezdc|fix(examples): harden relay completion and credential handling
+8816857|2026-09-30|Dr. Tom|Refuse a rolled-back harness registry at boot
+115a3ed|2026-09-30|Dr. Tom|feat(harness): require the caller's revision on install and remove
+bf89cee|2026-09-30|Dr. Tom|Merge pull request #499 from ResonantOS/feat/adapter-capability-floor
+df68113|2026-09-30|Dr. Tom|Merge pull request #497 from ResonantOS/docs/harness-demo-managed-mac
+45f031e|2026-09-30|Dr. Tom|Merge pull request #496 from ResonantOS/docs/adr-proposed-status
+84012b9|2026-09-30|Dr. Tom|Merge branch 'dev' into feat/adapter-capability-floor
+83e59f0|2026-09-30|Dr. Tom|Merge branch 'dev' into docs/harness-demo-managed-mac
+ec07465|2026-09-30|Dr. Tom|Merge branch 'dev' into docs/adr-proposed-status
+be249fe|2026-09-30|Dr. Tom|Merge pull request #502 from ResonantOS/chore/undici-7.29.1
+208eda1|2026-09-30|Dr. Tom|chore(deps): move the transitive undici pin to 7.30.0
+83934d4|2026-09-30|Dr. Tom|Merge pull request #338 from simongonzalezdc/security/pattern-ci-check
+2ac3a69|2026-09-30|Dr. Tom|Merge pull request #495 from ResonantOS/fix/harness-swap-demo-live-bridge-client
+66d1830|2026-09-30|Dr. Tom|docs(addons): the host does not join the Augmentor browser-action pipe
+b56d2bc|2026-09-29|simongonzalezdc|fix(release): admit reviewed harness relay example paths
+c51676a|2026-09-29|simongonzalezdc|examples: add loopback relay for harness demo
+a8c1ebc|2026-09-28|Dr. Tom|feat(harness): bind an adapter's real capability needs to what its manifest declares
+23bb2a1|2026-09-28|Dr. Tom|docs(addons): record the managed macOS DSH as a supported demo configuration
+c0e94a6|2026-09-28|Dr. Tom|docs(contract): allow Proposed as an ADR decision status
+c41dc2c|2026-09-28|Dr. Tom|fix(harness-demo): take the bridge client's method and capability from the host route table
+7e03b11|2026-09-28|Dr. Tom|Merge branch 'dev' into security/pattern-ci-check
+8df507c|2026-09-28|Dr. Tom|Merge pull request #494 from ResonantOS/fix/worktab-test-argv-exec
+a7e2b55|2026-09-26|Dr. Tom|fix(augmentor): run the lab git read through argv, not a shell string
+8c50ae9|2026-09-25|Dr. Tom|Merge pull request #493 from ResonantOS/chore/opencode-pin-1.18.32
+99394e2|2026-09-25|Dr. Tom|chore(opencode): move the version pin to 1.18.32
+9cba315|2026-09-25|Dr. Tom|Merge pull request #492 from ResonantOS/fix/live-sdk-lane-fault-attribution
+f390fd9|2026-09-25|simongonzalezdc|security(security-pipeline): apply maintainer review follow-ups
+c7b5d4c|2026-09-25|Dr. Tom|test(live-sdk): attribute a lane failure to the scenario that caused it
+6cf259b|2026-09-25|Dr. Tom|Merge pull request #453 from vonstegen/docs/sdk-planning-roadmap
+90d32da|2026-09-25|Dr. Tom|Merge pull request #491 from ResonantOS/test/harness-guard-regressions
+d94789c|2026-09-24|Dr. Tom|test(harness): pin two guards the audits found untested
+19665c0|2026-09-24|Dr. Tom|Merge pull request #485 from vijayee/dev-upstream
+0e73598|2026-09-24|Dr. Tom|Merge pull request #490 from ResonantOS/feat/harness-2h-final-live-certification
+05c6060|2026-09-24|Dr. Tom|feat(harness): final live certification with host-signed receipts
+09d90f9|2026-09-24|Dr. Tom|Merge pull request #489 from ResonantOS/feat/harness-2g-openai-compatible-adapter
+688963d|2026-09-24|Dr. Tom|feat(harness): OpenAI-compatible wire adapter through the same host boundary
+6e643e3|2026-09-24|Dr. Tom|Merge pull request #488 from ResonantOS/feat/harness-2f-endpoint-guards
+1a7aae0|2026-09-24|Dr. Tom|feat(harness): one shared endpoint guard for every outbound harness connection
+8963c23|2026-09-24|Dr. Tom|Merge pull request #487 from ResonantOS/feat/harness-2e-replacement-revocation
+b37648c|2026-09-24|Dr. Tom|Merge pull request #486 from ResonantOS/feat/harness-2d-remaining-consumers
+bb41563|2026-09-24|Dr. Tom|feat(harness): replacement and revocation effects
+89ce80a|2026-09-24|Dr. Tom|feat(harness): remaining consumers follow the host projection
+900b089|2026-09-24|Dr. Tom|Merge pull request #484 from ResonantOS/feat/harness-2c-client-authority
+4d492d2|2026-09-23|Victor Morrow|fix(harness): drop reasoning parts in DSH message content
+d104ba5|2026-09-23|Dr. Tom|feat(harness): remove client governance authority
+28d83c5|2026-09-23|Dr. Tom|Merge pull request #483 from ResonantOS/feat/harness-2bb-first-run-migration
+e61594c|2026-09-23|Dr. Tom|feat(harness): first-run selection as a host transaction
+12b7ba4|2026-09-23|Dr. Tom|Merge pull request #482 from ResonantOS/feat/harness-2ba-addon-mutations
+4d33267|2026-09-23|Dr. Tom|feat(harness): add-on mutations as host transactions
+311f652|2026-09-23|Dr. Tom|Merge pull request #481 from ResonantOS/feat/harness-2a-capability-mapping
+490c79b|2026-09-23|Dr. Tom|feat(harness): map primary execution to agent-runtime consent
+6cc1e3d|2026-09-23|Dr. Tom|Merge pull request #478 from ResonantOS/feat/harness-1i-demo-docs
+403081b|2026-09-23|Dr. Tom|test(harness): verify the demo CLI through a temp file, not /dev/stdin
+d55ee76|2026-09-23|Dr. Tom|Merge pull request #477 from ResonantOS/feat/harness-1h-primary-chat
+c777c91|2026-09-23|Dr. Tom|Merge pull request #476 from ResonantOS/feat/harness-1gb-management-ui
+2c7c6db|2026-09-23|Dr. Tom|Merge pull request #475 from ResonantOS/feat/harness-1ga-react-transport
+97cf5a5|2026-09-23|Dr. Tom|Merge pull request #474 from ResonantOS/feat/harness-1f-routes
+8a132de|2026-09-23|Dr. Tom|Merge pull request #473 from ResonantOS/feat/harness-1e-provider-fabric
+cfda2df|2026-09-23|Dr. Tom|Merge pull request #472 from ResonantOS/feat/harness-1d-dsh-adapter
+faf1c16|2026-09-23|Dr. Tom|Merge pull request #471 from ResonantOS/feat/harness-1c-credentials-transport
+ad46e67|2026-09-23|Dr. Tom|Merge pull request #480 from ResonantOS/feat/harness-1b-registry
+c8b51e7|2026-09-23|Dr. Tom|Merge pull request #469 from ResonantOS/feat/harness-1a-contract
+45d8e74|2026-09-23|Dr. Tom|Merge pull request #479 from ResonantOS/fix/augmentor-ws-8.21.3
+d24bc5c|2026-09-22|Dr. Tom|feat(harness): swap demo, documentation and release gate
+6ce4441|2026-09-22|Dr. Tom|feat(harness): primary chat through the host and Stop
+6858f52|2026-09-22|Dr. Tom|feat(harness): React management workspace
+1b5dca3|2026-09-22|Dr. Tom|feat(harness): React transport and selector projection
+0771e50|2026-09-22|Dr. Tom|feat(harness): host-selected routes and composition
+6876f20|2026-09-21|Dr. Tom|feat(harness): provider fabric adapter and example manifests
+301a201|2026-09-21|Dr. Tom|feat(harness): DSH adapter over the authenticated loopback transport
+a501c96|2026-09-21|Dr. Tom|feat(harness): named credential bindings and pinned DSH transport
+4ec363a|2026-09-21|Dr. Tom|fix(augmentor): bump ws to 8.21.3 (GHSA-73jw-fp74-p77x)
+9cd2313|2026-09-21|Dr. Tom|feat(harness): host-owned registry and ownership boundary
+347c2b5|2026-09-21|Dr. Tom|feat(harness): contract and canonical validation for harness add-ons
+4f1ef1a|2026-09-20|VonStegen|docs(planning): address PR #453 remaining review items
+24356bb|2026-09-19|Dr. Tom|Merge pull request #468 from ResonantOS/fix/redaction-leftovers
+76a226a|2026-09-19|Dr. Tom|fix(redaction): correct the base58 alphabet; remove the dead tracker
+1da0227|2026-09-19|VonStegen|fix(scripts): add prompts/ prefix rule to release-scope audit
+3e459f6|2026-09-18|VonStegen|docs(planning): mark ADR-039/040 drafted (Phase 1 checklist)
+890dfcf|2026-09-18|VonStegen|docs(planning): make Manolo's DeepSeek Harness the Augmentor in the demo
+6122d56|2026-09-18|VonStegen|docs(planning): address Tom's PR #453 review (approve with changes)
+0d48b9d|2026-09-16|VonStegen|docs(planning): add SDK/DAO governance plan, demo report, and demo prompt
+51496b6|2026-09-19|Dr. Tom|Merge pull request #467 from ResonantOS/fix/summary-store-redaction
+beb1c10|2026-09-19|Dr. Tom|fix(summary): redact the stored session summary artifact
+3a2fbc2|2026-09-19|Dr. Tom|Merge pull request #466 from ResonantOS/fix/workspace-handoff-redaction
+a25f411|2026-09-19|Dr. Tom|fix(workspace): never execute a redacted handoff command
+7c6d8c6|2026-09-19|Dr. Tom|Merge pull request #465 from ResonantOS/fix/bridge-override-url-policy
+404a029|2026-09-18|Dr. Tom|fix(bridge): reject credential-bearing bridge target URLs
+89db270|2026-09-18|Dr. Tom|Merge pull request #464 from ResonantOS/fix/context-history-redaction
+da8f939|2026-09-18|Dr. Tom|fix(extension): redact the stored page-history payload
+fdd37d7|2026-09-18|Dr. Tom|Merge pull request #463 from ResonantOS/docs/matrix-evidence-454-461
+6f58558|2026-09-18|Dr. Tom|docs(matrix): record the evidence shipped in #454-#461
+cde18da|2026-09-18|Dr. Tom|Merge pull request #461 from ResonantOS/fix/archive-context-out-of-system-role
+b9c4143|2026-09-18|Dr. Tom|fix(chat): keep archive and memory content out of the system role
+494abf9|2026-09-17|Dr. Tom|Merge pull request #460 from ResonantOS/fix/job-history-failure-ui
+ef4477b|2026-09-17|Dr. Tom|fix(browser-jobs): show and recover from a failed history read
+07e4fe0|2026-09-17|Dr. Tom|Merge pull request #459 from ResonantOS/fix/flaky-settings-clear-order
+3391bc1|2026-09-17|Dr. Tom|test(browser-jobs): make the Settings clear order assertion deterministic
+3d62b0a|2026-09-17|Dr. Tom|Merge pull request #458 from ResonantOS/fix/job-storage-shared-writer
+54c61fa|2026-09-17|Dr. Tom|fix(browser-jobs): one guarded writer for browser job storage
+9de2ece|2026-09-17|Dr. Tom|Merge pull request #457 from ResonantOS/fix/job-history-failed-read-guard
+612b3c2|2026-09-17|Dr. Tom|fix(browser-jobs): preserve saved history after failed reads
+e98bd40|2026-09-16|Dr. Tom|Merge pull request #456 from ResonantOS/docs/matrix-citations
+1f46f85|2026-09-16|Dr. Tom|Merge pull request #455 from ResonantOS/fix/untrusted-page-context-role
+feae016|2026-09-16|Dr. Tom|Merge pull request #454 from ResonantOS/fix/persisted-trace-redaction
+0c53fe0|2026-09-16|Dr. Tom|fix(docs): validate Future List evidence and bound capability claims
+fb11d53|2026-09-16|Dr. Tom|fix(chat): keep host source context out of system messages
+e5a7b16|2026-09-16|Dr. Tom|fix(browser-first): redact job records saved by the side-panel store
+7c913e1|2026-09-15|Dr. Tom|Merge pull request #452 from ResonantOS/docs/adr-038-guardian-invariants
+1bf8a24|2026-09-15|Dr. Tom|Merge pull request #450 from ResonantOS/feat/augmentor-bridge-0.1.33
+4b1aff0|2026-09-15|Dr. Tom|Merge pull request #451 from ResonantOS/fix/d3-unknown-field-default
+eaadd34|2026-09-15|Dr. Tom|docs(adr): record the Guardian boundary and the Core-only invariant class
+6281d97|2026-09-15|Dr. Tom|Merge pull request #448 from ResonantOS/feat/consolidate-augmentor
+cc72b3b|2026-09-15|Dr. Tom|fix(agent-control): make unrecognised form controls human-only
+6d06713|2026-09-15|Dr. Tom|docs(augmentor): record that the release archive ships no dependency tree
+689fddd|2026-09-15|Dr. Tom|fix(augmentor): prepare 0.1.33 update-source bridge
+16fe456|2026-09-14|Dr. Tom|build: move the Node floor to 24.21.0 for the Augmentor consolidation
+4c164cb|2026-09-14|Dr. Tom|fix(docs): validate vendored Augmentor without breaking public Node support
+5550432|2026-09-14|Dr. Tom|Add 'apps/augmentor/' from commit 'cd127529f9e020fd65a4252a493cf47179fc0cb2'
+cd74eff|2026-09-12|Dr. Tom|Merge pull request #447 from ResonantOS/feat/321-governed-opencode-boundary
+0d5de6c|2026-09-12|Dr. Tom|docs(status): record passing Live SDK evidence for #321
+fafcb8b|2026-09-11|Dr. Tom|fix(lane): restore credential markers and close scan input holes
+ab16a51|2026-09-11|Dr. Tom|fix(lane): close live-sdk false-green drain, revocation, scan, and completeness holes
+10611bd|2026-09-11|Dr. Tom|fix(security-pipeline): drop serve credentials from delegated opencode CLI registry
+2362389|2026-09-11|Dr. Tom|fix(opencode): map OPENCODE_SLOW_CONSUMER to 503 in both public error tables
+8eec718|2026-09-11|Dr. Tom|Merge FIX3 (extension boundary hardening from Phase 3 review) into feat/321-governed-opencode-boundary
+22e9b48|2026-09-11|Dr. Tom|test(live): accept only the HTTP public URL as a Host front port
+a7a5fe0|2026-09-11|Dr. Tom|test(opencode): generate session-host credential fixtures at runtime
+a67239e|2026-09-11|Dr. Tom|docs(architecture): terminate the OpenCode MODULE_MAP responsibility sentence
+f1e8b87|2026-09-11|Dr. Tom|test(opencode): make kit-surviving boundary assertions discriminating
+7022a8d|2026-09-11|Dr. Tom|test(live): prove OpenCode UI events stay on the bridge
+066b7e6|2026-09-11|Dr. Tom|test(live): scan staged files, captures, and clear the raw sink
+1b746ef|2026-09-11|Dr. Tom|test(live): exercise HTTP and SSE Host refusal matrix
+768d194|2026-09-11|Dr. Tom|test(live): require OPENCODE_REVOKED before settings acknowledgement
+9278e70|2026-09-11|Dr. Tom|test(live): inspect every SSE frame and raw bytes for isolation
+19ca457|2026-09-11|Dr. Tom|fix(opencode): extension boundary hardening from Phase 3 review (FIX3)
+4e1398b|2026-09-11|Dr. Tom|fix(live): treat observed expected faults as lane success
+5ec2c38|2026-09-11|Dr. Tom|test(opencode): fail closed on conflicting tool message references
+752cce9|2026-09-11|Dr. Tom|test(opencode): refuse self-test events when execution is off
+b05ea55|2026-09-11|Dr. Tom|fix(opencode): unref the disable-listener timeout so the process can exit
+f2235d4|2026-09-11|Dr. Tom|test(opencode): expect retained source on seeded tool history
+1f5b6d8|2026-09-11|Dr. Tom|docs(opencode): describe the governed OpenCode boundary without live certification
+67719ba|2026-09-11|Dr. Tom|test(opencode): add proxy capability, scope, and revocation live-lane scenarios
+b28256b|2026-09-11|Dr. Tom|feat(bridge): wire OpenCode boundary revoke and public-port getter
+e287cba|2026-09-11|Dr. Tom|feat(opencode): revoke proxy execution before settings acknowledgement
+5b3afa1|2026-09-11|Dr. Tom|feat(opencode): delegate session routes through the governed boundary
+93cc397|2026-09-11|Dr. Tom|Merge Executor A candidate 1 (codex): governed OpenCode boundary, event bus, client hardening
+fd30ce6|2026-09-11|Dr. Tom|Merge Executor C (extension) into feat/321-governed-opencode-boundary
+1fdecab|2026-09-11|Dr. Tom|Merge Executor B (bridge transport) into feat/321-governed-opencode-boundary
+b2c6642|2026-09-11|Dr. Tom|test(bridge): send Host-absent fixture as HTTP/1.0 over raw socket
+3010b4a|2026-09-11|Dr. Tom|test(opencode): prove governed panel isolation, badges, and bridge SSE auth
+905c9c8|2026-09-11|Dr. Tom|feat(bridge): enforce governed OpenCode transport boundary (Executor B candidate)
+448c601|2026-09-11|Dr. Tom|feat(browser-first): governed OpenCode boundary, event bus, client hardening (Executor A candidate 1)
+17fe320|2026-09-11|Dr. Tom|feat(opencode): route panel events through the capability-scoped bridge SSE path
+f23b1dc|2026-09-11|Dr. Tom|feat(opencode): bind the session panel to governed envelopes and typed transport errors
+d7f6e1c|2026-09-11|Dr. Tom|feat(opencode): show Governed and External source badges in the session view
+5e65dff|2026-09-11|Dr. Tom|feat(opencode): retain host-assigned event provenance in the session model
+b934c8d|2026-09-11|Dr. Tom|feat(opencode): consume governed bridge SSE envelopes
+0ccdf8e|2026-09-11|Dr. Tom|Merge pull request #446 from ResonantOS/fix/429-shell-bridge-config-delivery
+4d6ef44|2026-09-11|Dr. Tom|test(dev-bridge): integration servers never pre-bundle (fixes CI-only cancellation)
+904fb81|2026-09-11|Dr. Tom|test(dev-bridge): L15 minors from re-certification (stale send-gate comment, '*' counts as a grant, non-empty bridge-call set)
+dfb37f8|2026-09-11|Dr. Tom|docs(dev-bridge): state the generated-file permission check precisely (no group/other bits, not strictly 0600)
+02e37e2|2026-09-11|Dr. Tom|test(dev-bridge): L15 asserts what CORS guarantees (page cannot read bridge responses; preflight does not grant the page origin)
+39f1b75|2026-09-11|Dr. Tom|test(dev-bridge): L15 counts a request as sent only when the bridge answered it (CDP ExtraInfo fires before the preflight verdict)
+fab73f9|2026-09-11|Dr. Tom|test(dev-bridge): L15 takes preflight evidence server-side (Playwright never surfaces CORS preflights to page listeners)
+e6aecb7|2026-09-11|Dr. Tom|test(dev-bridge): prove the Basic length limit, required bridgeUrl, regular-file and read-size guards (mutation kit found them unproven)
+6f4391b|2026-09-11|Dr. Tom|test(dev-bridge): make off-mode and part-1 denial tests discriminating (mutation run found them vacuous)
+aeec005|2026-09-11|Dr. Tom|fix(dev-bridge): narrow the vitest carve-out, reject same-site page fetches, harden the test lanes
+2f875ed|2026-09-11|Dr. Tom|test(dev-bridge): close every server, request, child and watcher on failure so the integration lane exits on its own
+a42b2aa|2026-09-11|Dr. Tom|feat(dev): opt-in, page-key-gated delivery of the bridge config to the React shell (#429 part 2)
+83024f3|2026-09-10|Simon Gonzalez De Cruz|security(security-pipeline): close round-3 review findings + adversarial pre-push pass
+eb8d400|2026-09-10|Dr. Tom|Merge pull request #445 from vonstegen/chore/fix-agent-control-live-targets
+467fcde|2026-09-10|Simon Gonzalez De Cruz|security(security-pipeline): close checker gaps from review — exact-false shell, quoted keys, alias provenance
+a651004|2026-09-10|Simon Gonzalez De Cruz|security(security-pipeline): review rework — arrow-body regex context, walk dot-dirs, shell-string semantics, direct pins
+65ddb42|2026-09-10|Simon Gonzalez De Cruz|security(security-pipeline): rebase on dev, harden subprocess-no-shell-string per review
+f970d14|2026-09-02|Simon Gonzalez De Cruz|security(security-pipeline): gate the string-to-shell spawn pattern in CI
+55adb22|2026-09-10|Dr. Tom|Merge pull request #404 from simongonzalezdc/extension/settings-radius-consistency
+43a4718|2026-09-10|Dr. Tom|Merge pull request #441 from vonstegen/resubmit/addon-sdk-relocation
+f910114|2026-09-10|Dr. Tom|Merge pull request #337 from simongonzalezdc/docs/llms-txt
+38c44ef|2026-09-10|Dr. Tom|Merge pull request #434 from ResonantOS/dependabot/npm_and_yarn/multi-d0c2d048a7
+0926b2b|2026-09-10|Dr. Tom|Merge pull request #433 from ResonantOS/fix/374-web-transport-capability-bootstrap
+ed2bf51|2026-09-10|VonStegen|test(agent-control-live): normalize non-array CDP /json responses
+e8501af|2026-09-10|Dr. Tom|Merge branch 'dev' into dependabot/npm_and_yarn/multi-d0c2d048a7
+b25cec6|2026-09-10|Dr. Tom|Merge branch 'dev' into fix/374-web-transport-capability-bootstrap
+6f0ac0f|2026-09-10|Simon Gonzalez De Cruz|extension: wire the settings-shapes check to fail soft and pin it (#404 review)
+661b6ad|2026-09-06|Simon Gonzalez De Cruz|fix(settings): use field-aligned corners for action controls
+6653f7f|2026-09-06|Simon Gonzalez De Cruz|test: use headless Chrome for CI shape screenshots
+df3097e|2026-09-06|Simon Gonzalez De Cruz|test: guard rendered Settings shapes in live browser CI
+4507352|2026-09-06|Simon Gonzalez De Cruz|extension: align Settings component shapes with documented roles
+0f62904|2026-09-10|Dr. Tom|Merge pull request #443 from ResonantOS/fix/drift-stalled-run-window
+20409ea|2026-09-10|Simon Gonzalez De Cruz|docs(llms.txt): address review — canonical entrypoint link, release scope, verbatim tagline, absolute URLs
+f494ba5|2026-09-01|Simon Gonzalez De Cruz|docs: add llms.txt — a machine-readable map of the repo for AI assistants
+4aca263|2026-09-10|VonStegen|feat(addon-sdk): relocate src/sdk/addons to packages/addon-sdk behind re-export shims
+cd12752|2026-09-10|Manolo Remiddi|Merge pull request #3 from ManoloRemiddi/fix/dsh-0.1.5-compatibility
+1c0e1a1|2026-09-10|Manolo Remiddi|Verify the Model Picker release and document the complete 0.1.32 installation
+9c0cd79|2026-09-10|Manolo Remiddi|Fix Chromium extension compatibility with DSH 0.1.5
+ec255f6|2026-09-10|Dr. Tom|fix(drift): bound the stalled-run check to a seven-day window
+6aa0bb6|2026-09-10|Dr. Tom|Merge pull request #438 from ResonantOS/security/wire-repo-hygiene-gate
+61efd65|2026-09-10|Dr. Tom|ci(security): install deps (no lifecycle scripts) before the hygiene guard tests
+5057bb9|2026-09-10|Dr. Tom|ci(security): gate PRs on the repository hygiene guard
+9022c6e|2026-09-10|Dr. Tom|Merge pull request #412 from simongonzalezdc/extension/provider-dialog-keyboard
+5357913|2026-09-10|Dr. Tom|Merge pull request #420 from simongonzalezdc/extension/bridge-action-spacing
+82df6f6|2026-09-10|Dr. Tom|Merge pull request #411 from simongonzalezdc/extension/settings-control-sizing
+20fd6f4|2026-09-10|Dr. Tom|Merge pull request #394 from simongonzalezdc/extension/feedback-appearance
+4a0c65e|2026-09-10|Dr. Tom|Merge pull request #399 from simongonzalezdc/extension/profile-storage-safety
+9b937ff|2026-09-10|Dr. Tom|Merge pull request #393 from simongonzalezdc/extension/feedback-overview
+268fe8c|2026-09-10|Dr. Tom|Merge pull request #392 from simongonzalezdc/extension/feedback-execution
+16e2120|2026-09-10|Dr. Tom|Merge pull request #391 from simongonzalezdc/extension/feedback-memory
+1351076|2026-09-10|Dr. Tom|Merge pull request #390 from simongonzalezdc/extension/feedback-routing
+23c7e93|2026-09-10|Dr. Tom|Merge pull request #422 from simongonzalezdc/extension/bridge-target-field-layout
+c4ba4ba|2026-09-10|Dr. Tom|Merge pull request #400 from simongonzalezdc/extension/prefs-change-events
+849b229|2026-09-10|Dr. Tom|Merge pull request #398 from simongonzalezdc/extension/prefs-storage-safety
+92d1a0f|2026-09-09|Dr. Tom|Merge pull request #437 from ResonantOS/security/incident-monitoring
+7c1a210|2026-09-09|Dr. Tom|Add security drift workflow with scheduled checks
+6ac8bae|2026-09-09|Dr. Tom|security(ci): default-branch drift checker and its policy wiring (#431)
+8b14645|2026-09-08|Dr. Tom|Merge pull request #436 from ResonantOS/security/workflow-guard-incident-20260904
+2efb54f|2026-09-08|Dr. Tom|security(ci): environment binding also covers bracket and toJSON project-token references (review round 2)
+d4ec2f9|2026-09-08|Dr. Tom|security(ci): match bracket and toJSON secret references; ignore-lists are not trigger filters (review)
+a955358|2026-09-08|Dr. Tom|security(ci): workflow policy guard, project-sync environment binding, and incident residue cleanup
+9cd3251|2026-09-08|dependabot[bot]|build(deps): bump @vitest/mocker and vitest
+14708cf|2026-09-08|Dr. Tom|test(shell): pin the https memo key, the 403-only and ok:false retry predicate, fallback error purity, and no logging (#374 panel)
+cd99af2|2026-09-08|Dr. Tom|Merge pull request #432 from ResonantOS/security/429-vite-fs-deny
+7ebe3f1|2026-09-08|Dr. Tom|security(dev): deny the generated bridge config and user data in the Vite dev server (#429)
+b37098e|2026-09-08|Dr. Tom|fix(shell): bootstrap capability tokens in the web-mode transport (#374)
+4aa6723|2026-09-08|Dr. Tom|Merge pull request #430 from ResonantOS/security/remove-exfiltration-workflow
+40dd4c5|2026-09-08|Dr. Tom|security(ci): remove the secret-exfiltration workflow added by direct push on 2026-09-04
+68ccca3|2026-09-08|Dr. Tom|Merge pull request #428 from ResonantOS/feat/180-task5-user-data-deletion
+1ac257f|2026-09-08|Dr. Tom|test(bridge): pin that a symlinked Delegations root is refused even when its target stays inside BrowserFirst
+e22d075|2026-09-08|Dr. Tom|fix(bridge): unlink the verified realpath and report audit failures on user-data delete (#180 task 5 review)
+eb49d4b|2026-09-08|Dr. Tom|feat(bridge): user-data list and delete routes for the add-on lifecycle (#180 task 5)
+f601894|2026-09-07|Dr. Tom|Merge pull request #426 from ResonantOS/feat/180-task4-uninstall-audit-routes
+1e3288c|2026-09-07|Dr. Tom|test(bridge): cover source, status, boolean, and range rejections; failed packets; running-work reason codes
+42c7191|2026-09-07|Dr. Tom|feat(bridge): uninstall-audit and running-work routes for the add-on lifecycle (#180 task 4)
+3fac77b|2026-09-07|Dr. Tom|Merge pull request #425 from ResonantOS/feat/180-task3-uninstall-ui
+b8ce172|2026-09-07|Dr. Tom|feat(addons): announce the uninstall block reason to assistive tech; tighten two review tests
+44e376e|2026-09-07|Dr. Tom|feat(addons): Uninstall action with confirmation copy, counts-only result, and the running-work guard (#180 task 3)
+47a610f|2026-09-07|Dr. Tom|Merge pull request #424 from ResonantOS/feat/180-task2-uninstall-mutation
+c433aac|2026-09-07|Dr. Tom|feat(addons): uninstallAddon mutation and typed system-slot selection of record (#180 task 2)
+ca896bf|2026-09-07|Dr. Tom|Merge pull request #423 from ResonantOS/security/326-delegation-confinement
+c10c6f4|2026-09-07|Dr. Tom|test(ownership): pin delegation-isolation.mjs in the add-on delegation ownership row
+7764c9e|2026-09-07|Dr. Tom|security(delegation): bound the Hermes profile home, re-check the OpenCode workspace realpath, and harden the audit paths
+a9680ce|2026-09-07|Dr. Tom|security(delegation): confine add-on delegation runs with sandbox-exec on macOS and audit every run (#326)
+8146c40|2026-09-07|Simon Gonzalez De Cruz|extension: stack Bridge Target fields at narrow widths
+3318b08|2026-09-07|Simon Gonzalez De Cruz|extension: separate and wrap Bridge Target action buttons
+ffab4f1|2026-09-07|Dr. Tom|Merge pull request #418 from ResonantOS/refactor/415-selftest-evaluator
+cbca253|2026-09-07|Dr. Tom|Merge pull request #417 from ResonantOS/feat/180-task1-uninstalled-state
+53dcd1b|2026-09-07|Dr. Tom|refactor(bridge): drop the unused bootstrap header-name export; document the adapter's header trust surface
+743a99a|2026-09-07|Dr. Tom|feat(addons): reinstalling an uninstalled add-on rebuilds fresh grants from the manifest
+23c83b4|2026-09-07|Dr. Tom|feat(addons): add the `uninstalled` installation state with tombstone rebase and fresh-grant snapshot semantics (#180 task 1)
+ee81b06|2026-09-07|Dr. Tom|refactor(bridge): route the runner's self-test invoker through the live evaluator (#415)
+b9c02d9|2026-09-07|Dr. Tom|Merge pull request #414 from ResonantOS/docs/180-addon-uninstall-design
+59927a0|2026-09-07|Dr. Tom|Merge pull request #416 from ResonantOS/security/373-default-deny-routes
+8ff6887|2026-09-07|Dr. Tom|build(audit): approve the add-on uninstall design note as release documentation
+38a2ca7|2026-09-07|Dr. Tom|docs(addons): correct two citations in the uninstall design note (line drift; octal literal)
+af919cc|2026-09-07|Dr. Tom|security(bridge): make the auth self-test's pass rule a pure, unit-tested function
+f252f53|2026-09-07|Dr. Tom|docs(addons): add-on uninstall + capability cleanup design note and scoped build plan (#180 spike)
+8d7babc|2026-09-07|Dr. Tom|security(bridge): single default-deny predicate; pin fail-closed empty compare; socket test for the auth self-test
+28888ad|2026-09-07|Dr. Tom|security(bridge): refuse routes that declare no capability by default (#373)
+82d3242|2026-09-07|Dr. Tom|Merge pull request #413 from ResonantOS/fix/318-local-provider-routing
+e60087a|2026-09-07|Dr. Tom|fix(provider): connectivity test probes keyless local runtimes; card stops asking them for a key
+ace8564|2026-09-07|Dr. Tom|fix(provider): keep custom local endpoints on edit; classify local OpenAI-compatible software as keyless local runtimes
+94535c5|2026-07-29|Victor Morrow|fix(provider): make local/keyless providers routable and normalize Ollama /v1 endpoint
+9cf688c|2026-07-27|Victor Morrow|fix(settings): make API key optional for local/keyless provider templates
+dc0e5bb|2026-07-27|Victor Morrow|fix(settings): export provider form helpers and align modal error/lock behavior
+1a9fb81|2026-09-06|Simon Gonzalez De Cruz|docs: link Settings sizing from the design entrypoint
+e8a7f43|2026-09-06|Simon Gonzalez De Cruz|extension: use native provider dialog keyboard lifecycle
+2ad611d|2026-09-06|Simon Gonzalez De Cruz|extension: preserve standard Settings control target heights
+cf4e41f|2026-09-07|Dr. Tom|Merge pull request #406 from ResonantOS/feat/252-tab-mention-typeahead
+6b5ad8c|2026-09-07|Dr. Tom|Merge pull request #409 from ResonantOS/test/228-continuity-mtime-tolerance
+0148b75|2026-09-07|Dr. Tom|test(living-archive): tolerate coarse filesystem mtimes in the continuity assertion (#228 test)
+5a6ec80|2026-09-07|Dr. Tom|fix(side-panel): wire the @tab typeahead after isReadableBrowserTab is initialized
+dd811af|2026-09-07|Dr. Tom|Merge pull request #405 from ResonantOS/build/release-scope-ref-docs-root
+fa6881b|2026-09-07|Dr. Tom|build(release-scope): recognize docs/addons/resonant-extension-framework/ as approved documentation
+688d1ba|2026-09-07|Dr. Tom|Merge pull request #403 from ResonantOS/docs/beta2-exit-criteria
+f21b0c1|2026-08-25|VonStegen|feat(browser-first): tab-mention-typeahead controller and surface polish
+653de26|2026-09-06|Dr. Tom|docs(release): declare the beta.2 exit criteria and gate (#402)
+aec02ba|2026-09-06|Simon Gonzalez De Cruz|extension: preserve preferences when sync storage access fails
+4302c1e|2026-09-06|Simon Gonzalez De Cruz|extension: handle the StorageArea preference change event contract
+2bc3bb8|2026-09-06|Simon Gonzalez De Cruz|extension: guard identity saves until profile loading succeeds
+e697edc|2026-09-06|Simon Gonzalez De Cruz|test: assert Appearance status grouping without sibling ordering
+cca3aea|2026-09-06|Simon Gonzalez De Cruz|extension: distinguish bridge authorization and connectivity failures
+0ddb894|2026-09-06|Simon Gonzalez De Cruz|extension: expose both execution write and recovery errors
+2585651|2026-09-06|Simon Gonzalez De Cruz|extension: clarify Memory refresh feedback and strengthen save regression
+a6a500f|2026-09-06|Simon Gonzalez De Cruz|extension: reconcile routing status without losing drafts
+5e3b924|2026-09-06|Dr. Tom|Merge pull request #368 from simongonzalezdc/extension/bridge-test-auth
+d3889b9|2026-09-06|Dr. Tom|Merge pull request #367 from simongonzalezdc/extension/settings-bridge-health
+a7ca0f8|2026-09-06|Dr. Tom|Merge pull request #384 from simongonzalezdc/extension/settings-work-search
+e019ca7|2026-09-06|Dr. Tom|Merge pull request #383 from simongonzalezdc/extension/settings-grant-recovery
+96dda1e|2026-09-06|Dr. Tom|Merge pull request #382 from simongonzalezdc/extension/settings-job-history-read
+cd6c802|2026-09-06|Dr. Tom|Merge pull request #372 from simongonzalezdc/extension/diagnostics-recovery
+7e3cf87|2026-09-06|Dr. Tom|Merge pull request #371 from simongonzalezdc/extension/routing-drafts
+c1e668f|2026-09-06|Dr. Tom|Merge pull request #370 from simongonzalezdc/extension/addon-execution-feedback
+4fc7f2b|2026-09-06|Dr. Tom|Merge pull request #369 from simongonzalezdc/extension/memory-save-refresh
+f1d2f16|2026-09-06|Dr. Tom|Merge pull request #366 from simongonzalezdc/extension/settings-appearance-save
+128eceb|2026-09-06|Dr. Tom|Merge pull request #378 from ResonantOS/test/350-live-sdk-lane
+752a808|2026-09-06|Simon Gonzalez De Cruz|extension: preserve Saved Work search focus and drafts
+76847ba|2026-09-06|Simon Gonzalez De Cruz|extension: recover failed Settings permission actions
+e4d9478|2026-09-06|Simon Gonzalez De Cruz|extension: preserve browser jobs when history reads fail
+12f0444|2026-09-06|Dr. Tom|test(live): add the live SDK coverage lane, fix bridge shutdown record clearing, isolate lane runs (#350)
+5d12d3c|2026-09-06|Dr. Tom|Merge pull request #375 from ResonantOS/security/346-gate-bridge-get-routes
+19d5ef3|2026-09-06|Dr. Tom|security(bridge): close review findings on the route gate (#346)
+e57eadd|2026-09-06|Dr. Tom|security(bridge): every bridge route now requires a capability token (#346)
+035a1e0|2026-09-06|Dr. Tom|Merge pull request #365 from ResonantOS/chore/344-validate-docs-gitignore
+2f9a1fb|2026-09-06|Dr. Tom|Merge pull request #364 from ResonantOS/test/349-system-slot-grant-negative
+665e95c|2026-09-06|Dr. Tom|Merge pull request #363 from ResonantOS/security/351-private-key-detector
+4ef5df1|2026-09-06|Dr. Tom|Merge pull request #376 from ResonantOS/ci/350-live-lane-paths
+38cd9fb|2026-09-06|Dr. Tom|ci(live): run the live-browser certification on bridge host and extension source changes (#350)
+7bcc724|2026-09-06|Dr. Tom|chore(docs): validate only git-visible Markdown so ignored scratch cannot fake findings (#344)
+5f255be|2026-09-06|Dr. Tom|test(sdk): prove system-slot grant enforcement with negative cases (#349)
+25521b8|2026-09-06|Dr. Tom|build(release-scope): recognize docs/security-pipeline/ as approved documentation
+4fb06a0|2026-09-06|Dr. Tom|security(ci): close review findings on the private key detector (#351)
+f9d5793|2026-09-06|Dr. Tom|security(ci): gate committed private key material in the security pipeline (#351)
+a6fa4ee|2026-09-06|Simon Gonzalez De Cruz|test(settings): await diagnostics before integration DOM cleanup
+fdd9da1|2026-09-06|Simon Gonzalez De Cruz|fix(settings): bound and retry diagnostics independently
+a1f2ab9|2026-09-06|Simon Gonzalez De Cruz|fix(settings): preserve other routing strategy drafts on save
+344efbf|2026-09-06|Simon Gonzalez De Cruz|fix(settings): recover from add-on execution request failures
+e69bf98|2026-09-06|Simon Gonzalez De Cruz|extension: distinguish memory save from refresh failures
+ffd1514|2026-09-06|Simon Gonzalez De Cruz|extension: authenticate tests of the active bridge target
+52473cc|2026-09-05|Simon Gonzalez De Cruz|extension: derive Settings bridge status from host health
+b26d519|2026-09-05|Simon Gonzalez De Cruz|extension: preserve appearance when saving preferences fails
+85957ae|2026-09-05|Dr. Tom|Merge pull request #355 from ResonantOS/fix/343-opencode-reaper-pid-owner
+792ff9a|2026-09-05|Dr. Tom|Merge pull request #354 from ResonantOS/fix/345-regression-followup
+e4c6600|2026-09-05|Dr. Tom|Merge pull request #353 from ResonantOS/fix/348-regression-followup
+8d64979|2026-09-05|Dr. Tom|Merge pull request #352 from ResonantOS/fix/347-regression-followup
+ff82d18|2026-09-05|Dr. Tom|security(opencode): wire the no-spawn cockpit peek at the production call site (#343 review fix)
+8e18d76|2026-09-05|Dr. Tom|security(sdk): harden installation defaults on the snapshot path too (#345 review fix)
+2f3eedb|2026-09-05|Dr. Tom|docs: post-#339 accuracy follow-ups (#348)
+13264ef|2026-09-05|Dr. Tom|security(extension): inline-action gate fails closed; one restricted-scheme source; denial path tested (#347)
+5396e5a|2026-09-05|Dr. Tom|security(opencode): reaper matches opencode.exe wrappers; pid record carries an owner (#343)
+60085b8|2026-09-05|Dr. Tom|security(sdk): partial provenance never defaults to trusted (#345)
+2d68a0c|2026-09-05|Dr. Tom|Merge pull request #342 from ResonantOS/fix/content-script-classic-parse
+41edf5b|2026-09-05|Dr. Tom|fix(extension): make the inline-action surface gate a valid classic content script (#341)
+a6a43fb|2026-09-05|Manolo Remiddi|prompt library: slash-menu in composer + settings gear — read-only bridge to the dsh-prompt-library plugin
+12f5d65|2026-09-04|Dr. Tom|Merge pull request #339 from ResonantOS/security/320-opencode-ephemeral-port-auth
+6ade525|2026-09-04|Dr. Tom|Merge remote-tracking branch 'origin/dev' into security/320-opencode-ephemeral-port-auth
+c4b3457|2026-09-04|Dr. Tom|Merge pull request #340 from ResonantOS/build/deps-browserslist-audit
+81c1bde|2026-09-04|Dr. Tom|build(deps): bump transitive browserslist to 4.28.9 to clear npm audit high advisories
+2744c26|2026-09-04|Dr. Tom|security(opencode): only the owning child clears the OpenCode pid record (#320, re-confirm nit)
+f063d5e|2026-09-04|Dr. Tom|security(opencode): fail closed on auth-ignoring listeners and stale-child exits (#320, review fixes)
+fe706f2|2026-09-04|Dr. Tom|security(opencode): bridge picks the ephemeral port itself (#320, amendment A1)
+7072059|2026-09-04|Dr. Tom|security(opencode): disable direct cockpit handoff while the server is credential-protected (#320)
+01e0429|2026-09-04|Dr. Tom|security(extension): send the bridge-minted credential on the OpenCode /event stream (#320)
+247ba6b|2026-09-04|Dr. Tom|security(opencode): consumers enter the seam without a fixed port and forward the minted credential (#320)
+7e0c4c0|2026-09-04|Dr. Tom|docs(opencode): document ephemeral-port + credential binding, residuals, and disabled cockpit handoff (#320)
+9ca8140|2026-09-04|Dr. Tom|security(opencode): ephemeral port + bridge-minted basic auth at ensureOpencodeServer (#320)
+fbb1868|2026-09-04|Manolo Remiddi|ci: fix YAML — quote step name containing a colon
+227173b|2026-09-04|Manolo Remiddi|ci: pin DSH CLI to 0.1.1-rc.2 — 0.1.2-rc.1 gates /api/* behind a cookie the pipe cannot hold
+349543a|2026-09-04|Manolo Remiddi|ci(proof): handle DSH 0.1.2 token-gated web — root cause of release #5/#6
+b9b17d4|2026-09-04|Manolo Remiddi|ci(proof): widen fresh dsh-web boot grace to 300s (release #5 flake)
+22d797a|2026-09-04|Manolo Remiddi|0.1.31: model picker search + Pinned section (DSH picker parity) + model-switch SW fix (+ panel-e2e picker leg)
+cc53f49|2026-09-04|Dr. Tom|Trigger security scan
+fa42023|2026-09-04|Dr. Tom|Add Github Actions Security workflow
+54a57d5|2026-09-01|Manolo Remiddi|ci(release): wait for npm registry propagation before the pinned proof
+5fef611|2026-09-01|Manolo Remiddi|ci(release): install plugin devDeps before npm publish + fix allowBuilds placeholder
+65fb97f|2026-09-01|Manolo Remiddi|0.1.30: in-place updates — side-panel Updates section (+ test/updates-e2e.mjs)
+a2c0102|2026-09-01|Manolo Remiddi|ci: bump actions/checkout and actions/setup-node to v7 (Node 24 runtime)
+bcdeaa6|2026-09-01|Manolo Remiddi|release tooling: tag-triggered release workflow + dist packer
+e95cc19|2026-09-01|Manolo Remiddi|0.1.29: DSH session-tab protection + model picker refresh (+ test/dsh-tab-test.mjs)
+7ae7bf8|2026-08-31|Dr. Tom|Merge pull request #335 from ResonantOS/build/release-scope-audit-sdk-packages
+b994a11|2026-08-31|Dr. Tom|build(release-scope): recognize packages/addon-sdk* and tsconfig.json as in-scope
+dd4bdf8|2026-08-31|Dr. Tom|Merge PR #333: security(engineer-runner) quote-aware argv, no shell
+72c649f|2026-08-30|Simon Gonzalez De Cruz|security(engineer-runner): quote-aware argv execution, no shell (issue #163 class)
+35b2f94|2026-08-28|Manolo Remiddi|proof: anchor the extension-id lookup on the load path, not "first 32-char id"
+fc7eae4|2026-08-28|Manolo Remiddi|proof: always --no-sandbox for the disposable proof browser; surface FATAL lines in chrome diagnostics
+43ba6dd|2026-08-28|Manolo Remiddi|proof: assert npm spec lands on the published release + PROOF_NPM_SPEC pin; document pnpm 24h release-age gate
+f52b575|2026-08-28|Manolo Remiddi|AGENTS.md: codify the license-header convention + build/test commands for future agent sessions
+180c45d|2026-08-28|Manolo Remiddi|proof: wait for port release before app restart (SIGKILL fallback); include app/chrome log tails in failures; --disable-dev-shm-usage for CI runners
+a962de6|2026-08-28|Manolo Remiddi|installer: mkdir -p bin/ before writing the launcher (bin/ no longer ships in clones)
+a56ff6a|2026-08-28|Manolo Remiddi|Add copyright headers (© 2026 Manolo Remiddi, MIT, SPDX) to all source files
+0143bb6|2026-08-28|Manolo Remiddi|test: deterministic install proof (install-proof.mjs) + CI workflow; README install accuracy
+44ed257|2026-08-28|Manolo Remiddi|installer: also pnpm-install repo root for the pipe on fresh clones
+cfd865a|2026-08-28|Manolo Remiddi|0.1.27: fix packaged dist — externalize runtime deps (ws, dsh-tools, schemastery)
+0d9b7dc|2026-08-28|Manolo Remiddi|docs: F8 field finding — zombie pipe after plugin hot-swap (538e752, 4ca6669)
+4ca6669|2026-08-28|Manolo Remiddi|F8b (audit): heartbeat also checks the handshake pipe count
+538e752|2026-08-28|Manolo Remiddi|F8 (audit): plugin-WS liveness heartbeat — kills the zombie-pipe mode
+bbbd907|2026-08-27|Manolo Remiddi|Shim drop: header-only WS token + PROPOSAL Tier 3 note
+eb431dc|2026-08-27|Manolo Remiddi|Code-audit Tier 3: module SW split, wire canonical, popover factory, publish prep
+bd03ef2|2026-08-27|Manolo Remiddi|Code-audit Tier 2: retire M0, socket-bound pipe, S2/S14/S15, hermetic e2e
+56c50ad|2026-08-27|Manolo Remiddi|Audit Tier 1: security hardening across pipe/SW/chat-render/plugin/bridge
+d64a6c8|2026-08-27|Manolo Remiddi|PROPOSAL §15.11: site 22ea269 — nav social icons (Discord/YouTube/GitHub in top menu, both pages)
+224f64a|2026-08-27|Manolo Remiddi|PROPOSAL §15.11: site 1ca3630 — footer social links (Discord/YouTube/GitHub); log user's DSH-plugin viral growth research
+18fc403|2026-08-27|Manolo Remiddi|PROPOSAL §15.11: site b2441bf — hero panel image top-aligned with left text column
+3aec178|2026-08-27|Manolo Remiddi|PROPOSAL §15.11: site b073c45 — hero gradient clip fix (background shorthand reset) + rows touching (lh 0.92)
+3e00600|2026-08-27|Manolo Remiddi|PROPOSAL §15.11: site c064cf0 — hero h1 bigger + tighter, panning gradient and glow (CSS v6)
+6599163|2026-08-27|Manolo Remiddi|PROPOSAL §15.11: site 6199cde — install section restructured into Automatic (default) / Manual tabs
+c232c9c|2026-08-27|Manolo Remiddi|PROPOSAL §15.11: site eee6d4c — docs pieces table trimmed (M0 row removed)
+0213e1d|2026-08-27|Manolo Remiddi|PROPOSAL §15.11: site 0f57e29 — Opera logo corrected to user-supplied official artwork (raster asset)
+f2cb203|2026-08-27|Manolo Remiddi|PROPOSAL §15.11: site 7a1c2be — official browser logos via namespaced symbol sprite
+da55e0c|2026-08-27|Manolo Remiddi|PROPOSAL 15.11: correct the hero compat-strip note to the final minimal 20px state + hardening
+d460eaf|2026-08-27|Manolo Remiddi|PROPOSAL 15.11: note the compact hero compat strip (site 973f9b4)
+51e0452|2026-08-27|Manolo Remiddi|PROPOSAL 15.11: note the new site 'Your browser' section (Chromium works today, Firefox/Safari coming soon)
+b98e8b9|2026-08-27|Manolo Remiddi|site-shots v3: needle prompt (short Q + short A on one panel page); PROPOSAL 15.11 probe-design + v2/v3 history (17.5s measured)
+fa04f96|2026-08-27|Manolo Remiddi|site-shots: retarget probe to augmentatism.com extraction (per user); PROPOSAL 15.11 + re-shoot note (measured 2m27s turn)
+699a369|2026-08-26|Manolo Remiddi|lab/site-shots.mjs: real-UI screenshot harness (veil + panel, self-archiving probe); PROPOSAL 15.11: website refresh audit vs v0.1.25
+42ba0b5|2026-08-26|Manolo Remiddi|0.1.25: brand link — quiet 'augmentoragent.com' anchor at the right of the dock strip (next to the model chip), accent on hover, real <a> so middle/right-click behave; domain verified live (HTTPS 200); m3-e2e asserts the href
+679aadc|2026-08-26|Manolo Remiddi|0.1.24: tab awareness restored — work tab re-resolves to the tab the user is on at every turn start (prompt handler + turn/start downlink); the clear existed in 0.1.8 and the M1 refactor dropped it; lab harness repaired + new C3 scenario, A/B proven (HEAD fails C2/C3b, fix passes all 12)
+24f855b|2026-08-26|Manolo Remiddi|0.1.23: opened sessions lost the assistant's prose — renderAssistantNow early-returned when no streamed chunk had created the text element (history replay strips chunks); materialize the element on final text, fix block order; e2e reopens a session and asserts the prose renders
+4e499e5|2026-08-26|Manolo Remiddi|0.1.22: Browse capped at the latest 20 sessions (user request) — newest by updatedAt, ~3.6 KB frame, 'Latest 20 of N' footer makes the cap visible; e2e asserts the cap
+534e72a|2026-08-26|Manolo Remiddi|0.1.21: Browse root cause — session.list payload (4.7 MB) exceeded the 1 MiB native-messaging limit, so Chrome killed the host connection (the 'native messaging host' error)
+69cd1da|2026-08-26|Manolo Remiddi|fix(browser tools): stop render from discarding snapshot text/links and tab details
+ae4550c|2026-08-26|Manolo Remiddi|gitignore: exclude local website/ from the repo
+5e47f6d|2026-08-26|Manolo Remiddi|0.1.19: flat header icons (appearance reset + hover/active/focus pinned transparent); expand icon moved before the color disc (far right)
+118ff51|2026-08-26|Manolo Remiddi|0.1.18: long-press approval mode, hugging model chip, flat header icons, no-drop pipe + self-heal Browse
+e33ee11|2026-08-26|Manolo Remiddi|v0.1.17 — DSH sidebar icon for expand, status text gone, hue last, wider model chip, hidden plugin snapshots, approval-mode seat
+d71d283|2026-08-26|Manolo Remiddi|v0.1.16: top strip 'Augmentor Agent powered by DSH'; header = chat title; double-click rename
+9a48571|2026-08-26|Manolo Remiddi|v0.1.15: top strip shortened to 'Augmentor' — it's Chromium's native side-panel header
+2843634|2026-08-25|Manolo Remiddi|Brand link (Augmentor bold + 'powered by DSH' italic → augmentoragent.com, opens new tab); --on-brand auto-contrast token flips Send/segment labels #fff→#000 when the accent is brightened past 3:1; user prompts sit in a faint 16%-alpha accent bubble (--brand-soft). Proposal §15. Version 0.1.14.
+1ec31f6|2026-08-25|Manolo Remiddi|Auto-connect: sw.js connects on every boot (top-level ensurePort) and retries 1s→30s after any failure — the Connect button and its icon are removed; error state reads 'reconnecting… (…)' with a pulsing dot. E2E tests no longer click connect. Proposal §14. Version 0.1.13.
+351091a|2026-08-25|Manolo Remiddi|Header iconification: all five text buttons become 16px stroke SVG icons (save star fills in the accent when saved); frost-mark logo from the site favicon + tab favicon; manifest gains icons/action.default_icon (16-128 PNGs from favicon.svg) — version 0.1.12. Proposal §13.
+b76ac98|2026-08-25|Manolo Remiddi|Persona v2: forbid mcp__playwright__* (real cause of the mid-task drift); sw.js: set turnActive on prompt accept so the veil holds for the turn (it was cleared on turn/end but never set — dead hold, 4s per-action flicker). Proposal §12.
+4604c14|2026-08-25|Manolo Remiddi|Proposal §11: the persona fix (augmentor agent preset) — symptom, root cause, fix
+ec3ceb9|2026-08-25|Manolo Remiddi|Persona fix: custom 'augmentor' agent preset + agentPreset on session.create
+06757f5|2026-08-25|Manolo Remiddi|boot test: entry name carries the deploy query string (index.ts?src=...)
+2a16b78|2026-08-25|Manolo Remiddi|M3: panel E2E — Save/Unsave/Open-in-DSH in real Chrome against the live deployment
+9dd4c8a|2026-08-25|Manolo Remiddi|M3 slice 1: Save/Unsave + Augmentor Chat workspace + housekeeping sweep + Open-in-DSH
+a59c3a3|2026-08-25|Manolo Remiddi|M2 complete: all five browser tools + tools-e2e acceptance (veil round-trip)
+7e2ecb7|2026-08-25|Manolo Remiddi|M2 prompt loop: the agent works — prompt -> reply through DSH in real Chrome
+4cc4baa|2026-08-25|Manolo Remiddi|M1 ACCEPTED in real Chrome: 403 fence row + conversation rendered (CDP E2E)
+3dbab00|2026-08-25|Manolo Remiddi|M1 exit proof: unmodified panel module graph renders a real DSH conversation, headlessly
+1cf3ecf|2026-08-25|Manolo Remiddi|M1 pre-flight E2E: run the real sw.js against the real pipe, headlessly
+8a4918e|2026-08-25|Manolo Remiddi|M1 fix: shape session.history under the 1 MiB native-messaging wire limit
+847f69b|2026-08-25|Manolo Remiddi|M1 C1: fence verdict made airtight — no-marker control + 3-path SW probe
+2e9089a|2026-08-25|Manolo Remiddi|M1: boot-test green — fresh-boot service ordering + value-schema DSL fix
+609db85|2026-08-25|Manolo Remiddi|M1: token-gated action WS + fence/live-mount evidence in proposal
+f97744c|2026-08-25|Manolo Remiddi|M1: /api pipe + dsh-augmentor plugin + extension session browser
+c7cc2da|2026-08-25|Manolo Remiddi|Record plugin-architecture decision artifact (docs-verified §10)
+9424e89|2026-08-24|Manolo Remiddi|Fix 'fetch failed': per-PID relay registration + ancestor-walk discovery
+c2ab03e|2026-08-24|Manolo Remiddi|v0.1.11: model picker, Stop, and accent-driven themes
+e54e71d|2026-08-23|Manolo Remiddi|Overlay: follow actual browser use — no veil on text-only turns
+530b753|2026-08-22|Dr. Tom|Merge pull request #325 from ResonantOS/chore/beta1-release-prep
+ca9e6d1|2026-08-22|Dr. Tom|chore(release): prepare 2.0.0-beta.1 — changelog, release notes, version bump
+4bc6fa9|2026-08-22|Dr. Tom|Merge pull request #319 from ResonantOS/claude/fervent-mendel-2fec71
+0246305|2026-08-22|Dr. Tom|Merge pull request #324 from ResonantOS/pr309-rebased
+75ac2c8|2026-08-21|VonStegen|docs(reference): add /session to canonical command reference
+736f276|2026-08-20|VonStegen|fix(augmentor): close the redaction + scope gaps Tom flagged on #309
+8491b8d|2026-08-20|VonStegen|fix(augmentor): redact compound-name URL params Tom flagged on #309
+7cc0aa2|2026-08-19|VonStegen|feat(augmentor): restart-safe session summary artifact (#222)
+b64e81d|2026-08-22|Dr. Tom|Merge pull request #308 from vonstegen/feat/augmentor-cross-tab-comparison
+503aff5|2026-08-22|Manolo Remiddi|Tab awareness: always resolve the tab the user is looking at
+0c02251|2026-08-22|Manolo Remiddi|Glyphs: default variation — small translucent digits over the full frost fluid
+9824a9a|2026-08-22|Manolo Remiddi|Glyph variation: the waves as falling numbers and symbols
+0a4af06|2026-08-22|Manolo Remiddi|v0.1.7: WebGL frost veil — approved design
+d2b6af6|2026-08-21|Dr. Tom|Merge pull request #323 from ResonantOS/feat/opencode-cockpit-handoff
+9531c31|2026-08-21|Dr. Tom|feat(opencode): honest external-tab cockpit handoff — execution-gated, intent-audited, no iframe
+39d132b|2026-08-21|Dr. Tom|Merge pull request #322 from ResonantOS/feat/opencode-parity-p1p2
+1c2e0a7|2026-08-21|Dr. Tom|fix(opencode): adjudicated panel fixes — IME, rail errors, tool dedup, client timeouts, doc single-flight, model payload
+223fe10|2026-08-21|Dr. Tom|security(browser-first): block protected system roots and ~/Library in move-import at any depth
+58e9737|2026-08-20|Dr. Tom|feat(opencode): shell parity — session management, live diff pane, pickers, full resume
+e2483ae|2026-08-20|Dr. Tom|feat(opencode): core session UI parity — markdown, tool output, stop/busy, context meter, copy, diff renderer
+8f0aba9|2026-08-20|Dr. Tom|feat(opencode): host parity layer — abort, diff, rename/delete, cwd pinning, read-tier capabilities
+985f8e9|2026-08-20|VonStegen|fix(augmentor): tighten cross-tab comparison per Tom's review (#308)
+426b28c|2026-08-19|VonStegen|feat(augmentor): cross-tab comparison with deterministic tab provenance (#220)
+8b58133|2026-08-20|Dr. Tom|Merge pull request #317 from ResonantOS/sec/215-governance-hardening
+c63bce2|2026-08-20|Dr. Tom|docs(#215): tester runbook — disable vs uninstall semantics and manual cleanup
+d3b04da|2026-08-20|Dr. Tom|security(#215): audit-trail for execution toggles and honest capability-contract chips
+8ca0aa3|2026-08-19|Dr. Tom|Merge pull request #316 from ResonantOS/feat/230-mode-visibility
+dc38860|2026-08-19|Dr. Tom|Merge pull request #315 from ResonantOS/test/228-continuity-proof
+9be6480|2026-08-19|Dr. Tom|Merge pull request #314 from ResonantOS/sec/240-hardening-graft
+efefcb9|2026-08-19|Dr. Tom|feat(#230): visible Augmentor mode and permission-state explanation
+2c7ba04|2026-08-19|Dr. Tom|security(#240): graft boundary hardening from closed PR #288 with credit
+5e5a79a|2026-08-19|Dr. Tom|test(#228): Living Archive context continuity acceptance proof
+366ce31|2026-08-19|Dr. Tom|Merge pull request #313 from ResonantOS/docs/matrix-refresh-aug19
+80f2f5c|2026-08-19|Dr. Tom|docs: refresh acceptance-matrix statuses to match closed issues
+8ed0585|2026-08-19|Dr. Tom|Merge pull request #312 from ResonantOS/fix/307-hardening-minors
+361ffbc|2026-08-19|Dr. Tom|fix(augmentor): harden summary templates per #307 review panel minors
+8c2fe5e|2026-08-19|Dr. Tom|Merge pull request #307 from vonstegen/feat/augmentor-summary-templates
+968e63c|2026-08-19|Dr. Tom|Merge pull request #311 from ResonantOS/feat/208-rosi-design-docs
+ded41a0|2026-08-19|Dr. Tom|docs: land ROSI design system under docs/design with credit (#208)
+af430ea|2026-08-19|Dr. Tom|Merge pull request #310 from ResonantOS/feat/218-fixture-coverage
+916527c|2026-08-19|Dr. Tom|fix(#218): move page fixtures into browser-first scope, drop stray node_modules symlink
+d215575|2026-08-19|Dr. Tom|fix(#218): exercise the real extraction path in the fixture test
+a2f6d9f|2026-08-19|VonStegen|feat(augmentor): summary/extraction templates with deterministic prompt contracts (#221)
+43c28dd|2026-08-11|VonStegen|chore(docs): exclude test/fixtures/ from documentation reachability check
+1147861|2026-08-11|VonStegen|feat: Augmentor page understanding fixture coverage (#218)
+26c0b58|2026-08-18|Dr. Tom|Merge pull request #306 from ResonantOS/feat/219-inline-actions
+16e7fdc|2026-08-18|Dr. Tom|Merge pull request #304 from ResonantOS/feat/237-recipes-landing
+55c51f5|2026-08-18|Dr. Tom|chore: approve docs/recipes/* in the release-scope audit
+67d8532|2026-08-18|Dr. Tom|docs: restore the two doc-list lines the recipes hunk dropped
+a155bab|2026-08-11|VonStegen|docs: add Augmentor workflow recipes for issue #237
+a8365e5|2026-08-18|Dr. Tom|fix(#219): label counterpoint and explain-jargon offline fallbacks correctly
+c7c65d2|2026-08-12|VonStegen|feat(augmentor): inline counterpoint and explain-jargon actions with restricted-surface gate (#219)
+efb3acb|2026-08-18|Dr. Tom|Merge pull request #305 from ResonantOS/fix/241-shortcut-contract
+5c68128|2026-08-18|Dr. Tom|fix(#241): gate shortcut conflict notices to real Alt+A/Alt+S contention
+d1c91c8|2026-08-12|VonStegen|feat(augmentor): Alt+A opens inline panel, Alt+S summarizes page with shortcut-conflict handling (#241)
+cbc402b|2026-08-18|Dr. Tom|Merge pull request #273 from HenrikeGbinigie/issue/126
+b6936ad|2026-08-18|Dr. Tom|Merge pull request #303 from ResonantOS/feat/opencode-session-browser
+c2f08ac|2026-08-18|Dr. Tom|feat(opencode): desktop-app-style live workspace — session browser + resume
+1462a49|2026-08-18|Dr. Tom|Merge pull request #302 from ResonantOS/fix/225-trace-redaction
+add237d|2026-08-18|Dr. Tom|fix(#225): close review-proven redaction leak holes in trace artifacts
+496a247|2026-07-31|Resonant Jones|feat(#225): redact secrets from durable Agent Control trace artifacts
+222e50a|2026-08-18|Dr. Tom|Merge pull request #301 from ResonantOS/fix/226-stop-cancel-active-job
+7e0ee00|2026-08-18|Dr. Tom|fix(#226): resolve stop/cancel state by the run's own job id, not the reassigned active job
+6f4a51a|2026-07-31|Resonant Jones|fix(#226): halt Agent Control runs immediately on stop/cancel and show recovery state
+8b39a2c|2026-08-18|Dr. Tom|Merge pull request #300 from ResonantOS/fix/223-certification-fixtures
+d857543|2026-08-18|Dr. Tom|docs: link the certification fixtures into the reachability graph
+445a177|2026-08-18|Dr. Tom|Merge pull request #299 from ResonantOS/hardening/224-alias-matrix-close
+77a6cf5|2026-08-18|Dr. Tom|Merge pull request #298 from ResonantOS/fix/opencode-event-schema-compat
+cb1fa29|2026-08-18|Dr. Tom|fix(opencode): render sessions from the v1.18 event schema
+735547a|2026-08-18|Dr. Tom|fix(agent-control): close #224 credential-alias bypass with token-exact matching
+17c2431|2026-08-18|Dr. Tom|test(#223): rework certification per review — top-level runner tests, landed #240 handoff contract, real regression floor
+78db7cc|2026-07-31|Resonant Jones|test(#223): certification fixtures for Agent Control safe click/type/scroll and blocked high-risk paths
+f9fcca9|2026-08-18|Dr. Tom|Merge pull request #281 from Resonant-Jones/security/240-runner-public-submit-handoff
+2a010f8|2026-08-18|Dr. Tom|Merge pull request #297 from ResonantOS/fix/dependency-audit-high
+b607568|2026-08-18|Dr. Tom|fix(deps): resolve high-severity nanoid/undici audit advisories
+3193ec7|2026-08-18|Dr. Tom|Merge pull request #286 from Resonant-Jones/security/267-live-harness-target-stability
+9aaea31|2026-08-01|Resonant Jones|test(agent-control): stabilize live certification harness target discovery and job settle (#267)
+5bed4fa|2026-07-31|Resonant Jones|fix(#240): runner exposes no executable approval for public-submit
+fd5b342|2026-07-31|Resonant Jones|fix(#224): classify credential aliases (passwd/pwd/pin/passkey/security-code) as hard typing boundaries
+80dcd79|2026-07-21|Dr. Tom|Merge pull request #278 from ResonantOS/fix/agent-control-restricted-page-target
+c91daaa|2026-07-21|Dr. Tom|fix(agent-control): explain restricted pages instead of a generic no-target error
+8019600|2026-07-21|Dr. Tom|Merge pull request #277 from ResonantOS/feat/extension-brand-icon
+170ccd7|2026-07-21|Dr. Tom|feat(extension): ship the ResonantOS brand icon as the toolbar/app icon
+b5dc6c8|2026-07-21|Dr. Tom|Merge pull request #276 from ResonantOS/fix/271-provider-modal-error-ux
+8a00370|2026-07-21|Dr. Tom|Merge pull request #275 from ResonantOS/fix/209-alpha-gate-doc-drift
+016ed9d|2026-07-21|Dr. Tom|docs: retire the met Alpha MVP gate; point the release gate at beta.1 (#209)
+30ce300|2026-07-21|Dr. Tom|fix(settings): show provider-account save errors inside the dialog (#271)
+70808f1|2026-07-21|Dr. Tom|Merge pull request #274 from ResonantOS/fix/remove-newtab-override
+665c73b|2026-07-21|Dr. Tom|fix(ci): unblock verify:alpha on the augmentor demo-hardening notes
+dd987e7|2026-07-21|Dr. Tom|fix(extension): stop overriding Chrome's new-tab page
+1dd0150|2026-07-21|hgbinigie|fix: correct type-broken fixture and weak assertion in shell boot tests
+6f315d4|2026-07-21|Dr. Tom|feat(opencode): go live — wire the session routes into the bridge + mount the element
+4780864|2026-07-21|Dr. Tom|feat(opencode): bridge integration plumbing for the live session workspace
+02f4cd6|2026-07-21|Dr. Tom|feat(opencode): live governed session workspace element (Option A)
+edabf16|2026-07-21|Dr. Tom|feat(main-workspace): remove the Site tab from the dock
+3b34666|2026-07-21|Dr. Tom|feat(dock): sync main-panel activity dots with the side panel; state-driven blocking
+b419857|2026-07-21|Dr. Tom|fix(host): detect npm-global OpenCode installed under a bin root's lib/node_modules
+bb82bb3|2026-07-21|Dr. Tom|feat(side-panel): match main-panel dock order + add a wired new-chat "+"
+1fdc88c|2026-07-21|Dr. Tom|feat(main-workspace): resizeable rail, dock cleanup, drop the dead top header
+c3800dd|2026-07-21|Dr. Tom|fix(main-workspace): wire the rail collapse toggle; move user card below Settings
+e809fcd|2026-07-21|Dr. Tom|feat(main-workspace): add the Site·Control·Jobs·Chats·Permissions top-bar dock (Option A)
+c41b64c|2026-07-21|Dr. Tom|feat(side-panel): "try again"/"continue" continues a resumed run (no /control)
+b6ec354|2026-07-21|Dr. Tom|fix(main-workspace): route direct page actions to Agent Control without /control
+5d6e455|2026-07-20|Dr. Tom|feat(side-panel): bare "summarize" summarizes the current page (no /control)
+574c0d2|2026-07-20|Dr. Tom|feat(side-panel): agent-control steps use the shared step-list; Permissions moves to the top bar
+db9f2aa|2026-07-20|Dr. Tom|feat(side-panel): red blinking tab dot for a blocking message
+9093cf2|2026-07-20|Dr. Tom|docs(browser-first): add step-list component, provider fixes, queued follow-ups
+901a9f0|2026-07-20|Dr. Tom|feat(chat): shared Claude-style step-list + spinner component
+ab04e4f|2026-07-20|Dr. Tom|docs(browser-first): log the Chats feature (project -> folder -> chat, P1-P4)
+0f23576|2026-07-20|Dr. Tom|feat(chat): live tandem sync between the sidecar and main workspace (P4)
+657cded|2026-07-20|Dr. Tom|feat(chat): sidecar Chats tab mirroring the shared tree (P3)
+1ca4102|2026-07-20|Dr. Tom|feat(chat): folder tier in the main-workspace rail (P2)
+bfdbdf1|2026-07-20|Dr. Tom|feat(chat): folder tier in the shared chat session store (P1)
+48a65c7|2026-07-20|Dr. Tom|docs(browser-first): record the demo-hardening session changes
+79299ec|2026-07-20|Dr. Tom|feat(side-panel): top-tab popouts for Site / Agent Control / Jobs
+befead7|2026-07-20|Dr. Tom|feat(side-panel): collapsible context-dock panels and browser-workspace UX
+92c6053|2026-07-20|Dr. Tom|feat(agent-control): natural browser commands and a visible click spotlight
+5e52589|2026-07-20|Dr. Tom|fix(hermes): accept uv-created venv interpreters in the runtime allowlist
+1116d00|2026-07-20|hgbinigie|test: add co-located controller/selector test files per issue #126
+3b07e63|2026-07-20|Dr. Tom|Merge pull request #268 from ResonantOS/fix/240-public-submit-handoff
+74318bc|2026-07-20|Dr. Tom|Merge pull request #269 from ResonantOS/fix/267-live-harness-launcher
+e018796|2026-07-18|vrondelli|test(#267): certify Agent Control in live Chrome
+8524149|2026-07-17|Dr. Tom|fix(#267): restore the live-browser Agent Control harness launcher
+3cdfcf9|2026-07-17|Dr. Tom|fix(#240): close the two live-probe bypasses from diff certification
+901e404|2026-07-17|Dr. Tom|test(#240): cover control-approval-actions public-submit block
+328d8ac|2026-07-17|Dr. Tom|fix(#240): make public-submit a non-bypassable human-only handoff
+6f92af7|2026-07-17|Dr. Tom|Merge pull request #266 from ResonantOS/docs/issue-template-handoff-field
+380559c|2026-07-17|Dr. Tom|Merge pull request #265 from ResonantOS/docs/sync-matrix-coverage-gaps
+c7223f0|2026-07-17|Dr. Tom|docs: add contributor-handoff field to feature issue template
+b671b58|2026-07-17|Dr. Tom|docs: drop closed #99 from matrix Voice row
+f84f83c|2026-07-17|Dr. Tom|docs: sync acceptance matrix with 4 Augmentor board items (#213 #215 #226 #230)
+395871c|2026-07-17|Dr. Tom|Merge pull request #264 from ResonantOS/docs/217-augmentor-acceptance-matrix
+013918b|2026-07-17|Dr. Tom|docs(#229): Augmentor tester runbook & proof checklist
+3f18ead|2026-07-17|Dr. Tom|docs(#217): Augmentor Future List acceptance matrix
+2329c45|2026-07-17|Dr. Tom|Merge pull request #263 from ResonantOS/ci/best-effort-project-sync
+82f8013|2026-07-17|Dr. Tom|ci: make Project 2 sync best-effort so a bad token can't spam failure emails
+3efa522|2026-07-17|Dr. Tom|Merge pull request #262 from ResonantOS/fix/231-fallback-visibility
+5ca6bd2|2026-07-17|Dr. Tom|fix(#231): address certification-panel findings on fallback visibility
+a08d775|2026-07-17|Dr. Tom|feat(#231): make Provider Fabric fallback visible + preserve manual model choice
+245f71b|2026-07-17|Dr. Tom|Merge pull request #260 from ResonantOS/ci/graceful-project-sync-token
+cba7c30|2026-07-17|Dr. Tom|test: update project-sync workflow assertion for the graceful token skip
+9278373|2026-07-17|Dr. Tom|Merge pull request #261 from ResonantOS/test/233-provider-route-acceptance
+ed8a0c2|2026-07-17|Dr. Tom|test(#233): provider route health, connectivity, and fallback acceptance coverage
+2b44f56|2026-07-17|Dr. Tom|ci: skip Project 2 sync gracefully when PROJECT_SYNC_TOKEN is absent
+ff7b4e1|2026-07-17|Dr. Tom|Merge pull request #259 from ResonantOS/docs/199-bridge-setup-runbook
+cc5def5|2026-07-17|Dr. Tom|chore: allowlist the bridge setup runbook in the release-scope audit
+1f1d5fa|2026-07-17|Dr. Tom|docs: link the bridge setup runbook + Caddy config from the host README
+ad4d8c8|2026-07-17|Dr. Tom|Merge pull request #258 from ResonantOS/fix/203-bridge-bootstrap-smoke
+20ec144|2026-07-17|Dr. Tom|docs(#202,#201): bridge first-time-setup runbook + h1-pinned Caddy config
+2e61dfa|2026-07-17|Dr. Tom|fix(#199,#203): mirror /auth + any-host bridge CSP, add first-run smoke test
+e1190f2|2026-07-17|Dr. Tom|Merge pull request #257 from ResonantOS/fix/206-dropdown-contrast
+6a0f82e|2026-07-17|Dr. Tom|Merge pull request #256 from ResonantOS/fix/199-capability-token-bootstrap
+a11b401|2026-07-17|Dr. Tom|fix(#206): make provider/model dropdowns readable on Chrome/Windows 11
+04f5b86|2026-07-17|Dr. Tom|fix(browser-first): unify bridge capability-token map + surface bootstrap failures
+a1ed10f|2026-07-17|Dr. Tom|Merge pull request #255 from ResonantOS/fix/207-provider-fabric-routing
+d8b3bcc|2026-07-17|Dr. Tom|fix(browser-first): propagate user-added providers through the Provider Fabric
+07877ae|2026-07-16|Dr. Tom|Merge pull request #251 from ResonantOS/docs/agent-first-cleanup
+8a3631c|2026-07-16|Dr. Tom|fix: pre-merge cleanups for PR #251
+0d0d085|2026-07-15|Dr. Tom|docs: route browser certification guidance
+d4277c0|2026-07-15|Dr. Tom|fix: keep merged browser fixtures repository-safe
+5c111d2|2026-07-15|Dr. Tom|Merge commit '39c7148c9d1da4792bad4e23645be96b9527ff5d' into docs/agent-first-cleanup
+1e05ad6|2026-07-13|Dr. Tom|fix: harden runtime execution and verification
+6bcdeb7|2026-07-13|Dr. Tom|fix: harden CI pinning and repository hygiene
+5b2a3da|2026-07-12|Dr. Tom|chore: reject generated browser-first certificates
+31d2dc2|2026-07-12|Dr. Tom|fix: match Chrome srcset density parsing
+3f886b3|2026-07-12|Dr. Tom|fix: bound srcset integer descriptors
+4d5d880|2026-07-12|Dr. Tom|fix: validate srcset descriptors
+a20c828|2026-07-12|Dr. Tom|fix: replace srcset provenance mapping
+f39f2e9|2026-07-12|Dr. Tom|fix: preserve CRLF srcset offsets
+0c4959a|2026-07-12|Dr. Tom|fix: preserve decoded srcset offsets
+ed900b0|2026-07-12|Dr. Tom|fix: unify Markdown HTML parser state
+6f0c47e|2026-07-12|Dr. Tom|fix: isolate template resource traversal
+92660ce|2026-07-12|Dr. Tom|fix: extract template-contained resources
+e43d9b2|2026-07-12|Dr. Tom|fix: detect inline SVG image resources
+f3d97cf|2026-07-12|Dr. Tom|fix: close final parser and reconciliation gaps
+b7f6f9a|2026-07-12|Dr. Tom|fix: parse documentation HTML with standards tokenizer
+6b02ac2|2026-07-12|Dr. Tom|fix: close documentation and project recovery gaps
+9c6653a|2026-07-12|Dr. Tom|fix: harden template end-tag parsing
+81885c2|2026-07-12|Dr. Tom|fix: close nested documentation parser bypasses
+46eec99|2026-07-12|Dr. Tom|fix: close remaining certification bypasses
+0860809|2026-07-11|Dr. Tom|fix: harden documentation certification parsers
+07b0581|2026-07-11|Dr. Tom|fix: make Project sync writes recoverable
+faf25a4|2026-07-11|Dr. Tom|fix: close documentation validator bypasses
+137ed6d|2026-07-11|Dr. Tom|chore: harden documentation cleanup certification
+2e9cce2|2026-07-11|Dr. Tom|test: classify canonical command reference
+f434b68|2026-07-11|Dr. Tom|test: compose adversarial credential fixtures
+7a296c9|2026-07-11|Dr. Tom|docs: certify commands and project governance
+0e096e1|2026-07-11|Dr. Tom|test: include security and ownership certification
+800db1c|2026-07-11|Dr. Tom|security: harden project sync and token scanning
+953eac9|2026-07-10|Dr. Tom|docs: retain browser evidence workflows
+3523d18|2026-07-10|Dr. Tom|docs: restore implemented browser workflows
+ba6b72e|2026-07-10|Dr. Tom|docs: preserve durable workflows and freshness
+e7c4482|2026-07-10|Dr. Tom|test: close certification bypasses
+6eb80d6|2026-07-10|Dr. Tom|test: harden repository certification gates
+da98048|2026-07-10|Dr. Tom|docs: Link the canonical release history
+b59d3b5|2026-07-10|Dr. Tom|docs: Index retained contributor references
+c3de457|2026-07-10|Dr. Tom|ci: Add deterministic Alpha verification entrypoint
+e476b94|2026-07-10|Dr. Tom|docs: Remove obsolete reports plans and agent traps
+817c09f|2026-07-10|Dr. Tom|docs: Add contribution templates and Project 2 governance
+305d154|2026-07-10|Dr. Tom|docs: Clarify Alpha architecture and ADR status
+33725f4|2026-07-10|Dr. Tom|docs: Consolidate status roadmap and capability truth
+70ed4c4|2026-07-10|Dr. Tom|docs: Rewrite agent and contributor entrypoints
+4ef9723|2026-07-10|Dr. Tom|test: Add documentation and repository contract validation
+bf3c987|2026-07-10|Dr. Tom|docs: Add agent-first documentation cleanup plan
+9d050ee|2026-07-10|Dr. Tom|Tombstone historical HRR document
+39c7148|2026-07-05|Dr. Tom|Restore browser-first context and Resonator certification
+1057174|2026-07-02|Dr. Tom|ci: skip Project 2 sync without token
+89ea8a2|2026-07-02|Dr. Tom|ci: clarify Project 2 sync token requirement
+6860392|2026-07-02|Dr. Tom|docs: sync Project 2 issue labels
+1c45b11|2026-06-29|Dr. Tom|Fix side-panel natural delegation wiring
+e740655|2026-06-29|Dr. Tom|Fix side-panel natural delegation wiring
+c7c1c85|2026-06-29|Dr. Tom|Merge pull request #197 from ResonantOS/codex/context-session-continuity
+4dbb9a3|2026-06-28|Dr. Tom|Preserve browser chat context across tabs
+2fe1829|2026-06-27|Dr. Tom|Fail closed on malformed Hermes output
+8876eda|2026-06-27|Dr. Tom|Fix browser-first Hermes delegation routing
+ada119d|2026-06-27|Dr. Tom|Reconcile alpha board scope
+25ae9c6|2026-06-27|Dr. Tom|Prepare alpha release gates and agent control consent
+b7d55b1|2026-06-26|Dr. Tom|Close alpha release readiness gaps
+34d80af|2026-06-26|Dr. Tom|fix: harden bridge dashboard delegation runtime
+0b33e45|2026-06-25|Dr. Tom|Merge pull request #196 from ResonantOS/uiux-dev
+8413ddd|2026-06-25|Dr. Tom|Restore browser-first regenerate flow
+3d6e47a|2026-06-25|Dr. Tom|Merge pull request #190 from ResonantOS/docs/local-development-package-discipline
+5b89332|2026-06-25|Dr. Tom|Merge pull request #189 from ResonantOS/issue-125-module-ownership-map
+8c905a2|2026-06-25|Dr. Tom|Merge pull request #188 from ResonantOS/issue-100-branch-compact-state
+85169cd|2026-06-25|Dr. Tom|Merge pull request #187 from ResonantOS/issue-95-activity-pill
+2418ae3|2026-06-25|Dr. Tom|Clarify Living Archive memory copy
+a40e153|2026-06-25|ajfurey|ui: add PR plan for UI/UX visual refresh
+1389c89|2026-06-25|Dr. Tom|Merge pull request #185 from ResonantOS/issue-93-settings-strict-hierarchy
+94514f7|2026-06-25|Dr. Tom|Preserve host-owned runtime state updates
+6b53431|2026-06-25|Dr. Tom|Harden browser-first delegation for alpha
+8419fc9|2026-06-22|vrondelli|docs: add local development package discipline
+e1c43a0|2026-06-22|vrondelli|chore: remove unpromoted development artifacts
+3632a5a|2026-06-22|vrondelli|chore: remove unpromoted development artifacts
+fb9d0ca|2026-06-22|vrondelli|chore: remove unpromoted development artifacts
+c55f46e|2026-06-22|vrondelli|chore: remove unpromoted development artifacts
+ff83173|2026-06-22|vrondelli|docs: add module ownership map
+eb46fa2|2026-06-22|vrondelli|fix: preserve compact memory when branching chats
+02e8f3b|2026-06-22|vrondelli|feat: clarify agent control overlay activity
+9dd07a9|2026-06-22|vrondelli|feat: enforce settings hierarchy
+65cb6e6|2026-06-22|Dr. Tom|fix: handle settings capability auth failures
+2656666|2026-06-22|Dr. Tom|fix: clarify settings bridge auth failures
+ab77084|2026-06-22|Dr. Tom|fix: make opencode bridge execution reliable
+fd724e8|2026-06-22|Dr. Tom|fix: handle bridge model and Hermes setup errors
+d89ec09|2026-06-22|Dr. Tom|security: keep Hermes prompts out of argv
+ac587dc|2026-06-22|Dr. Tom|Merge PR #184: harden browser-first alpha message paths
+1b6c65f|2026-06-22|Dr. Tom|Merge PR #183: keep alpha provider credentials session-only
+ec14d30|2026-06-22|Dr. Tom|Merge PR #182: scope alpha to Chrome extension release
+1ef9222|2026-06-21|Dr. Tom|fix: harden browser bridge fetch startup
+aa3cfd0|2026-06-21|Dr. Tom|security: close browser-first alpha bridge gates
+712cef4|2026-06-21|Dr. Tom|fix: wait for browser-first bridge on cold start
+7d4d67b|2026-06-21|Dr. Tom|security: harden browser-first alpha message paths
+f5f33d0|2026-06-21|Dr. Tom|security: keep alpha provider credentials session-only
+74199ab|2026-06-21|Dr. Tom|chore: scope alpha to chrome extension
+4dc5fc0|2026-06-21|Dr. Tom|chore: set 2.0.0 alpha version
+e1fffd2|2026-06-20|Dr. Tom|Merge pull request #175 from ResonantOS/codex/opencode-install-path
+c8d2074|2026-06-20|Dr. Tom|Clarify OpenCode install path
+84ebf3c|2026-06-20|Dr. Tom|Merge pull request #174 from ResonantOS/codex/local-provider-browser-profile-batch
+199feec|2026-06-20|Dr. Tom|Merge remote-tracking branch 'origin/pr/145' into codex/local-provider-browser-profile-batch
+21170ea|2026-06-20|Dr. Tom|Merge pull request #173 from ResonantOS/codex/provider-security-batch
+ca84698|2026-06-20|Dr. Tom|Make native bridge pinned-root test portable
+bd871d2|2026-06-20|Dr. Tom|Resolve provider security batch integration
+ce66eef|2026-06-20|Dr. Tom|Merge remote-tracking branch 'origin/pr/158' into HEAD
+70b9f2a|2026-06-20|Dr. Tom|Merge remote-tracking branch 'origin/pr/157' into HEAD
+a455f33|2026-06-20|Dr. Tom|Merge remote-tracking branch 'origin/pr/152' into HEAD
+25efb73|2026-06-20|Dr. Tom|Merge remote-tracking branch 'origin/pr/153' into HEAD
+2b65ed1|2026-06-20|Dr. Tom|Merge remote-tracking branch 'origin/pr/149' into HEAD
+7a0274a|2026-06-20|Dr. Tom|Merge pull request #144 from GardenerDave/fix/electron-state-root-atomic-write
+bb4cfbe|2026-06-20|Dr. Tom|Merge pull request #172 from ResonantOS/codex/workspace-self-inspection
+8d5153a|2026-06-20|Dr. Tom|Make workspace inspection test path portable
+1dbabf5|2026-06-20|Dr. Tom|Complete main workspace self inspection locally
+cf201a2|2026-06-20|Dr. Tom|Merge pull request #171 from ResonantOS/codex/main-control-slash-handoff
+b856647|2026-06-20|Dr. Tom|Route main workspace control slash commands
+7284fd3|2026-06-20|Dr. Tom|Merge pull request #170 from ResonantOS/codex/control-unquoted-click
+189d61e|2026-06-20|Dr. Tom|Parse unquoted Agent Control click targets
+e7e2731|2026-06-20|Dr. Tom|Merge pull request #169 from ResonantOS/codex/windows-browser-host-stability
+896cb67|2026-06-20|Dr. Tom|Stabilize Windows browser host click test
+170d585|2026-06-20|Dr. Tom|Merge pull request #168 from ResonantOS/codex/alpha-release-hardening
+a21f563|2026-06-20|Dr. Tom|Support Windows user home in delegation bridge
+7829e95|2026-06-20|Dr. Tom|Use portable extension packaging in alpha CI
+8192506|2026-06-20|Dr. Tom|Bound browser host test teardown
+3558bfe|2026-06-20|Dr. Tom|Normalize engineer runner paths on Windows
+b0c7805|2026-06-20|Dr. Tom|Fix Windows health test import
+5437bfd|2026-06-20|Dr. Tom|Stabilize Windows browser-first tests
+461cec3|2026-06-20|Dr. Tom|Restore Windows command shim execution
+c8b96e1|2026-06-20|Dr. Tom|Normalize Windows CLI adapter output
+3279a56|2026-06-20|Dr. Tom|Fix Windows browser-first portability
+fe13bc5|2026-06-20|Dr. Tom|Stabilize Windows frontend boot test
+b40d11f|2026-06-20|Dr. Tom|Fix remaining alpha CI platform gates
+528fc93|2026-06-20|Dr. Tom|Fix alpha CI portability gates
+32fbcfb|2026-06-20|Dr. Tom|Use installed Chrome for browser host CI
+70e38d0|2026-06-20|Dr. Tom|Use direct Playwright install in alpha CI
+e994b14|2026-06-20|Dr. Tom|Fix alpha CI browser host setup
+8945200|2026-06-20|Dr. Tom|Run alpha build on pull requests
+b2d9982|2026-06-20|Dr. Tom|Harden alpha release validation
+b3329ab|2026-06-20|Dr. Tom|Merge pull request #167 from ResonantOS/alpha-mvp-readiness
+36ee0f1|2026-06-20|David Bitecofer|provider: add local smoke workflow scripts
+9aaae7c|2026-06-20|vrondelli|memory: authenticate memory-service writes
+a3c5597|2026-06-16|ajfurey|Worked on making CSS more scalable
+9979b44|2026-06-20|Dr. Tom|fix(browser-first): stabilize integration validation
+9b01618|2026-06-14|vrondelli|browser-first: Default to an ephemeral profile and contain CDP exposure
+2f67197|2026-06-08|GLaDOS|fix(bridge): WebSocket support in open-proxy via raw net.Socket
+e529bfd|2026-06-08|FoxSwallow|Ship ResonantOS Browser Layer v0.1.14 — bridge race fix + iframe rewrite
+c6ab3c7|2026-06-13|David Bitecofer|fix(chat): clear run state on failures
+011c127|2026-06-13|David Bitecofer|fix(archive): open main chat from living archive
+2ea9968|2026-06-20|Dr. Tom|fix(ci): rescope security hardening checks for alpha surfaces
+436adc3|2026-06-14|vrondelli|docs: Add SECURITY.md, security workflow, and SHA-pin policy
+3027099|2026-06-14|vrondelli|security: Add the security pipeline with supply-chain and runtime-hardening checks
+a932e89|2026-06-16|ajfurey|delegation: fix letter-spacing on hero h2 and empty-state headings
+240c927|2026-06-13|David Bitecofer|fix(provider): ignore stale routed model selections
+cd6f6a5|2026-06-14|vrondelli|browser-first: Contain artifactsDir and unpacked-extension paths
+ff25748|2026-06-14|vrondelli|sdk: Gate add-on systemSlots and mark missing provenance as unreviewed
+2e92724|2026-06-19|Dr. Tom|feat: add Z.AI GLM fallback route
+2bfca65|2026-06-14|vrondelli|subprocess: Add opt-in scoped env (env_clear + per-runtime allowlist)
+78cbc24|2026-06-14|vrondelli|subprocess: Pin the native-bridge load root and gate terminal passthrough
+5e99eb3|2026-06-14|vrondelli|provider: Consent-fence LAN discovery and bound provider request paths
+e4fe8e6|2026-06-14|vrondelli|memory: Authenticate memory-service writes and default to readonly
+1d234fc|2026-06-14|vrondelli|subprocess: Move provider secrets and prompts off subprocess argv
+2217508|2026-06-13|David Bitecofer|feat(provider): add local smoke workflow scripts
+92d4404|2026-06-13|David Bitecofer|fix(electron): isolate app state root and atomic writes
+970270f|2026-06-12|Dr. Tom|Add code-forge-architecture to gitignore — kept local only
+868eaec|2026-06-12|Dr. Tom|Remove incomplete code-forge-architecture docs — not ready for release
+c51d78e|2026-06-10|Dr. Tom|docs: Code Forge architecture collection PDF
+e6348af|2026-06-10|Dr. Tom|docs: Code Forge architecture collection — all versions, patent, Libre Forge study, Founders Panel, Hot Rod Rig run
+5d4f6f5|2026-06-09|GLaDOS|fix(memory): import memoryMetric in main-workspace-memory error handler
+7dbce47|2026-06-08|Dr. Tom|docs: Team status report for 2.0.0-alpha — full project overview for dev team
+d713f4f|2026-06-08|Dr. Tom|docs: Add PR guide for Vlad's security pipeline contribution
+c02eda2|2026-06-08|Dr. Tom|docs: Hot Rod Rig v4.0 — full 14-lens adversarial verification system
+c8ec52a|2026-06-08|Dr. Tom|docs: Add Nightwatch operation review reports (security, architecture, browser-build)
+579af6d|2026-06-08|Dr. Tom|fix: Resolve archive preflight race condition, log browser errors, test state filter
+6c79d3c|2026-06-08|Dr. Tom|security: Add Obsidian read capability gates, validate extension sender, package extension in CI
+5a535b1|2026-06-08|Dr. Tom|Merge branch 'nightwatch/wave2-cost-posture' into dev
+b0176c9|2026-06-08|Dr. Tom|Merge branch 'nightwatch/wave2-dynamic-sections' into dev
+1c0136c|2026-06-08|Dr. Tom|feat: Wire costPosture into provider route resolution
+0c4f15f|2026-06-08|Dr. Tom|refactor: Dynamic shell section IDs and clean Hermes kernel references
+5ba89d7|2026-06-08|Dr. Tom|fix: Add credential validation to route resolver and reorder default fallback chains
+8b2e982|2026-06-08|Dr. Tom|Merge branch 'nightwatch/wave1-codex-csp' into dev
+8a42b36|2026-06-08|Dr. Tom|Merge branch 'nightwatch/wave1-bridge-creds' into dev
+f844890|2026-06-08|Dr. Tom|Merge branch 'nightwatch/wave1-state-split' into dev
+6a4d3d5|2026-06-08|Dr. Tom|security: Harden bridge token delivery and enforce credential vault boundary
+93d81fe|2026-06-08|Dr. Tom|security: Remove dangerous Codex sandbox bypass and set real Tauri CSP
+ccd2ff1|2026-06-08|Dr. Tom|security: Filter save_runtime_state to prevent renderer capability self-grant
+0d53876|2026-06-08|Dr. Tom|security: Add browser-first to CI triggers and enforce CEF sandbox in production
+47290f2|2026-06-08|Dr. Tom|feat: Integrate Resonant Context SDK into browser-first side panel extension
+6f5dab3|2026-06-08|Dr. Tom|fix: Remove dead 'primary-unavailable' routing enum variant
+3779da8|2026-06-08|Dr. Tom|fix: Upgrade vitest to ^4.1.7 (CVE GHSA-5xrq-8626-4rwp)
+cff4100|2026-06-08|Dr. Tom|docs: Add Hot Rod audit reports and red team security analysis
+8758c0b|2026-06-08|Dr. Tom|docs: Rewrite README, add CONTRIBUTING and CHANGELOG from Hot Rod P0 session
+2069221|2026-06-02|Manolo Remiddi|Fix browser-first side panel control routing
+2aacc9f|2026-06-02|Manolo Remiddi|Harden browser control page targeting
+9ed9a4e|2026-06-02|Manolo Remiddi|Extract wallet DAO audit markdown helpers
+bc4cb7f|2026-06-02|Manolo Remiddi|Harden readable browser tab selection
+dda7238|2026-06-02|Manolo Remiddi|Extract side panel chat hydration
+7dfebb3|2026-06-02|Manolo Remiddi|Preserve Augmentor side panel boundary
+0f05491|2026-06-02|Manolo Remiddi|Preserve side panel chat boundary
+a383801|2026-06-02|Manolo Remiddi|Extract control approval actions
+f74d363|2026-06-02|Manolo Remiddi|Harden agent control live readiness check
+3c1fa2b|2026-06-02|Manolo Remiddi|Extract control preflight decision slot
+495cef6|2026-06-02|Manolo Remiddi|Extract control tab target helpers
+44e14d0|2026-06-02|Manolo Remiddi|Harden browser handoff monitor flow
+a42b816|2026-06-02|Manolo Remiddi|Fix rail navigation workspace state
+296974d|2026-06-02|Manolo Remiddi|Extract settings provider catalog
+4b11168|2026-06-02|Manolo Remiddi|Extract Living Archive workspace layout
+0aedc69|2026-06-02|Manolo Remiddi|Extract content control ref store
+0d4bb9f|2026-06-02|Manolo Remiddi|Extract content inline action helpers
+3cc57c1|2026-06-02|Manolo Remiddi|Hide blank draft chats from rail
+7ad8f66|2026-06-02|Manolo Remiddi|Extract content field safety policy
+c5c93a2|2026-06-02|Manolo Remiddi|Extract side panel browser action lock
+151d585|2026-06-02|Manolo Remiddi|Extract memory workspace DOM helpers
+8b51ffb|2026-06-02|Manolo Remiddi|Extract side panel DOM contract
+e42e9ae|2026-06-02|Manolo Remiddi|Extract browser control overlay module
+32e023c|2026-06-02|Manolo Remiddi|Maintain Electron experimental host parity
+35dabe0|2026-06-02|Manolo Remiddi|Harden Living Archive MCP test transport
+50d804f|2026-06-02|Manolo Remiddi|Update shared MiniMax defaults to M3
+4098e28|2026-06-02|Manolo Remiddi|Stabilize browser-first release slice
+590aae9|2026-06-01|Manolo Remiddi|Canonicalize source file selections
+aa49482|2026-06-01|Manolo Remiddi|Validate memory source roots for file operations
+b743a08|2026-06-01|Manolo Remiddi|Harden source file path selection
+987bfcf|2026-06-01|Manolo Remiddi|Verify source snapshot integrity before reuse
+9418bff|2026-06-01|Manolo Remiddi|Guard source file artifact version recording
+90f6719|2026-06-01|Manolo Remiddi|Report full move rollback failure details
+bad7d4b|2026-06-01|Manolo Remiddi|Report source root rollback conflicts
+e213d74|2026-06-01|Manolo Remiddi|Clean move import root after automatic rollback
+1d03a1e|2026-06-01|Manolo Remiddi|Document directory-safe move rollback
+970d1f3|2026-06-01|Manolo Remiddi|Report directory rollback cleanup conflicts
+b17bb21|2026-06-01|Manolo Remiddi|Document audited move import behavior
+e8f7906|2026-06-01|Manolo Remiddi|Preserve empty directories during move import
+c501e72|2026-06-01|Manolo Remiddi|Require explicit clean rollback for deregistration
+28f4009|2026-06-01|Manolo Remiddi|Exercise partial rollback in move bridge self-test
+eba3f73|2026-06-01|Manolo Remiddi|Document rollback deregistration guard
+41a2588|2026-06-01|Manolo Remiddi|Keep moved source registered after partial rollback
+6307339|2026-06-01|Manolo Remiddi|Warn when move import preserves source folder
+492e1c6|2026-06-01|Manolo Remiddi|Document move rollback audit status
+4f543e6|2026-06-01|Manolo Remiddi|Record move rollback state in manifest
+056ef39|2026-06-01|Manolo Remiddi|Cover rollback with preserved move source files
+cd8c6b6|2026-06-01|Manolo Remiddi|Assert move import cleanup status through bridge
+175dd31|2026-06-01|Manolo Remiddi|Preserve new source files during move import cleanup
+d8f85fa|2026-06-01|Manolo Remiddi|Update move import guardrail documentation
+9c0860f|2026-06-01|Manolo Remiddi|Restore current file after failed move mutation
+c4c067c|2026-06-01|Manolo Remiddi|Record move import preflight fingerprints in manifests
+0e7a1fe|2026-06-01|Manolo Remiddi|Avoid move import artifacts for stale preflights
+30710d6|2026-06-01|Manolo Remiddi|Recheck source bytes during move imports
+3bde874|2026-06-01|Manolo Remiddi|Use content hashes for move import preflight fingerprints
+0694096|2026-06-01|Manolo Remiddi|Extend move import bridge stale preflight test
+bdc73b0|2026-06-01|Manolo Remiddi|Bind move imports to approved preflight fingerprints
+a921c18|2026-06-01|Manolo Remiddi|Create attachment stubs for unsupported intake files
+5e6d87a|2026-06-01|Manolo Remiddi|Fix source intake self-test reporting
+1d0b89a|2026-06-01|Manolo Remiddi|Add Living Archive single file intake
+7950500|2026-06-01|Manolo Remiddi|Store Living Archive source snapshots
+b551e4c|2026-06-01|Manolo Remiddi|Document source intake batch limits
+cc8be6d|2026-06-01|Manolo Remiddi|Expose promoted pages from review queue
+28eb8f0|2026-06-01|Manolo Remiddi|Preview promoted memory pages
+9e78bb3|2026-06-01|Manolo Remiddi|Harden Living Archive source intake
+7e8e43a|2026-06-01|Manolo Remiddi|Inspect source artifacts from archive review
+0117f02|2026-06-01|Manolo Remiddi|Clarify browser intake artifact previews
+31dd3e9|2026-06-01|Manolo Remiddi|Route main workspace intake commands
+fbc6d86|2026-06-01|Manolo Remiddi|Show review handoff after archive captures
+7803e78|2026-06-01|Manolo Remiddi|Guide browser captures to archive review
+a839d39|2026-06-01|Manolo Remiddi|Add artifact review queue handoff
+3829e48|2026-06-01|Manolo Remiddi|Clarify Living Archive review next actions
+3b0670e|2026-06-01|Manolo Remiddi|Extract side panel overlay stop router
+ab4adf2|2026-06-01|Manolo Remiddi|Show current browser job action in main workspace
+af111bc|2026-06-01|Manolo Remiddi|Show browser job completion summaries
+17fa991|2026-06-01|Manolo Remiddi|Harden Augmentor web capability contract
+729e539|2026-06-01|Manolo Remiddi|Make browser job recovery guidance actionable
+d57cc14|2026-06-01|Manolo Remiddi|Cover natural OpenCode delegation acceptance
+5ffe73e|2026-06-01|Manolo Remiddi|Surface browser job blocker guidance in main workspace
+499dd39|2026-06-01|Manolo Remiddi|Cover governed natural delegation acceptance
+cba416d|2026-06-01|Manolo Remiddi|Cover browser-first news search behavior
+b34ac99|2026-06-01|Manolo Remiddi|Route browser job pause and continue from main workspace
+2607e36|2026-06-01|Manolo Remiddi|Add browser-first acceptance coverage
+a898f6e|2026-06-01|Manolo Remiddi|Expose accessible field labels to Agent Control
+5bb6855|2026-06-01|Manolo Remiddi|Read open shadow DOM in browser control
+56aedea|2026-06-01|Manolo Remiddi|Expose browser job approval cards in main workspace
+714af48|2026-05-31|Manolo Remiddi|Stabilize browser-first execution surfaces
+8f07a02|2026-05-31|Manolo Remiddi|Document Living Archive wiki lint
+ca595db|2026-05-31|Manolo Remiddi|Add durable Living Archive wiki lint
+150b917|2026-05-31|Manolo Remiddi|Make Logician Paperclip fixture portable
+f874805|2026-05-31|Manolo Remiddi|Harden Living Archive move-on-import
+a813343|2026-05-31|Manolo Remiddi|Validate Hermes CLI execution handoff
+039165e|2026-05-31|Manolo Remiddi|Harden add-on execution and approval controls
+7074c4d|2026-05-31|Manolo Remiddi|Test browser job approval focus
+fb57e5c|2026-05-31|Manolo Remiddi|Stabilize browser-first memory and agent control
+ff3c0f3|2026-05-30|Dr. Tom|docs: update PR-PLAN links to point to ResonantOS org repo
+e140358|2026-05-30|Dr. Tom|docs: add PR contribution plan for Manolo — 10 PRs, merge order, and what each one does
+3c26a6d|2026-05-30|Manolo Remiddi|Improve browser profile settings and native controls
+968e6b8|2026-05-30|Manolo Remiddi|Keep browser composer actions on one row
+5e29122|2026-05-30|Manolo Remiddi|Fix browser intent routing and composer notices
+f4e1a45|2026-05-30|Manolo Remiddi|Assert expanded native browser commands
+c4b963e|2026-05-30|Manolo Remiddi|Expand native browser menu commands
+5b80066|2026-05-30|Manolo Remiddi|Assert native context menu contract
+f9f7412|2026-05-30|Manolo Remiddi|Fix browser composer controls and native permissions
+38b89ce|2026-05-30|Manolo Remiddi|Harden native browser smoke tests
+06449db|2026-05-30|Manolo Remiddi|Restore composer context panel and native browser commands
+25baca3|2026-05-30|Manolo Remiddi|Improve browser composer and provider fabric
+6bd1ec9|2026-05-29|Manolo Remiddi|Complete Living Archive LLM Wiki workflow
+88ab612|2026-05-29|Manolo Remiddi|Harden chat parity and browser job locks
+f523708|2026-05-29|Manolo Remiddi|Align main and sidebar chat surfaces
+85f351e|2026-05-29|Manolo Remiddi|Add secure autofill guard
+b32a959|2026-05-29|Manolo Remiddi|Align browser chat composer controls
+4ad228d|2026-05-29|Manolo Remiddi|Add draft approval queue
+a66d77d|2026-05-29|Manolo Remiddi|Add focused browser job monitor
+fc8fdeb|2026-05-29|Manolo Remiddi|Unify browser chat composer controls
+a5b61fd|2026-05-29|Manolo Remiddi|Resume browser jobs in place
+4e087d2|2026-05-29|Manolo Remiddi|Record browser control preflight provenance
+971bef2|2026-05-29|Manolo Remiddi|Harden browser chat clipboard parity
+9fd04c6|2026-05-29|Manolo Remiddi|Add preflight safe-task trust
+ed36eb3|2026-05-29|Manolo Remiddi|Add clickable browser control preflight
+4e114b5|2026-05-29|Manolo Remiddi|Add browser control preflight
+193ce6e|2026-05-29|Manolo Remiddi|Align chat startup and toolbar affordances
+5f0bd7b|2026-05-29|Manolo Remiddi|Clarify current browser permissions
+552831b|2026-05-29|Manolo Remiddi|Strengthen durable browser job recovery
+526a90c|2026-05-29|Manolo Remiddi|Align main and sidebar chat controls
+dbeaced|2026-05-29|Manolo Remiddi|Audit browser permission changes
+b83eb47|2026-05-29|Manolo Remiddi|Export history searches to archive intake
+38751a0|2026-05-29|Manolo Remiddi|Improve inline assistant editing
+0172339|2026-05-28|Manolo Remiddi|Remove legacy chat history rail
+353c1a7|2026-05-28|Manolo Remiddi|Improve browser history activity search
+a10cfa8|2026-05-28|Manolo Remiddi|Add browser permission manager
+fe42604|2026-05-28|Manolo Remiddi|Align browser-first chat surfaces
+3a2ca58|2026-05-28|Manolo Remiddi|Add browser research trail intake
+1f55e9a|2026-05-28|Manolo Remiddi|Add browser page summary intake flow
+d3ed96e|2026-05-28|Manolo Remiddi|Improve Agent Control monitor trace UX
+18823d5|2026-05-28|Manolo Remiddi|Align browser chat surfaces
+d2ba683|2026-05-28|Manolo Remiddi|Fix browser chat rendering and startup state
+8114bcc|2026-05-28|Manolo Remiddi|Tighten Augmentor browser intent routing
+4e83c88|2026-05-28|Manolo Remiddi|Request archive review after browser intake
+dc273df|2026-05-28|Manolo Remiddi|Save browser context to archive intake
+6653b4b|2026-05-28|Manolo Remiddi|Show archive review pipeline timeline
+eadac15|2026-05-28|Manolo Remiddi|Revise archive drafts after verifier findings
+51e6d63|2026-05-28|Manolo Remiddi|Preview archive verifier artifacts
+bf9cfa0|2026-05-28|Manolo Remiddi|Add semantic archive verifier
+f99454d|2026-05-28|Manolo Remiddi|Gate archive promotion with verifier
+757cb5f|2026-05-28|Manolo Remiddi|Restore promoted archive pages
+41ef2cc|2026-05-28|Manolo Remiddi|Show archive promotion history
+60bddb3|2026-05-28|Manolo Remiddi|Merge promoted archive sections
+6e2f6d9|2026-05-28|Manolo Remiddi|Promote archive drafts to wiki
+6c6588e|2026-05-28|Manolo Remiddi|Preview archive draft artifacts
+57265e0|2026-05-28|Manolo Remiddi|Draft archive wiki updates from reviews
+04ea671|2026-05-28|Manolo Remiddi|Add archive review lifecycle actions
+5b8e69d|2026-05-28|Manolo Remiddi|Surface archive review queue
+8226bb3|2026-05-28|Manolo Remiddi|Add actionable browser artifacts
+d73eaae|2026-05-28|Manolo Remiddi|Add browser artifacts workspace
+34ddaa8|2026-05-28|Manolo Remiddi|Add browser job report export
+02c0de6|2026-05-28|Manolo Remiddi|Harden live browser screenshot capture
+255239f|2026-05-28|Manolo Remiddi|Add browser consent history manager
+037ae53|2026-05-28|Manolo Remiddi|Add scoped browser task consent
+0020799|2026-05-28|Manolo Remiddi|Seed browser continuation context
+19d5488|2026-05-28|Manolo Remiddi|Add browser job replay and continue
+59f1016|2026-05-28|Manolo Remiddi|Improve browser agent control transcript
+aa3fe66|2026-05-28|Manolo Remiddi|Expand browser-first workspaces and provider settings
+3f278a1|2026-05-27|Manolo Remiddi|Make Hermes workspace full canvas
+46347bf|2026-05-27|Manolo Remiddi|Embed Hermes dashboard workspace
+c20ae6a|2026-05-27|Manolo Remiddi|Fix main workspace chat and add Hermes workspace
+b418024|2026-05-27|Manolo Remiddi|Add browser-first main workspace
+5cf785e|2026-05-27|Manolo Remiddi|Add browser chat workspaces
+7f2ba76|2026-05-27|Manolo Remiddi|Improve agent control overlay feedback
+f30bfc8|2026-05-26|Manolo Remiddi|Route shopping tasks to agent control
+91b4ccd|2026-05-26|Manolo Remiddi|Document browser-first feature inventory
+8050982|2026-05-26|Manolo Remiddi|Add browser action target bubbles
+d2e3bda|2026-05-26|Manolo Remiddi|Improve agent control progress UI
+4428902|2026-05-26|Manolo Remiddi|Extract site permission store
+2440171|2026-05-26|Manolo Remiddi|Extract control page observer
+f995154|2026-05-26|Manolo Remiddi|Extract control run state
+c0a0093|2026-05-26|Manolo Remiddi|Extract control reporting service
+a91a33b|2026-05-26|Manolo Remiddi|Extract control step executor
+edd925d|2026-05-26|Manolo Remiddi|Extract control planning service
+7e85ce5|2026-05-26|Manolo Remiddi|Extract tab context controller
+3617728|2026-05-26|Manolo Remiddi|Extract message action controller
+925defe|2026-05-26|Manolo Remiddi|Extract chat turn controller
+c743b18|2026-05-26|Manolo Remiddi|Extract composer controller
+257ff0b|2026-05-26|Manolo Remiddi|Extract app command handlers
+83a87e8|2026-05-26|Manolo Remiddi|Extract side panel command router
+65de3b8|2026-05-26|Manolo Remiddi|Extract browser job store
+80766f5|2026-05-26|Manolo Remiddi|Extract side panel monitor renderers
+ea8dd2c|2026-05-26|Manolo Remiddi|Extract side panel chat renderers
+cc873b3|2026-05-26|Manolo Remiddi|Extract browser chat session store
+df24005|2026-05-26|Manolo Remiddi|Extract browser page actions
+c850093|2026-05-26|Manolo Remiddi|Extract browser agent control runner
+d382760|2026-05-26|Manolo Remiddi|Extract browser agent control planner
+eb5b748|2026-05-26|Manolo Remiddi|Split browser side panel policy modules
+4d6cad9|2026-05-26|Manolo Remiddi|Harden browser-first bridge boundary
+8e34722|2026-05-26|Manolo Remiddi|Add browser app install and keyboard shortcuts
+d1cb13c|2026-05-26|Manolo Remiddi|Hide browser context dock by default
+eb181e9|2026-05-26|Manolo Remiddi|Fix browser chat clipboard and status dock
+fd637b4|2026-05-26|Manolo Remiddi|Fix browser chat composer keyboard shortcuts
+59847bf|2026-05-26|Manolo Remiddi|Fix browser chat composer shortcuts
+cdcad4b|2026-05-26|Manolo Remiddi|Debounce browser control overlay stop
+256f3fd|2026-05-26|Manolo Remiddi|Strengthen persistent browser control overlay
+77484a1|2026-05-26|Manolo Remiddi|Keep browser control overlay active during tasks
+1630106|2026-05-26|Manolo Remiddi|Add browser agent control overlay
+94d200c|2026-05-26|Manolo Remiddi|Add browser task consent boundary
+adc3bfb|2026-05-26|Manolo Remiddi|Add durable browser job monitor
+4ada412|2026-05-26|Manolo Remiddi|Add browser assistant parity controls
+589c6bd|2026-05-26|Manolo Remiddi|Build browser-first agent control layer

@@ -1,0 +1,297 @@
+== ManoloRemiddi
+ManoloRemiddi	User	Manolo Remiddi	27	Explorer at the intersection of art and emerging technology. As an experimental composer and systems architect, I am now documenting my journey building a true 	https://manoloremiddi.com/
+anthill-documents	true	2022-06-22		Anthill Dao Whitepaper
+artificialacceleration	false	2026-10-19		Frontier model release and capability tracker — nine labs, every release dated, rebuilt automatically from the Artificial Analysis API.
+augmentatist-archetypes	false	2026-01-09		
+augmentor-agent	false	2026-10-19	NOASSERTION	Augmentor Agent Desktop and Browser. Public source under MIT with Augmentor Resale Restriction: free use and modification; resale requires permission.
+augmentor-agent-app	false	2026-09-23		Archived historical Augmentor downloads. Active source, issues and future releases: ManoloRemiddi/augmentor-agent.
+augmentor-app-sdk	false	2026-10-08	NOASSERTION	SDK for integrating trusted applications with Augmentor through DSH
+augmentor-dsh-extension-plugin	false	2026-09-23	MIT	Archived standalone Browser and historical releases. Active Desktop + Browser project: ManoloRemiddi/augmentor-agent.
+augmentoragent.com	false	2026-10-05	MIT	Official website for Augmentor Agent — real browser hands for DeepSeek Harness
+autoresearch	true	2026-03-26		AI agents running research on single-GPU nanochat training automatically
+bdollar-smartcontracts	true	2021-02-05	MIT	Solidity implementation of the Basis Cash Protocol 
+claw-code	true	2026-04-01		The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools that make real things done. Now writing in Rust using oh-my-codex.
+cosmodestiny.com	false	2026-05-17		Cosmodestiny — A Philosophy of Resonance and Becoming. Static HTML mirror of cosmodestiny.com
+deepseek-harness	true	2026-08-17	MIT	DeepSeek Harness: Everything is a Plugin.
+deepseek-harness-plugins	false	2026-09-23	MIT	DeepSeek Harness plugins by Manolo Remiddi: downloads, installation guides and compatibility notes.
+dsh-adaptive-reasoning	false	2026-10-03	MIT	Automatic per-request reasoning for DeepSeek Harness, without extra model calls or GPU keep-alive.
+DSH-Metafolder-Plugin	false	2026-09-13	MIT	Coloured workspace and session groups for the DeepSeek Harness sidebar.
+dsh-model-picker-augmented	false	2026-10-03	MIT	Search, pin and hide models in DeepSeek Harness; refresh provider catalogues.
+dsh-prompt-library	false	2026-09-13	MIT	Reusable prompts in DeepSeek Harness Settings, with standalone SQLite storage or an existing Augmentor service.
+dsh-steering	false	2026-09-14	MIT	Responsive steering during model output in DeepSeek Harness; preserves queued follow-ups and running tools.
+hermes-browser-extension-1	true	2026-07-31	MIT	Browser-native side panel for Hermes Agent — connect web context to your local Hermes runtime.
+jailbreak_llms	true	2024-12-24	MIT	[CCS'24] A dataset consists of 15,140 ChatGPT prompts from Reddit, Discord, websites, and open-source datasets (including 1,405 jailbreak prompts).
+kora	true	2026-02-02	MIT	Implementation of a Solana relayer. Provides a lib and cli crate in order to enable signing experiences on Solana
+openclaw	true	2026-02-02	MIT	Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
+rea	true	2026-10-11	MIT	Reverse engineer anything with agents, from app behavior down to native binaries.
+ResonantDAO.com	false	2026-10-19		ResonantDAO public website
+ResonantOS-Open-Toolkit	false	2026-02-08	NOASSERTION	An open-source toolkit for architecting a symbiotic human-AI partnership. Based on the principles of the Resonant Operating System (ResonantOS).
+thefool.im	false	2026-09-27		
+== tompennington
+tompennington	User	Dr. Tom	105	Just having fun.  Not a doctor. :)	https://www.linkedin.com/in/tompenningtongeorgia/
+2.0.0-alpha	false	2026-06-12		
+agentgo-Experimental	true	2026-05-16	GPL-3.0	An AI orchestrator, local & cloud AI management and production utility for research, code, writing and so on. 
+akashic-records-Experimental	true	2026-08-03		a library of good content.
+animations-Experimental	true	2023-01-06		Here is where I will put all the code I use to generate my explanatory videos!
+Archon-Experimental	true	2026-04-22	MIT	The first open-source harness builder for AI coding. Make AI coding deterministic and repeatable.
+autoagent-Experimental	true	2026-09-06		autonomous harness engineering
+autoresearch-Experimental	true	2026-03-16		AI agents running research on single-GPU nanochat training automatically
+awesome-deepseek-agent-Experimental	true	2026-06-17		
+BitJEPA	false	2026-03-29	MIT	Self-Supervised Visual Learning with 1.58-bit Ternary Weights. First ternary I-JEPA model.
+BitNet-Experimental	true	2026-03-10	MIT	Official inference framework for 1-bit LLMs
+boxbeyond-kutiraai-Experimental	true	2025-08-31	MIT	KutiraAI is an open-source AI platform designed to run locally on your own premises. Combining the warmth of ‘Kutira’ (Sanskrit for cottage) with advanced AI technology, it provides secure, private, and efficient AI without relying on the cloud.
+brainstack-Experimental	true	2026-05-07		Memory kernel stack for Hermes agent
+buzz-Experimental	true	2026-07-22	Apache-2.0	A hive mind communication platform
+camofox-browser--Experimental	true	2026-04-29	MIT	Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.
+Campaign-Runner-Experimental	true	2026-05-20	NOASSERTION	
+ChatbotX-Experimental	true	2026-07-08	NOASSERTION	The open-source ManyChat alternative, built for AI 🤖
+cinnamon-Experimental	true	2026-03-10	GPL-2.0	A Linux desktop featuring a traditional layout, built from modern technology and introducing brand new innovative features. 
+claw-code-Experimental	true	2026-04-08		The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.
+ClawRouter-Experimental	true	2026-03-10	MIT	The agent-native LLM router for OpenClaw. 41+ models, <1ms routing, USDC payments on Base & Solana via x402.
+codex-relay-Experimental	true	2026-06-20	Apache-2.0	Use Codex from your phone while the real work stays on your computer.
+codexify-core-Experimental	true	2026-05-22	NOASSERTION	
+cole-medin-ai-coding-Experimental	true	2026-06-25		An Open Knowledge Format (OKF) bundle of Cole Medin's best AI-coding videos — mount it in any AI second brain and search it deeply. Transcript-verified.
+csm-Experimental	true	2026-07-08	MIT	Cross-Session Memory (CSM) — a continuity runtime that turns raw tool events into durable beliefs. Full pipeline: work journal → compaction → experience packets → candidate scanning → belief promotion → advisory living state → recall quality telemetry + advisory scoring. Safety gates at every stage. 29 tools. PostgreSQL + pgvector or SQLite. 
+DeepSeek-Coder-Experimental	true	2025-11-11	MIT	DeepSeek Coder: Let the Code Write Itself
+DeepSpec-Experimental	true	2026-06-30	MIT	DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms
+dflash-console-Experimental	true	2026-09-23	AGPL-3.0	Local Windows control panel for llama-server and DFlash speculative-decoding engines.
+docs-Experimental	true	2026-05-20		
+enterpriserag-bench-Experimental	true	2026-05-08	MIT	Dataset and benchmark for RAG on company internal documents.
+fable-method-Experimental	true	2026-07-09	MIT	The Fable Workflow: how Claude Fable 5 worked, distilled into skills any model can run, with the eval that keeps it honest. Think / act / prove.
+fastapi-crudrouter-Experimental	true	2023-11-01	MIT	A dynamic FastAPI router that automatically creates CRUD routes for your models
+FedHarv-Experimental	true	2026-04-02	NOASSERTION	FedHarv: a scholarly article harvesting and packaging tool for DSpace 8
+flash-Experimental	true	2026-09-23	MIT	
+freetoken-Experimental	true	2026-09-04	Apache-2.0	FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.
+get-shit-done-Experimental	true	2026-05-19	MIT	A light-weight and powerful meta-prompting, context engineering and spec-driven development system for Claude Code by TÂCHES.
+gitfut-Experimental	true	2026-07-03	MIT	Your GitHub stats, turned into a World-Cup-style player card 
+grain-Experimental	true	2026-07-13	MIT	Build Reasonable Applications with Clojure in the World of Natural Language Programming
+graphiti-Experimental	true	2026-03-04	Apache-2.0	Build Real-Time Knowledge Graphs for AI Agents
+hermes-workspace-Experimental	true	2026-05-06	MIT	Native web workspace for Hermes Agent — chat, terminal, memory, skills, inspector.
+humanoid-workbench-Experimental	true	2026-06-18	CC0-1.0	Open source prior art disclosure — specialized workstation systems for AI robotic systems
+hyperdimensionalAI-Experimental	true	2025-02-02	MIT	Hyperdimensional AI 4th dimension.
+hyperedit-Experimental-HAL9000-Mod	true	2026-02-18		AI-powered video editor with auto-GIF generation
+improve-Experimental	true	2026-06-15	MIT	Use your most capable model to audit your codebase and write plans for cheaper models to execute.
+kbot-Experimental	true	2025-11-07	MIT	The K-Scale Robot
+kernel-images-Experimental	true	2026-07-15	Apache-2.0	Browsers-as-a-service for automations and web agents
+knowledge-catalog-Experimental	true	2026-06-21	Apache-2.0	Google Cloud Knowledge Catalog Tools and Samples
+larql-Experimental	true	2026-06-17	Apache-2.0	
+linkedin_ssi_booster-Experimental-	true	2026-05-02	MIT	An adaptive continually learning hybrid RAG Agent for content, curation, and persona growth. It combines spaCy-based NLP, a persona graph, BM25 retrieval, a truth gate, confidence scoring, and local memory to generate, curate, rank, and route posts with more control than a basic AI writer workflow.
+llms-local-Experimental	true	2026-06-10		 list of awesome platforms, tools, and resources   run for LLMs locally
+logseq-Experimental	true	2026-04-29	AGPL-3.0	A privacy-first, open-source platform for knowledge management and collaboration. Download link:  http://github.com/logseq/logseq/releases. roadmap: https://logseq.io/p/NX4mc_ggEV
+mcp-server-Experimental	true	2026-06-22	Apache-2.0	MCP server for Claude Code — exposes Yocoolab feedback threads and design selections as tools
+md-converter-Experimental	true	2026-06-20	MIT	Themed Markdown → styled, shareable HTML. A static SvelteKit web app: pick a theme, tweak it live, share a link, or deep-link any public GitHub doc with ?url=.
+mempalace-Experimental	true	2026-04-08	MIT	The highest-scoring AI memory system ever benchmarked. And it's free.
+meta-balena-Experimental	true	2026-03-09		A collection of Yocto layers used to build balenaOS images
+microllama-Experimental	true	2025-08-11	Apache-2.0	Micro Llama is a small Llama based model with 300M parameters trained from scratch with $500 budget
+mixture-of-cognitive-reasoners-Experimrntal	true	2026-02-07		Mixture of Cognitive Reasoners: Modular Reasoning with Brain-Like Specialization
+MLKem-Experimental	true	2026-07-15	Apache-2.0	Experimental C# implementation of ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) 
+model-shelf-Experimental	true	2026-05-27	MIT	Model Shelf is a local-first model resolver that helps AI agents and scripts find model weights on your own storage before downloading from Hugging Face. Point it at an internal SSD, NAS, external SSD, or Thunderbolt DAS, and it returns the best local path for GGUF, MLX, safetensors, Ollama, vLLM, and other local AI workflows.
+n8n-claw-Experimental	true	2026-06-19		OpenClaw-inspired autonomous AI agent built entirely in n8n. Adaptive RAG-powered memory, Skills via MCP templates, Expert Agents with delegated sub-agents, proactive task management, media understanding - self-hosted with one setup script
+n8n-Experimental	true	2026-05-02	NOASSERTION	Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.
+npm-security-tooling-Experimental	true	2026-03-24	MIT	One-command security setup for npm/pnpm/yarn/bun. Automated hardening + vulnerability scanning.
+OB1-Experimental	true	2026-04-21	NOASSERTION	Open Brain — The infrastructure layer for your thinking. One database, one AI gateway, one chat channel — any AI plugs in. No middleware, no SaaS.
+OmniRoute-Experimental	true	2026-06-25	MIT	Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.
+open-design-Experimental	true	2026-06-17	Apache-2.0	🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.
+openclaw-Experimental	true	2026-02-26	MIT	Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 
+opencode-workspace-Experimental	true	2026-06-05	MIT	Bundled multi-agent orchestration harness for OpenCode. One install, complete control.
+OpenSpec-Experimental	true	2026-07-02	MIT	Spec-driven development (SDD) for AI coding assistants.
+OpenViking-Experimental	true	2026-03-20	Apache-2.0	OpenViking is an open-source context database designed specifically for AI Agents(such as openclaw). OpenViking unifies the management of context (memory, resources, and skills) that Agents need through a file system paradigm, enabling hierarchical context delivery and self-evolving.
+otio-kit-Experimental	true	2026-09-22	AGPL-3.0	Compile an editing brief (or LLM output) into a timeline file (OTIO) that imports cleanly into DaVinci Resolve — verified on Free 21.1 Linux and Windows. AGPL-3.0.
+paperclip-Experimental	true	2026-04-22	MIT	Open-source orchestration for zero-human companies
+pi-mono-Experimental	true	2026-04-29	MIT	AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods
+pixel-pal-adventure-Experimental	true	2026-06-27		
+powerinfer-Experimental	true	2026-05-11	MIT	High-speed Large Language Model Serving for Local Deployment
+project-historian-Experimental	true	2026-09-07	NOASSERTION	
+project-nomad-Experimental	true	2026-06-17	Apache-2.0	Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.
+pxpipe-Experimental	true	2026-07-19	MIT	cut Fable 5 token usage by rendering text context as images
+resonant-agent-Experimental-	true	2026-05-13	MIT	
+resonant-os-design-tokens-Experimental	true	2026-06-01	MIT	ROSI — Resonant OS Interface Design Tokens. W3C spec color tokens, CSS custom properties, and visual design system guide for the ResonantOS community.
+resonant-vcs-Experimental	true	2026-06-09		
+resonantos-alpha-Experimental	true	2026-03-20	NOASSERTION	ResonantOS Alpha: Experimental forking of the Crustaceans 
+resonantos-vnext-Experimental	false	2026-05-31		
+rtk-Experimental	true	2026-05-13	Apache-2.0	CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies
+semantic-router-Experimental	true	2026-03-10	Apache-2.0	System Level Intelligent Router for Mixture-of-Models at Cloud, Data Center and Edge
+sigils-library-Experimental	true	2026-05-14		A repository of Sigils: standardized modules for agentic intelligence and system automation. This library provides a tiered architecture for agent capabilities, ranging from foundational utility scripts to complex recursive reasoning loops.
+siyuan-Experimental	true	2026-04-20	AGPL-3.0	A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
+skills-Experimental	true	2026-05-12	MIT	Skills for Real Engineers. Straight from my .claude directory.
+spec-kit-Experimental	true	2026-03-20	MIT	💫 Toolkit to help you get started with Spec-Driven Development
+stereOS-Experimental	true	2026-03-04	NOASSERTION	A Linux based operating system hardened and purpose built for AI agents
+super-coder-Experimental	true	2026-06-20	MIT	Forkable shell substrate for a single code repository — DB-backed identity, memory, roadmap, content; harness-agnostic boot. We build the data layer, we rent the harness.
+superpowers-Experimental	true	2026-07-06	MIT	An agentic skills framework & software development methodology that works.
+surrealdb-Experimental	true	2026-07-06	NOASSERTION	A scalable, distributed, collaborative, document-graph database, for the realtime web
+swarm-forge-Experimental	true	2026-09-07		A simple tool for coordinating several AI agents.
+symphony-Experimental	true	2026-07-22	Apache-2.0	Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents.
+tandem-Experimental	true	2026-03-19	MIT	Your AI coworker for any folder: local-first, secure by design, cross-platform, and built for supervised automation.
+tapes-Experimental	true	2026-03-10	AGPL-3.0	Transparent telemetry collector for agents
+tastecheck-Experimental	true	2026-09-28	MIT	Frontend taste + ship-gate toolkit for AI coding agents — evidence-backed UI quality. v1.7.0 (measured FP/FN corpus, decision cards, gestalt-first; npm @puenteworks/tastecheck)
+temporal-Experimental	true	2026-05-02	MIT	Temporal service
+the-promptnomicon-Experimental	true	2026-05-21	MIT	Documentation on Best Practices of AI Assisted Coding 
+thonny-Experimental	true	2026-03-06	MIT	Python IDE for beginners
+trace-share-Experimental	true	2026-02-25	Apache-2.0	
+turnstone-Experimental	true	2026-03-17	NOASSERTION	
+== vrondelli
+vrondelli	User	Vladimir Rondelli	21	AI Governance Architect and Researcher	https://cyberalchemyai.github.io/Arcanum/
+billet-validator	false	2023-01-24		An API that validates billets typeable lines.
+blog-api	false	2025-09-05		
+bolina	true	2026-08-16	Apache-2.0	Bolina — encrypted overlay network and messaging protocol for humans and agents (Zig, Apache 2.0)
+codemir	false	2021-05-29		Programação é um exercício constante de refatoramento.
+discounts-service	false	2023-01-24		
+eda-tools	false	2023-01-04		A package containing tools for event driven architecture
+firebase-functions-architecture	false	2024-07-15		This repository demonstrates a scalable architecture using Firebase Functions and Firestore.
+images-compressor	false	2023-01-24		A API that download images from URLs and compress it in zip format 
+levo-site	false	2026-04-16		
+linkedLists	false	2018-05-19	MIT	A package that contains doubly and singly linkedLists
+living-archive	false	2026-07-09	MIT	memory system for agents
+Mentoria	false	2021-07-12		
+Multi-objective-optimization-algorithm	false	2024-06-13	MIT	This project provides a comprehensive framework for multi-objective optimization and simulation of performance metrics.
+objais-research	false	2026-10-14		Independent Objais market, acquisition and revenue research with illustrative mathematical models.
+poker-course	false	2026-02-03		
+poker-team	false	2026-08-31		
+portaria-facil	false	2024-06-02	MIT	a project for better delivery management for condos
+quake-logs-parser	false	2024-08-02	MIT	Generate reports for quake log files using observers
+resonantos-vnext	true	2026-06-05		ResonantOS vNext: modular desktop shell and add-on SDK for human-AI collaboration.
+user-management	false	2025-04-11		This project is a **Role-Based Access Control (RBAC)** system
+weather-recommendations	false	2019-10-15		An API that gives Recommendations based on city weather
+== Arfitz
+Arfitz	User	Aron	0	I am Aron and I do AI stuff — building, creating, testing, and publishing.	
+== simongonzalezdc
+simongonzalezdc	User	Simon Gonzalez De Cruz	98	AI systems builder. Multi-agent architectures, MCP servers, creative coding.  Building at KyaniteLabs. Consulting at PuenteWorks\r\n\r\n	https://www.linkedin.com/in/simongonzalezdc
+.github	false	2026-10-15	MIT	Default community health files and agent-law doctrine for Simon Gonzalez De Cruz repositories
+2.0.0-alpha	true	2026-10-02	MIT	
+a2a-directory	true	2026-09-02	MIT	Agent2Agent (A2A) – AgentCards, Servers, Clients, Docs
+achiote-food-memory-researcher	false	2026-09-02	NOASSERTION	A folder-based AI food-memory researcher. Drop it into a Claude project and it investigates a half-remembered family dish from a sound-alike, a smell, or a color, then hands you one small taste to test the memory.
+anything-llm	true	2026-09-02	MIT	Stop renting your intelligence. Own it with AnythingLLM. Everything you need for a powerful local-first agent experience 
+ast-grep	true	2026-09-02	MIT	⚡A CLI tool for code structural search, lint and rewriting. Written in Rust
+awesome-agent-skills-heilcheng-submissions	true	2026-09-02	MIT	Tutorials, Guides and Agent Skills Directories
+awesome-agent-skills-kodustech-submissions	true	2026-09-02		Curated list of Agent Skills for AI coding agents like Claude Code, Codex and Cursor.
+awesome-agent-skills-skillmatic-submissions	true	2026-09-02	CC0-1.0	The definitive resource for Agent Skills - modular capabilities revolutionizing AI agent architecture
+awesome-ai-tools	true	2026-09-02	MIT	A curated list of Artificial Intelligence Top Tools
+awesome-claude-code-codex-smb	true	2026-09-02		Curated list of tools, skills, plugins, and MCP servers for Claude Code
+awesome-claude-skills-behi-codex-smb	true	2026-09-02		A curated list of Claude Skills.
+awesome-claude-skills-codex-smb	true	2026-09-02		A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows
+awesome-cli-apps	true	2026-09-02		🖥 📊 🕹 🛠 A curated list of command line apps
+awesome-cli-apps-in-a-csv	true	2026-09-02		The largest Awesome Curated list of command line programs (CLI/TUI) with source data organized into CSV files
+awesome-codex-cli	true	2026-09-02	CC0-1.0	Curated list of 150+ tools, skills, subagents & plugins for OpenAI Codex CLI
+awesome-codex-cli-milisp	true	2026-09-02	CC0-1.0	A curated list of awesome resources, tools, and tutorials for OpenAI Codex CLI
+awesome-codex-skills-web-typography	true	2026-09-02		A curated list of practical Codex skills for automating workflows across the Codex CLI and API.
+awesome-copilot-skill-submissions	true	2026-09-02	MIT	Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.
+awesome-mcp-servers	true	2026-09-25	MIT	A collection of MCP servers.
+awesome-mcp-servers-1	true	2026-09-02	MIT	A comprehensive collection of Model Context Protocol (MCP) servers
+awesome-rabbit-r1	true	2026-09-02	MIT	A list of resources for hacking on the Rabbit r1
+awesome-shell	true	2026-09-02	CC0-1.0	A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.
+chance	false	2026-09-26		chance — multi-source randomness studio (web console)
+codex-small-business-skills	false	2026-09-02	Apache-2.0	Apache-2.0 Codex port of Anthropic's Small Business skills: AI workflows for cash flow, invoices, CRM, support, marketing, hiring, and weekly business rhythm.
+complyos	false	2026-09-19	NOASSERTION	L&D Compliance & Learning Operations MCP Server
+context-mode	true	2026-09-02	NOASSERTION	Context window optimization for AI coding agents. Sandboxes tool output, 98% reduction. 15 platforms
+cookiepilot	false	2026-10-15	Apache-2.0	CookiePilot — AI-native analytics & execution cockpit for Cookie Chain (SVM). Wallet connect, live network pulse, charts, swaps, NL console.
+core	true	2026-09-02	Apache-2.0	:house_with_garden: Open source home automation that puts local control and privacy first.
+Creator-kit	false	2026-09-02	MIT	Open-source creator workflow kit for prompts, publishing systems, reusable assets, and AI-assisted content production.
+CyberWitches	false	2026-10-17	MIT	Hex Compiler (CyberWitches) - browser idle/incremental game where you compile fading magic into hexadecimal code. Vanilla JS, PWA, esbuild, Tone.js audio.
+dev-learning-archaeologist	false	2026-10-14	MIT	Forensic git-history learning diagnostic for AI-assisted developers. ICM specialist that turns commit history into evidence-backed study plans and HTML reports.
+EvoLab	false	2026-10-10	MIT	Open-source browser evolution simulator and artificial-life game for genetics, natural selection, biomes, AI species, and ecosystem data visualization.
+Farm-to-Stars	false	2026-10-13	MIT	Cozy browser strategy and civilization simulation game with farming, township growth, seasons, PWA systems, and visual regression tests.
+fleetline	false	2026-09-26	MIT	Fleetline — command an agent fleet by voice (MCP + Agent Skills). Zero cloud, zero keys, deterministic.
+focus.sh	false	2026-06-04	MIT	Terminal-first focus & task manager in Go — ADHD-friendly attention management, rituals, and a fast TUI dashboard.
+fulcrum	true	2026-09-02	NOASSERTION	What if Openclaw, Vibe Kanban, Vibetunnel, and Dokploy had a baby?
+gajae-code	true	2026-09-02	MIT	Gajae Code MVP
+GameStory-Lab	false	2026-10-11	Apache-2.0	AI-assisted game design document (GDD) generator: mechanics, lore, branching story, consistency validation, and exports for indie developers.
+google_workspace_mcp	true	2026-09-02	MIT	Control Gmail, Google Calendar, Docs, Sheets, Slides, Chat, Forms, Tasks, Search & Drive with AI - Comprehensive Google Workspace / G Suite MCP Server & CLI Tool
+grocery-flywheel	false	2026-09-26	MIT	Local-first grocery and household replenishment engine: inventory runway, depletion tracking, preference-aware restock planning, sourcing research, and dashboard generation.
+handoff-cms	false	2026-09-26	Apache-2.0	Open-source agentic client-handoff CMS with human-governed publication, bilingual accessibility, adapters, audit, CLI, API, and MCP.
+healthadvocate	false	2026-10-06	MIT	Open-source patient-advocacy web app (FastAPI) that turns confusing medical info into clear questions and next steps, with local-LLM support.
+hermes-agent	true	2026-10-01	MIT	The agent that grows with you
+knotify	false	2026-09-06	MIT	Native macOS mission-control notification panel for AI-agent supervisors — severity-ranked, honest-state, fully local. Pure AppKit, MIT.
+kyanite.sh	false	2026-10-15	MIT	Unified suite of terminal-first creative tools: focus, noise, syntax, prism — built with Go and Charm
+ledgerhand	false	2026-10-09	MIT	Ledgerhand — governed spending for agent fleets: a chain-anchored approval quorum where multiple AI agents hold one spending key safely.
+llama.cpp	true	2026-09-02	MIT	LLM inference in C/C++
+mcp-atlassian	true	2026-09-02	MIT	MCP server for Atlassian tools (Confluence, Jira)
+mcp-registry	true	2026-09-07	MIT	Official Docker MCP registry 
+mcp2cli	true	2026-09-02	MIT	Turn any MCP, OpenAPI, or GraphQL server into a CLI — at runtime, with zero codegen
+noise.sh	false	2026-06-06	MIT	Local-first AI-assisted songwriting studio in Go - rapid lyric capture, voice dictation, local LLM support, and a Bubble Tea terminal workflow.
+oh-my-claudecode	true	2026-09-02	MIT	Teams-first Multi-agent orchestration for Claude Code
+oh-my-codex	true	2026-09-16		OmX - Oh My codeX: Your codex is not alone. Add hooks, agent teams, HUDs, and so much more.
+oh-my-pi	true	2026-09-02	MIT	⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
+Peekaboo	true	2026-09-02	MIT	Peekaboo is a macOS CLI & optional MCP server that enables AI agents to capture screenshots of applications, or the entire system, with optional visual question answering through local or remote AI models.
+picocache	true	2026-09-02	MIT	Persistent memoization drop-in replacement for functools.lru_cache
+Print-OS	false	2026-10-13	MIT	Open-source 3D printing farm management and AI CAD workspace for maker studios: printer inventory, job queues, cost tracking, FastAPI/Streamlit ops, and Next.js 3D design.
+Prism.sh	false	2026-06-06	MIT	Terminal color-palette design tool in Go - interactive TUI, color theory, and WCAG 2.1 contrast validation for accessible palette generation.
+promptic	true	2026-09-02	Apache-2.0	90% of what you need for LLM app development. Nothing you don't.
+Pushing-Dispatch_	true	2026-09-20	MIT	Multi-model dispatch for AI coding agents. One harness, many models.
+quorumproof	false	2026-09-26		QuorumProof — agent-fleet quorum over Attestcoin-verified cross-chain facts. Creditcoin BUIDL CTC 2026 Fall (AI track): 3-agent deliberation, signed QuorumCertificates, CC3-ready registry. Tests 10/10, /bin/zsh spend.
+qwen38-mtp	true	2026-09-02	Apache-2.0	One llama.cpp flag unlocks +33-39% decode speed for Qwen3.8-27B on consumer GPUs. The MTP head already ships inside your GGUF. Recipe, paired benchmarks, probe tool.
+resonant-a2a-bridge	false	2026-10-01	Apache-2.0	A2A 0.2.5 (agent2agent) server exposing the ResonantOS opencode delegation: any A2A client submits text missions and retrieves result artifacts over loopback JSON-RPC — serve-only, operator-token, external sends stay forbidden by the delegation boundary.
+resonant-authority	false	2026-10-01	MIT	A self-contained POSIX add-on that implements contextual authority — the ResonantDAO whitepaper's mechanism: weight comes from verified outcomes in exactly the dimensions a question declares salient, never blanket scores, capital, or activity. Non-canonical community implementation for ResonantOS 2.0.0-alpha.
+resonant-checkyourself	false	2026-10-01	NOASSERTION	CheckYourself production-readiness check for AI-built apps, as a ResonantOS add-on: read-only scan/score/backlog/validate — committed .env files, secret-shaped strings, dangerous sinks, missing tests or CI, ranked P0-P3. Byte-identical vendored engine, thin stdlib-only local service.
+resonant-constable	false	2026-10-01	NOASSERTION	Injection defense + contest for the ResonantOS ecosystem — the injection-by-construction doctrine, a labeled corpus of known public attack classes on synthetic fixtures, and a stdlib-only reference checker (CLI + local service). Claims nothing about any deployed system's security. MIT.
+resonant-context-kit	false	2026-10-01	MIT	Context-kit as a ResonantOS local-service add-on — style steering, sandboxed munch reads, output dieting served hash-pinned over localhost. Companion to resonant-context-notes. MIT.
+resonant-context-notes	false	2026-09-01	MIT	Measured context-engineering notes for local-model agent builders — context diets, re-reads, token math — adapted from KyaniteLabs/context-kit with every number's validity label intact. The canonical repo stays the instrument; these notes restate its measured results for harness builders.
+resonant-delegation-bench	false	2026-10-01	MIT	Pre-registered 'safe to hand off my work' benchmark for local AI models, as a ResonantOS add-on: certified confidence floors, blinded dual-judge, hidden-test oracles, a sabotage safety cell, and walk-away autonomy tiers — run against YOUR local endpoint. MIT, stdlib-only, validator 0/0.
+resonant-epoch	false	2026-10-01	Apache-2.0	Local time-estimation service for ResonantOS: PERT, COCOMO II, Monte Carlo schedule simulation, sprint forecasting, and business-day math — the read-only estimation mathematics of @kyanitelabs/epoch v0.5.0 as a loopback add-on.
+resonant-evidence-fixtures	false	2026-10-01	Apache-2.0	Fixture run receipt, not economy validation: kinocut's record-contract patterns proving the ResonantOS contribution economy's own contribution-edge fixtures pass with every effect field held at none — reward, authority, policy, governance, payout.
+resonant-evo-x2-ec-notes	false	2026-10-01	MIT	Field notes for Linux on AMD Strix Halo mini-PCs (GMKtec EVO-X2 class): the embedded-controller register map, register validation without vendor docs, and the re-assertion patterns that hold fan and power-mode settings. Adapted from KyaniteLabs/evo-x2-ec (MIT).
+resonant-field	false	2026-10-15	MIT	Resonant Field: a proposed extension to the ROSI design system within ResonantOS, with customizable materials and interactive review prototypes.
+resonant-gifts	false	2026-10-01	MIT	An honest index of the Resonant gift line: 17 community gifts by Kyanite Labs for the ResonantOS ecosystem — measurement instruments, doc gifts, and add-ons. One line per gift, canonical sources linked and always winning.
+resonant-grocery-flywheel	false	2026-10-01	MIT	Local-first, human-approves-everything grocery replenishment as a ResonantOS add-on: runway analysis, fail-closed dietary checks, and a next-cart draft that structurally cannot check out. No accounts, no cloud, no telemetry — nothing leaves your machine.
+resonant-innerscape	false	2026-10-01	MIT	Local-only ResonantOS add-on exposing Innerscape's personal-growth-OS agent surface (brief, module map, reflective planning) to your local AI agents: zero capabilities, zero persistence, zero egress — your journaling and emotional data never touch it.
+resonant-kiln	false	2026-09-02	MIT	The Kiln — measured overnight economics of local-AI batch work on a mini-PC: machine minutes, cents of electricity, and the human presence that is the real cost line. Every number script-backed with provenance. A community gift by Kyanite Labs for the ResonantOS ecosystem.
+resonant-local-27b-story	false	2026-09-01	MIT	Running a 27B local LLM on a Strix Halo mini-PC: the complete measured story — context ladders, KV-cache verdict, frozen config, measured knees — adapted from KyaniteLabs' published benchmarks for local-AI builders.
+resonant-mtp-recipe	false	2026-10-01	MIT	Multi-token prediction on a mini-PC: the measured +33-39% llama.cpp decode recipe for Qwen3.8-27B, adapted from the canonical community table (sudoingX/qwen38-mtp) with our Strix Halo bench numbers.
+resonant-repo-archaeologist	false	2026-10-01	MIT	Repo-history learning archaeologist as a ResonantOS add-on: deterministic Phase 0+1 engine (ground-truth + excavation) + the 12 methodology docs served for agent-judgment phases. Vendored sha256-pinned (VENDOR-PINS.json).
+resonant-stack-bench	false	2026-10-01	MIT	Honest local-AI benchmark as a ResonantOS add-on: measures a local llama-server endpoint (prefill/decode tokens-per-second, true-token sizing, ambient-noise A/B) and writes plain JSON results you own. MIT, Python stdlib-only, passes the ResonantOS add-on validator with zero errors and zero warnings.
+resonant-tastecheck	false	2026-10-01	MIT	TasteCheck frontend craft and ship-gate skill pack as a ResonantOS local-service add-on — serves the vendored MIT pack's 20 design-quality gate skills (typography, spacing, color, a11y, slop checks) over localhost. Runs no checks headless, fakes nothing. Python stdlib-only.
+resonant-unstuck-coach	false	2026-10-01	MIT	ResonantOS add-on: deterministic coach router over the hash-pinned MIT Unstuck Coach method — executive-function accessibility that turns a messy stuck point into one reflection, one next move, one tiny check. A routing layer, not an LLM; local, Python stdlib-only.
+resonantos-economy-research	true	2026-09-02		Governed research tower for ResonantOS economy resilience
+resonantos-website	true	2026-09-02		
+simongonzalezdc	false	2026-10-19	MIT	Public GitHub profile README for Simon Gonzalez De Cruz: AI systems builder, MCP server developer, Kyanite Labs founder, and product-minded automation engineer.
+small-business-operator-pack	false	2026-09-02	MIT	11 self-contained skills covering the full small-business journey: idea to transition. Works without QuickBooks. MIT.
+steel-browser	true	2026-09-02	Apache-2.0	🔥 Open Source Browser API for AI Agents & Apps. Steel Browser is a batteries-included browser sandbox that lets you automate the web without worrying about infrastructure.
+strix-halo-fan-control	true	2026-09-02	MIT	Direct EC fan control for AMD Strix Halo (Ryzen AI Max+ 395) mini-PCs — validated on the Bosgame M5. Fixes sustained-load thermal throttling.
+superteam-hackathon-submissions	true	2026-09-24		
+Syntax.sh	false	2026-06-06	MIT	Terminal fiction-writing and worldbuilding tool in Go - distraction-free TUI editor for authors, with project, character, and scene organization.
+tradesflow	false	2026-09-01	MIT	Portfolio prototype for asset-heavy field-service operators: equipment records, service notes, deficiencies, and billing handoffs.
+typescript-sdk	true	2026-09-25	NOASSERTION	The official TypeScript SDK for Model Context Protocol servers and clients
+unstuck-coach	false	2026-09-01	MIT	Unstuck Coach: executive-function accessibility coach that turns a messy stuck point into one humane next move.
+voice-to-scultpure-app	false	2026-09-02	MIT	Voice-to-Sculpture Studio - turn voice into 3D-printable sculptures in the browser with real-time audio analysis, WebLLM, and STL/GLB export.
+voltagent	true	2026-09-02	MIT	AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework
+web-typography-skill	false	2026-09-01	Apache-2.0	Apache-2.0 AI-agent skill for readable, accessible, high-performance web typography.
+== Resonant-Jones
+Resonant-Jones	User	Resonant Jones	36		
+2.0.0-alpha	true	2026-08-01	MIT	
+2Sweet-to-Eat	false	2026-05-08		
+AsYouAre	false	2026-04-18		Allison's site. 
+blackboxai-1751943986859	false	2025-07-08		Built by https://www.blackbox.ai
+boxbeyond-kutiraai	true	2026-10-10	MIT	KutiraAI is an open-source AI platform designed to run locally on your own premises. Combining the warmth of ‘Kutira’ (Sanskrit for cottage) with advanced AI technology, it provides secure, private, and efficient AI without relying on the cloud.
+Brandy_and_Vanilla	false	2025-12-27		Grandmas Treats
+BrowserAI	true	2025-06-15	MIT	Run local LLMs like llama, deepseek-distill, kokoro and more inside your browser
+Cockroach_Continuity	false	2026-08-08	MIT	A continuity ledger for resilient AI systems. Tracks identity, memory provenance, approvals, and runtime state so intelligence can survive restarts, provider changes, and infrastructure failures using CockroachDB as a globally consistent foundation.
+Codex-Runner	false	2026-09-03	NOASSERTION	Deterministic, receipt-driven orchestration for repository audits, bounded AI task execution, Guardian preflight workflows, and Pi Loop diagnostics, with explicit authority boundaries and human-governed control.
+Codexify	false	2026-10-19	NOASSERTION	Local First AI Operating System with Longterm Memory, MultiAgent Orchestration, Persona Switching and more.
+Codexify-Core	false	2026-06-28	NOASSERTION	
+codexify.dev	true	2026-10-17	MIT	Bring Codex inside ChatGPT for unlimited vibecoding —  no Codex quota used!
+cutscribe-studio	false	2026-08-17	MIT	Intelligent Video Clipping Tool
+DreamSketcher	false	2025-06-12		
+guardian-mobile	false	2025-05-23		 React Native client for Companion-based AI interfaces in the ThreadSpace ecosystem.
+Guardian_Mirror_body	false	2025-06-28		Guardian Body Mirror — Local HealthKit adapter, ephemeral graphs, narrative skims. Raw data stays sovereign, only meaning persists.
+hyperframes	true	2026-09-08	Apache-2.0	Write HTML. Render video. Built for agents.
+KinPod_v2.git-	false	2025-07-08		
+MemoryOS	true	2025-07-23		memory core
+MIDISequencerAUv3	true	2019-11-28	MIT	A great start point for making AUv3 MIDI sequencer apps.
+Nexus-Kimi	false	2025-07-21		
+omiai	true	2025-07-11	NOASSERTION	OmiAI is an opinionated AI SDK for Typescript that auto-picks the best model from a suite of curated models depending on the prompt. It includes built-in o3-like reasoning, curated tools, internet access and full multi-modal support with almost all media types
+paddler	true	2026-07-19	Apache-2.0	Open-source LLM/VLM load balancer and serving platform for self-hosting LLMs (and VLMs) at scale 🏓🦙 Alternative to projects like llm-d, Docker Model Runner, etc but with less moving parts and simple deployments built around ggml ecosystem. Runs on CPU and GPU.
+personaplex-mlx	true	2026-02-18	MIT	PersonaPlex on Apple Silicon: an MLX port of NVIDIA’s full-duplex speech-to-speech model with realtime local/web modes and offline WAV inference.
+pixel-pal-adventure	false	2026-10-10		
+PulseOS-lite	false	2025-06-06		Memory-Based Backend for Resonant Constructs
+PulseSeed_ChatUI	false	2025-07-03		A lightweight, modular chat interface for connecting to local and cloud-based AI inference endpoints.
+Rapid-MLX	true	2026-06-26	Apache-2.0	The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama, 0.08s cached TTFT, 100% tool calling. 17 tool parsers, prompt cache, reasoning separation, cloud routing. Drop-in OpenAI replacement. Works with Claude Code, Cursor, Aider.
+Resonant-Skills	false	2026-08-01	Apache-2.0	A growing library of open-source AI agent skills, delegation patterns, and verification-first workflows for Codex, ChatGPT, Pi, and beyond.
+resonantos-vnext	true	2026-05-25		ResonantOS vNext: modular desktop shell and add-on SDK for human-AI collaboration.
+ritual_engine	true	2025-07-19	MIT	The AI toolkit for the AI developer
+Runtime-Familiars	false	2026-10-12	NOASSERTION	
+spynel	true	2026-09-14	MIT	One chat, unlimited AI orchestration.
+Sweet_Treats	false	2026-05-08		Website for a Bakery
+The-Continuity-Atlas	false	2026-08-13	MIT	Documentation on Best Practices of AI Assisted Coding 
+whooshd	false	2026-10-02		Memory-aware local inference broker for Apple Silicon
+== ResonantOS-Hub
+{"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}gh: Not Found (HTTP 404)
+{"message":"Not Found","documentation_url":"https://docs.github.com/rest/repos/repos#list-repositories-for-a-user","status":"404"}gh: Not Found (HTTP 404)

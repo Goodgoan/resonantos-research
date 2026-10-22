@@ -1,0 +1,266 @@
+# gh api repos/ResonantOS/2.0.0-alpha/pulls?state=closed&base=dev (paginated), fetched 2026-10-20
+534	2026-10-18T04:39:25Z	tompennington	feat(harness): plugin-free DeepSeek Harness authentication (native mode)
+532	2026-10-13T22:45:10Z	tompennington	fix(extension): research-trail activity label matches an unconfirmed save (#227)
+530	unmerged	tompennington	cert: batch 2026-10-13 integration of #525 #524 #527 #526 #529 (do not merge)
+529	2026-10-13T20:39:13Z	tompennington	docs(addons): turn DSH telemetry off in the ResonantOS setup (#519)
+527	2026-10-13T20:38:58Z	tompennington	docs(addons): record the DSH 0.2 live-pass result
+526	2026-10-13T20:39:05Z	tompennington	feat(extension): save research trails as reviewable archive artifacts (#227)
+525	2026-10-13T20:38:43Z	tompennington	test(demo): make a harness-demo stall name its cause in the log
+524	2026-10-13T20:38:51Z	tompennington	fix(harness): parse the DSH model catalog in the shape DSH actually sends
+522	2026-10-07T03:04:43Z	tompennington	security(extension): redact bearer and basic credentials before they reach the model
+520	2026-10-07T03:00:27Z	tompennington	test(live): prove the site-permission and inline-assistant gates fail closed in a real browser
+518	2026-10-07T03:00:23Z	tompennington	docs(addons): DSH 0.2 compatibility note for the harness adapter
+517	2026-10-07T03:00:19Z	tompennington	docs(governance): record that project automation sets Done on close
+516	2026-10-07T01:07:40Z	tompennington	security(extension): content script refuses inline actions when site permission is blocked or unreadable
+515	2026-10-07T19:35:04Z	dependabot[bot]	chore(deps): bump source-map-js from 1.2.1 to 1.2.2 in /apps/augmentor/test
+514	2026-10-07T01:06:59Z	tompennington	security(extension): refuse to act when site permissions cannot be read
+513	2026-10-06T23:28:19Z	tompennington	chore(deps): take source-map-js 1.2.2 for GHSA-68fv-2mgg-jv7q
+508	2026-10-02T23:48:47Z	tompennington	ci: run the harness swap demo in the live-certification lane
+507	2026-10-06T03:50:56Z	simongonzalezdc	fix: finish maintainer follow-ups and isolate CLI smoke tests
+506	2026-10-02T19:22:28Z	tompennington	fix(harness-demo): launch the Chrome CI installs, as the other live lanes do
+505	2026-10-02T19:21:47Z	tompennington	docs(addons): say what an operator does when the host refuses the saved registry
+504	2026-10-01T23:47:49Z	tompennington	Refuse a rolled-back harness registry at boot (host-local watermark) — HOLD until Victor's bundle
+503	2026-10-01T23:37:45Z	tompennington	feat(harness): require the caller's revision on install and remove
+502	2026-09-30T21:24:11Z	tompennington	chore(deps): move the transitive undici pin to 7.30.0
+501	unmerged	dependabot[bot]	build(deps): bump undici from 7.29.0 to 7.30.0
+500	2026-10-02T19:20:56Z	simongonzalezdc	examples: add loopback OpenAI-compatible relay for harness demo
+499	2026-09-30T23:45:38Z	tompennington	feat(harness): bind an adapter's real capability needs to what its manifest declares
+498	unmerged	dependabot[bot]	chore(deps): bump undici from 8.10.0 to 8.11.2 in /apps/augmentor/test
+497	2026-09-30T22:39:37Z	tompennington	docs(addons): record the managed macOS DSH as a supported demo configuration
+496	2026-09-30T21:35:54Z	tompennington	docs(contract): allow Proposed as an ADR decision status
+495	2026-09-30T19:03:42Z	tompennington	fix(harness-demo): take the bridge client's method and capability from the host route table
+494	2026-09-28T21:58:08Z	tompennington	fix(augmentor): run the lab git read through argv, not a shell string
+493	2026-09-26T03:50:38Z	tompennington	chore(opencode): move the version pin to 1.18.32
+492	2026-09-26T03:22:25Z	tompennington	test(live-sdk): attribute a lane failure to the scenario that caused it
+491	2026-09-25T05:34:08Z	tompennington	test(harness): pin two guards the audits found untested
+490	2026-09-24T21:14:44Z	tompennington	feat(harness): final live certification with host-signed receipts
+489	2026-09-24T19:45:07Z	tompennington	feat(harness): OpenAI-compatible wire adapter through the same host boundary
+488	2026-09-24T19:15:34Z	tompennington	feat(harness): one shared endpoint guard for every outbound harness connection
+487	2026-09-24T16:18:16Z	tompennington	feat(harness): replacement and revocation effects
+486	2026-09-24T15:59:22Z	tompennington	feat(harness): remaining consumers follow the host projection
+485	2026-09-24T21:14:52Z	vijayee	fix(harness): drop reasoning parts in DSH message content
+484	2026-09-24T05:01:31Z	tompennington	feat(harness): remove client governance authority
+483	2026-09-24T00:44:27Z	tompennington	feat(harness): first-run selection as a host transaction
+482	2026-09-23T23:14:22Z	tompennington	feat(harness): add-on mutations as host transactions
+481	2026-09-23T21:25:37Z	tompennington	feat(harness): map primary execution to agent-runtime consent
+480	2026-09-23T05:49:02Z	tompennington	feat(harness): host-owned registry and ownership boundary
+479	2026-09-23T04:19:26Z	tompennington	fix(augmentor): bump ws to 8.21.3 (GHSA-73jw-fp74-p77x)
+478	2026-09-23T09:17:18Z	tompennington	feat(harness): swap demo, documentation and release gate
+477	2026-09-23T09:00:24Z	tompennington	feat(harness): primary chat through the host and Stop
+476	2026-09-23T08:23:11Z	tompennington	feat(harness): React management workspace
+475	2026-09-23T08:17:52Z	tompennington	feat(harness): React transport and selector projection
+474	2026-09-23T08:12:30Z	tompennington	feat(harness): host-selected routes and composition
+473	2026-09-23T08:08:11Z	tompennington	feat(harness): provider fabric adapter and example manifests
+472	2026-09-23T08:02:53Z	tompennington	feat(harness): DSH adapter over the authenticated loopback transport
+471	2026-09-23T07:57:31Z	tompennington	feat(harness): named credential bindings and pinned DSH transport
+469	2026-09-23T04:20:44Z	tompennington	feat(harness): contract and canonical validation for harness add-ons
+468	2026-09-20T00:51:42Z	tompennington	fix(redaction): correct the base58 alphabet; remove the dead tracker
+467	2026-09-19T06:45:57Z	tompennington	fix(summary): redact the stored session summary artifact
+466	2026-09-19T06:41:52Z	tompennington	fix(workspace): never execute a redacted handoff command
+465	2026-09-19T04:21:01Z	tompennington	fix(bridge): reject credential-bearing bridge target URLs
+464	2026-09-19T01:09:34Z	tompennington	fix(extension): redact the stored page-history payload
+463	2026-09-18T23:32:28Z	tompennington	docs(matrix): record the evidence shipped in #454-#461
+461	2026-09-18T06:11:39Z	tompennington	fix(chat): keep archive and memory content out of the system role
+460	2026-09-18T03:17:34Z	tompennington	fix(browser-jobs): show and recover from a failed history read
+459	2026-09-18T01:25:32Z	tompennington	test(browser-jobs): make the Settings clear order assertion deterministic
+458	2026-09-17T23:41:00Z	tompennington	fix(browser-jobs): one guarded writer for browser job storage
+457	2026-09-17T21:05:27Z	tompennington	fix(browser-jobs): preserve saved history after failed reads
+456	2026-09-17T03:51:03Z	tompennington	fix(docs): validate Future List evidence and bound capability claims
+455	2026-09-17T03:50:53Z	tompennington	fix(chat): keep host page, tab, and attachment context out of system messages
+454	2026-09-17T03:50:45Z	tompennington	fix(browser-first): redact job records saved by the side-panel job store
+453	2026-09-26T00:45:44Z	vonstegen	docs(planning): SDK/DAO governance plan, demo report, and demo prompt
+452	2026-09-16T01:39:35Z	tompennington	docs(adr): ADR-038 — Guardian boundary and the Core-only invariant class
+451	2026-09-16T01:39:21Z	tompennington	fix(agent-control): make unrecognised form controls human-only
+450	2026-09-16T01:39:29Z	tompennington	feat(augmentor): transitional 0.1.33 release that moves the update channel
+449	unmerged	dependabot[bot]	build(deps): Bump fflate from 0.8.2 to 0.8.3 in /apps/augmentor
+448	2026-09-16T00:59:37Z	tompennington	build: consolidate Manolo's Augmentor into the repo and move to Node 24
+447	2026-09-13T01:42:58Z	tompennington	fix(bridge): govern the OpenCode boundary — extension never holds the server credential (#321)
+446	2026-09-11T21:53:26Z	tompennington	security(dev): opt-in page-key-gated bridge config delivery for the Vite dev page (#429 part 2)
+445	2026-09-11T02:35:58Z	vonstegen	test(agent-control-live): normalize non-array CDP /json responses
+443	2026-09-10T18:32:54Z	tompennington	fix(drift): bound the stalled-run check to a seven-day window
+441	2026-09-10T23:51:25Z	vonstegen	feat(addon-sdk): relocate src/sdk/addons to packages/addon-sdk behind re-export shims (resubmit of #327 relocation slice)
+439	unmerged	tompennington	test(ci): inert non-allowlisted workflow fixture — proves the hygiene…
+438	2026-09-10T05:11:01Z	tompennington	ci(security): gate PRs on the repository hygiene guard
+437	2026-09-09T05:48:48Z	tompennington	security(ci): default-branch drift monitor (#431)
+436	2026-09-09T01:09:15Z	tompennington	security(ci): workflow policy guard, project-sync environment binding, and incident residue cleanup (#431)
+435	unmerged	dependabot[bot]	build(deps-dev): bump vitest from 4.1.9 to 4.1.11
+434	2026-09-10T23:46:31Z	dependabot[bot]	build(deps): bump @vitest/mocker and vitest
+433	2026-09-10T23:45:52Z	tompennington	fix(shell): bootstrap capability tokens in the web-mode transport (#374)
+432	2026-09-08T21:43:00Z	tompennington	security(dev): deny the generated bridge config and user data in the Vite dev server (#429 part 1)
+430	2026-09-08T21:29:49Z	tompennington	security(ci): remove the secret-exfiltration workflow (github_actions_security.yml)
+428	2026-09-08T05:56:36Z	tompennington	feat(bridge): user-data list and delete routes for the add-on uninstall lifecycle (#180 task 5)
+426	2026-09-07T23:55:43Z	tompennington	feat(bridge): uninstall-audit and running-work routes for the add-on lifecycle (#180 task 4)
+425	2026-09-07T23:19:17Z	tompennington	feat(addons): Uninstall action, confirmation copy, and running-work guard (#180 task 3)
+424	2026-09-07T22:35:55Z	tompennington	feat(addons): uninstallAddon mutation and typed system-slot selection of record (#180 task 2)
+423	2026-09-07T20:40:20Z	tompennington	security(delegation): confine add-on delegation with sandbox-exec on macOS and audit every run (closes #326)
+422	2026-09-10T04:43:50Z	simongonzalezdc	extension: stack Bridge Target fields at narrow widths
+420	2026-09-10T04:45:15Z	simongonzalezdc	extension: separate and wrap Bridge Target action buttons
+418	2026-09-07T05:57:05Z	tompennington	refactor(bridge): route the runner's self-test invoker through the live evaluator (closes #415)
+417	2026-09-07T05:55:10Z	tompennington	feat(addons): `uninstalled` installation state — tombstone rebase, fresh-grant snapshot and reinstall (#180 task 1)
+416	2026-09-07T05:27:14Z	tompennington	security(bridge): refuse routes that declare no capability by default (closes #373)
+414	2026-09-07T05:27:51Z	tompennington	docs(addons): add-on uninstall + capability cleanup design note and build plan (#180 spike)
+413	2026-09-07T05:01:29Z	tompennington	fix(provider): local/keyless provider routing — custom endpoints survive edit; local OpenAI-compatible software is keyless (supersedes #318)
+412	2026-09-10T04:45:26Z	simongonzalezdc	extension: use native provider dialog keyboard lifecycle
+411	2026-09-10T04:45:04Z	simongonzalezdc	extension: align Settings control heights with density rules
+409	2026-09-07T04:22:25Z	tompennington	test(living-archive): tolerate coarse filesystem mtimes in the continuity assertion
+406	2026-09-07T04:23:01Z	tompennington	feat(browser-first): explicit @tab referencing — typeahead, provenance chips, scoped responses (#252, supersedes #334)
+405	2026-09-07T04:05:38Z	tompennington	build(release-scope): recognize docs/addons/resonant-extension-framework/ as approved documentation
+404	2026-09-10T23:52:13Z	simongonzalezdc	extension: align Settings component shapes with documented roles
+403	2026-09-07T04:01:12Z	tompennington	docs(release): declare the beta.2 exit criteria and gate (#402)
+400	2026-09-10T04:43:39Z	simongonzalezdc	extension: handle the StorageArea preference change event contract
+399	2026-09-10T04:44:43Z	simongonzalezdc	extension: guard identity saves until profile loading succeeds
+398	2026-09-10T04:43:02Z	simongonzalezdc	extension: preserve preferences when sync storage access fails
+394	2026-09-10T04:44:54Z	simongonzalezdc	test: assert Appearance status grouping without sibling ordering
+393	2026-09-10T04:44:33Z	simongonzalezdc	extension: distinguish bridge authorization and connectivity failures
+392	2026-09-10T04:44:22Z	simongonzalezdc	extension: expose both execution write and recovery errors
+391	2026-09-10T04:44:11Z	simongonzalezdc	extension: clarify Memory refresh feedback and strengthen save regression
+390	2026-09-10T04:44:00Z	simongonzalezdc	extension: reconcile routing status without losing drafts
+384	2026-09-07T00:07:06Z	simongonzalezdc	extension: preserve Saved Work search focus and drafts
+383	2026-09-07T00:06:51Z	simongonzalezdc	extension: recover failed Settings permission actions
+382	2026-09-07T00:06:35Z	simongonzalezdc	extension: preserve active browser jobs when history reads fail
+378	2026-09-06T23:57:48Z	tompennington	test(live): live SDK coverage lane; fix bridge shutdown record clearing; isolate lane runs (#350)
+376	2026-09-06T20:00:32Z	tompennington	ci(live): run the live-browser certification on bridge host and extension source changes (#350)
+375	2026-09-06T20:05:04Z	tompennington	security(bridge): every bridge route now requires a capability token (#346)
+372	2026-09-07T00:06:20Z	simongonzalezdc	extension: show diagnostics independently and retry unavailable checks
+371	2026-09-07T00:06:05Z	simongonzalezdc	extension: preserve routing drafts when another strategy saves
+370	2026-09-07T00:05:50Z	simongonzalezdc	extension: recover add-on execution settings after request failures
+369	2026-09-07T00:04:58Z	simongonzalezdc	extension: distinguish saved memory settings from refresh failures
+368	2026-09-07T00:10:55Z	simongonzalezdc	extension: retain active authentication when testing the same bridge
+367	2026-09-07T00:10:40Z	simongonzalezdc	extension: derive Settings bridge status from host health
+366	2026-09-07T00:04:17Z	simongonzalezdc	extension: preserve appearance when saving preferences fails
+365	2026-09-06T20:00:42Z	tompennington	chore(docs): validate only git-visible Markdown so ignored scratch cannot fake findings (#344)
+364	2026-09-06T20:00:38Z	tompennington	test(sdk): prove system-slot grant enforcement with negative cases (#349)
+363	2026-09-06T20:00:35Z	tompennington	security(ci): gate committed private key material in the security pipeline (#351)
+355	2026-09-06T02:19:55Z	tompennington	security(opencode): reaper matches opencode.exe wrappers; pid record has an owner; cockpit refusal never spawns (#343)
+354	2026-09-06T02:19:48Z	tompennington	security(sdk): partial provenance never defaults to trusted — registry, installation defaults, and policies (#345)
+353	2026-09-06T02:19:40Z	tompennington	docs: post-#339 accuracy follow-ups — cockpit wording, ADR-006 amendment, MEMORY_SERVICE_TOKEN (#348)
+352	2026-09-06T02:19:33Z	tompennington	security(extension): inline-action gate fails closed; single restricted-scheme source; denial path tested (#347)
+342	2026-09-05T18:13:25Z	tompennington	fix(extension): inline-action surface gate content script fails to parse — restricted-surface gate was fail-open (#341)
+340	2026-09-05T00:53:19Z	tompennington	build(deps): bump transitive browserslist to clear npm audit high advisories
+339	2026-09-05T00:56:37Z	tompennington	security(opencode): ephemeral port + bridge-minted credential for opencode serve (#320)
+338	2026-09-30T20:21:17Z	simongonzalezdc	security(security-pipeline): gate the string-to-shell spawn pattern in CI
+337	2026-09-10T23:51:12Z	simongonzalezdc	docs: add llms.txt — a machine-readable map of the repo for AI assistants
+335	2026-08-31T21:23:48Z	tompennington	build(release-scope): recognize packages/addon-sdk* and tsconfig.json as in-scope
+334	unmerged	vonstegen	feat(browser-first): tab-mention-typeahead controller and surface polish (closes #252)
+333	2026-08-31T17:40:32Z	simongonzalezdc	security(engineer-runner): quote-aware argv execution, no shell (issue #163 class)
+332	unmerged	simongonzalezdc	security(engineer-runner): quote-aware argv execution, no shell (issue #163 class)
+331	unmerged	vonstegen	feat(dev-panel): governed external-agent-runtime status panel
+330	unmerged	vonstegen	feat(deepseek-harness): bridge-side dispatcher + Phase 3.5 wire-up + real-smoke path
+329	unmerged	vonstegen	feat(addon.deepseek-harness): example external-agent-runtime manifest + cross-addon SDK F-tests
+328	unmerged	vonstegen	feat(addon-sdk-testing): ADR-040 §7 F1–F10 negative-test harness (B4 deliverable)
+327	unmerged	vonstegen	feat(ref): formalize Resonant Extension Framework V0.1 + ADR-040 + packages/addon-sdk/ soft cutover
+325	2026-08-23T02:10:27Z	tompennington	chore(release): prepare 2.0.0-beta.1 — changelog, release notes, version bump
+324	2026-08-23T01:48:19Z	tompennington	feat(augmentor): restart-safe session summary artifact (#222) — vonstegen, rebased to resolve conflict
+323	2026-08-22T00:58:17Z	tompennington	feat(opencode): honest external-tab cockpit handoff (Option A) — red-team CONFIRMed
+322	2026-08-22T00:40:43Z	tompennington	feat(opencode): governed-workspace parity — host + UI + shell, panel-reviewed
+319	2026-08-23T01:56:27Z	tompennington	security(browser-first): block protected system roots and ~/Library in move-import at any depth
+318	unmerged	vijayee	fix(provider): local/keyless provider routing and credential fixes
+317	2026-08-20T15:43:01Z	tompennington	security(#215): audit-trail for execution toggles, honest capability chips, tester cleanup docs
+316	2026-08-20T03:54:01Z	tompennington	feat(#230): visible Augmentor mode and permission-state explanation
+315	2026-08-20T03:52:53Z	tompennington	test(#228): Living Archive context continuity acceptance proof
+314	2026-08-20T03:51:18Z	tompennington	security(#240): graft boundary hardening from closed PR #288 with credit
+313	2026-08-20T03:45:25Z	tompennington	docs: refresh acceptance-matrix statuses to match closed issues
+312	2026-08-20T01:23:25Z	tompennington	fix(augmentor): harden summary templates per #307 review panel minors
+311	2026-08-20T00:26:45Z	tompennington	docs: land ROSI design system under docs/design with credit (#208)
+310	2026-08-19T23:46:02Z	tompennington	feat: Augmentor page-understanding fixture coverage (#218, landed from #292)
+309	unmerged	vonstegen	feat(augmentor): restart-safe session summary artifact (#222)
+308	2026-08-22T22:28:47Z	vonstegen	feat(augmentor): cross-tab comparison with deterministic tab provenance (#220)
+307	2026-08-20T00:52:40Z	vonstegen	feat(augmentor): summary/extraction templates with deterministic prompt contracts (#221)
+306	2026-08-19T01:57:01Z	tompennington	feat(augmentor): inline counterpoint and explain-jargon actions (#219, landed from #295)
+305	2026-08-19T01:45:55Z	tompennington	feat(augmentor): Alt+A/Alt+S shortcut contract with precise conflict handling (#241)
+304	2026-08-19T01:56:22Z	tompennington	docs: Augmentor workflow recipes (#237, landed from #291)
+303	2026-08-19T00:30:51Z	tompennington	feat(opencode): desktop-app-style live workspace — session browser + resume
+302	2026-08-18T23:58:28Z	tompennington	feat(agent-control): durable job trace with hardened redaction (#225)
+301	2026-08-18T23:57:11Z	tompennington	fix(agent-control): stop/cancel halts runs via the run's own job id (#226)
+300	2026-08-18T23:50:12Z	tompennington	test(agent-control): certification fixtures for safe/blocked actions (#223, reworked)
+299	2026-08-18T23:02:57Z	tompennington	fix(agent-control): close the #224 credential-alias bypass with token-exact matching
+298	2026-08-18T22:13:24Z	tompennington	fix(opencode): render live sessions from the v1.18 event schema
+297	2026-08-18T08:19:02Z	tompennington	fix(deps): resolve high-severity nanoid/undici audit advisories
+296	unmerged	vonstegen	feat(augmentor): Alt+A opens inline panel, Alt+S summarizes page with shortcut-conflict handling (#241)
+295	unmerged	vonstegen	feat(augmentor): inline counterpoint and explain-jargon actions with restricted-surface gate (#219)
+294	unmerged	vonstegen	feat(agent-control): stop/cancel clears approval and marks in-flight step cancelled (#226)
+293	unmerged	vonstegen	fix(security): Agent Control public-submit approval is a non-bypassable human handoff (#240 Part 3)
+292	unmerged	vonstegen	feat: Augmentor page understanding fixture coverage (#218)
+291	unmerged	vonstegen	docs: Augmentor workflow recipes (#237)
+290	unmerged	KukrCZ	build: add isolated Docker development environment
+289	unmerged	vrondelli	bridge: add read-only Augmentor consultation
+288	unmerged	GeneraI44	Feature/hermes opencode enable
+287	unmerged	GeneraI44	docs: add Alpha security review report
+286	2026-08-18T08:13:30Z	Resonant-Jones	test(agent-control): stabilize live certification harness target discovery and job settle
+285	unmerged	Resonant-Jones	feat(#225): durable job trace with visible step counter and redacted exports
+284	unmerged	Resonant-Jones	fix(#226): halt Agent Control runs immediately on stop/cancel and show recovery state
+283	unmerged	Resonant-Jones	test(#223): certification fixtures for Agent Control safe click/type/scroll and blocked high-risk paths
+282	2026-08-18T08:27:24Z	Resonant-Jones	fix(#224): classify credential aliases (passwd/pwd/pin/passkey/security-code) as hard typing boundaries
+281	2026-08-18T08:27:22Z	Resonant-Jones	fix(#240): runner exposes no executable approval for public-submit handoff
+280	unmerged	vijayee	Additional Test Fixtures for page understanding
+279	unmerged	ConsultingFuture4200	fix(test): settle the public-submit job before classifying and release its page lock
+278	2026-07-22T01:52:37Z	tompennington	fix(agent-control): explain restricted pages instead of a generic no-target error
+277	2026-07-22T01:17:47Z	tompennington	feat(extension): ship the ResonantOS brand icon as the toolbar icon
+276	2026-07-21T21:41:47Z	tompennington	fix(settings): show provider-account save errors inside the dialog (#271)
+275	2026-07-21T21:41:42Z	tompennington	docs: retire the met Alpha MVP gate; point release gate at beta.1 (#209)
+274	2026-07-21T19:45:56Z	tompennington	fix(extension): stop overriding Chrome's new-tab page
+273	2026-08-19T01:36:46Z	HenrikeGbinigie	test: add co-located controller/selector tests per issue #126
+272	unmerged	tompennington	fix(host): detect uv-venv Hermes and npm-global OpenCode runtimes
+270	2026-07-21T18:42:30Z	tompennington	Augmentor demo hardening: side-panel UX, agent-control, Hermes runtime (HELD)
+269	2026-07-20T15:00:04Z	tompennington	fix(#267): restore the live-browser Agent Control harness launcher
+268	2026-07-20T15:00:23Z	tompennington	fix(#240): non-bypassable human-only public-submit handoff
+266	2026-07-17T22:48:22Z	tompennington	docs: add contributor-handoff field to feature issue template
+265	2026-07-17T22:48:18Z	tompennington	docs: sync acceptance matrix with 4 Augmentor board items (#213 #215 #226 #230)
+264	2026-07-17T21:22:10Z	tompennington	docs(#217,#229): Augmentor acceptance matrix + tester runbook
+263	2026-07-17T18:18:53Z	tompennington	ci: make Project 2 sync best-effort (stop failure-email flood)
+262	2026-07-17T08:16:42Z	tompennington	feat(#231): visible Provider Fabric fallback + manual model preservation
+261	2026-07-17T07:51:57Z	tompennington	test(#233): provider route health, connectivity, and fallback acceptance coverage
+260	2026-07-17T07:56:24Z	tompennington	ci: skip Project 2 sync gracefully when PROJECT_SYNC_TOKEN is absent
+259	2026-07-17T05:48:11Z	tompennington	docs(#202,#201): bridge first-time-setup runbook + h1-pinned Caddy config
+258	2026-07-17T05:37:02Z	tompennington	fix(#199,#203): mirror /auth + any-host bridge CSP + first-run smoke test
+257	2026-07-17T05:27:21Z	tompennington	fix(#206): readable provider/model dropdowns on Chrome/Windows 11
+256	2026-07-17T04:51:00Z	tompennington	fix(#200,#204): unify bridge capability-token map + surface bootstrap failures
+255	2026-07-17T04:36:27Z	tompennington	fix(#207): propagate user-added providers through the Provider Fabric (routing dropdown → chat) + provider removal
+251	2026-07-16T19:20:05Z	tompennington	docs: consolidate agent-first alpha guidance and preserve browser context work
+250	unmerged	HenrikeGbinigie	fix: add provider deletion and route propagation test
+239	unmerged	tompennington	docs: add Augmentor workflow recipes
+208	unmerged	michelnavarra	design system upload
+199	unmerged	Trilobyte17	fix(extension): mirror /auth in dashboard proxy + restore generic any-host CSP
+198	unmerged	tompennington	[codex] Add experimental Blackboard add-on
+197	2026-06-29T04:01:16Z	tompennington	[codex] Preserve browser chat context across tabs
+196	2026-06-26T01:20:04Z	ajfurey	Add PR plan for UI/UX visual refresh
+195	unmerged	ajfurey	Fix delegation finalization failure handling
+193	unmerged	ConsultingFuture4200	Fix blank screen on fresh boot: preserve host-owned state across runtime-state broadcast
+191	unmerged	vrondelli	feat: restore real regenerate flow
+190	2026-06-25T21:58:24Z	vrondelli	docs: add local development package discipline
+189	2026-06-25T21:57:47Z	vrondelli	docs: add module ownership architecture map
+188	2026-06-25T21:56:48Z	vrondelli	fix: preserve compact memory when branching chats
+187	2026-06-25T21:16:09Z	vrondelli	feat: clarify Agent Control overlay activity
+186	unmerged	vrondelli	Clarify Living Archive memory copy
+185	2026-06-25T18:19:33Z	vrondelli	feat: enforce Settings hierarchy
+184	2026-06-22T04:42:38Z	tompennington	security: harden browser-first alpha message paths
+183	2026-06-22T04:42:16Z	tompennington	security: keep alpha provider credentials session-only
+182	2026-06-22T04:42:03Z	tompennington	chore: scope alpha to Chrome extension release
+176	unmerged	tompennington	Alpha release sweep: security fixes and dictation merge
+175	2026-06-20T21:32:14Z	tompennington	Clarify OpenCode install path
+174	2026-06-20T20:13:32Z	tompennington	Integrate local provider smoke workflow
+173	2026-06-20T19:48:35Z	tompennington	Integrate provider and subprocess security batch
+172	2026-06-20T18:43:34Z	tompennington	Complete main workspace self inspection locally
+171	2026-06-20T17:45:53Z	tompennington	Route main workspace control slash commands
+170	2026-06-20T16:44:30Z	tompennington	Parse unquoted Agent Control click targets
+169	2026-06-20T10:57:36Z	tompennington	Stabilize Windows browser host click test
+168	2026-06-20T10:35:58Z	tompennington	Harden alpha release validation
+167	2026-06-20T07:51:47Z	tompennington	Alpha MVP readiness integration
+166	unmerged	vijayee	Local Speech Dictation
+165	unmerged	ajfurey	Worked on making some CSS more scalable
+164	unmerged	ajfurey	delegation: fix letter-spacing on hero h2 and empty-state headings
+158	2026-06-20T19:48:36Z	vrondelli	subprocess: Add opt-in scoped env (env_clear + per-runtime allowlist)
+157	2026-06-20T19:48:36Z	vrondelli	subprocess: Pin the native-bridge load root and gate terminal passthrough
+156	unmerged	vrondelli	browser-first: Default to an ephemeral profile and contain CDP exposure
+155	unmerged	vrondelli	sdk: Gate add-on systemSlots and mark missing provenance as unreviewed
+154	unmerged	vrondelli	browser-first: Contain artifactsDir and unpacked-extension paths
+153	2026-06-20T19:48:36Z	vrondelli	provider: Consent-fence LAN discovery and bound provider request paths
+152	2026-06-20T19:48:36Z	vrondelli	memory: Authenticate memory-service writes and default to readonly
+150	unmerged	vrondelli	security: Add the security pipeline with supply-chain and runtime-hardening checks
+149	2026-06-20T19:48:36Z	vrondelli	subprocess: Move provider secrets and prompts off subprocess argv
+148	unmerged	GardenerDave	fix(chat): clear run state on failures
+147	unmerged	GardenerDave	fix(archive): open main chat from living archive
+146	unmerged	GardenerDave	fix(provider): ignore stale routed model selections
+145	2026-06-20T20:13:34Z	GardenerDave	feat(provider): add local smoke workflow scripts
+144	2026-06-20T19:24:04Z	GardenerDave	fix(electron): isolate app state root and atomic writes
+142	unmerged	Trilobyte17	Ship ResonantOS Browser Layer v0.1.14

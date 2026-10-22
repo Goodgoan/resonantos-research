@@ -1,0 +1,9 @@
+URL: https://api.devnet.solana.com (JSON-RPC getAccountInfo/getBalance, getSignaturesForAddress) ; fetched 2026-10-20
+{"jsonrpc":"2.0","result":{"context":{"apiVersion":"4.4.0-beta.0","slot":512946969},"value":0},"id":1}
+
+{"jsonrpc":"2.0","result":{"context":{"apiVersion":"4.4.0-beta.0","slot":512946980},"value":null},"id":1}
+
+{"jsonrpc":"2.0","result":[],"id":1}
+
+URL: https://api.mainnet-beta.solana.com ; fetched 2026-10-20
+{"jsonrpc":"2.0","result":[],"id":1}

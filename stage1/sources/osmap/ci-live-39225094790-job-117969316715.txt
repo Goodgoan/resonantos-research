@@ -1,0 +1,359 @@
+﻿2026-10-19T08:45:56.3430395Z Current runner version: '2.337.0'
+2026-10-19T08:45:56.3455145Z ##[group]Runner Image Provisioner
+2026-10-19T08:45:56.3456030Z Hosted Compute Agent
+2026-10-19T08:45:56.3456610Z Version: 20261012.601
+2026-10-19T08:45:56.3457365Z Commit: f3dc54e1fb89da6852db922499a0233137369e1d
+2026-10-19T08:45:56.3458090Z Build Date: 2026-10-12T17:48:21Z
+2026-10-19T08:45:56.3458943Z Worker ID: {9f439ba0-b53c-4c55-8060-a1c5baf7c577}
+2026-10-19T08:45:56.3459650Z Region: westus3
+2026-10-19T08:45:56.3460185Z Cloud: Azure
+2026-10-19T08:45:56.3461017Z ##[endgroup]
+2026-10-19T08:45:56.3462692Z ##[group]Operating System
+2026-10-19T08:45:56.3463413Z Ubuntu
+2026-10-19T08:45:56.3463956Z 24.04.5
+2026-10-19T08:45:56.3464467Z LTS
+2026-10-19T08:45:56.3465062Z ##[endgroup]
+2026-10-19T08:45:56.3465615Z ##[group]Runner Image
+2026-10-19T08:45:56.3466616Z Image: ubuntu-24.04
+2026-10-19T08:45:56.3467241Z Version: 20261012.334.1
+2026-10-19T08:45:56.3468564Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261012.334/images/ubuntu/Ubuntu2404-Readme.md
+2026-10-19T08:45:56.3470101Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261012.334
+2026-10-19T08:45:56.3471372Z ##[endgroup]
+2026-10-19T08:45:56.3472473Z ##[group]GITHUB_TOKEN Permissions
+2026-10-19T08:45:56.3474710Z Contents: read
+2026-10-19T08:45:56.3475358Z Metadata: read
+2026-10-19T08:45:56.3475916Z ##[endgroup]
+2026-10-19T08:45:56.3478016Z Secret source: Actions
+2026-10-19T08:45:56.3479018Z Cache mode: write
+2026-10-19T08:45:56.3479829Z Prepare workflow directory
+2026-10-19T08:45:56.3833697Z Prepare all required actions
+2026-10-19T08:45:56.3881964Z Getting action download info
+2026-10-19T08:45:56.7228319Z Download action repository 'actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-10-19T08:45:56.8470023Z Download action repository 'actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020' (SHA:49933ea5288caeca8642d1e84afbd3f7d6820020)
+2026-10-19T08:45:56.9343564Z Download action repository 'browser-actions/setup-chrome@2e1d749697dd1612b833dba4a722266286fbefcd' (SHA:2e1d749697dd1612b833dba4a722266286fbefcd)
+2026-10-19T08:45:57.4233205Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+2026-10-19T08:45:58.3921010Z Complete job name: Agent Control live-browser certification
+2026-10-19T08:45:58.4895453Z ##[group]Run actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5
+2026-10-19T08:45:58.4897298Z with:
+2026-10-19T08:45:58.4898207Z   repository: ResonantOS/2.0.0-alpha
+2026-10-19T08:45:58.4907389Z   token: ***
+2026-10-19T08:45:58.4908291Z   ssh-strict: true
+2026-10-19T08:45:58.4909207Z   ssh-user: git
+2026-10-19T08:45:58.4910133Z   persist-credentials: true
+2026-10-19T08:45:58.4911274Z   clean: true
+2026-10-19T08:45:58.4912221Z   sparse-checkout-cone-mode: true
+2026-10-19T08:45:58.4913309Z   fetch-depth: 1
+2026-10-19T08:45:58.4914207Z   fetch-tags: false
+2026-10-19T08:45:58.4915125Z   show-progress: true
+2026-10-19T08:45:58.4916097Z   lfs: false
+2026-10-19T08:45:58.4916973Z   submodules: false
+2026-10-19T08:45:58.4917923Z   set-safe-directory: true
+2026-10-19T08:45:58.4919225Z ##[endgroup]
+2026-10-19T08:45:58.5996317Z Syncing repository: ResonantOS/2.0.0-alpha
+2026-10-19T08:45:58.6000360Z ##[group]Getting Git version info
+2026-10-19T08:45:58.6003042Z Working directory is '/home/runner/work/2.0.0-alpha/2.0.0-alpha'
+2026-10-19T08:45:58.6006558Z [command]/usr/bin/git version
+2026-10-19T08:45:58.6039070Z git version 2.55.0
+2026-10-19T08:45:58.6064709Z ##[endgroup]
+2026-10-19T08:45:58.6085444Z Temporarily overriding HOME='/home/runner/work/_temp/55f3d09e-ae20-4de0-9bc2-b13f5d5bb5ae' before making global git config changes
+2026-10-19T08:45:58.6090417Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T08:45:58.6094374Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/2.0.0-alpha/2.0.0-alpha
+2026-10-19T08:45:58.6143165Z Deleting the contents of '/home/runner/work/2.0.0-alpha/2.0.0-alpha'
+2026-10-19T08:45:58.6147565Z ##[group]Initializing the repository
+2026-10-19T08:45:58.6151928Z [command]/usr/bin/git init /home/runner/work/2.0.0-alpha/2.0.0-alpha
+2026-10-19T08:45:58.6271415Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-10-19T08:45:58.6274988Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-10-19T08:45:58.6278892Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-10-19T08:45:58.6281352Z hint: call:
+2026-10-19T08:45:58.6282787Z hint:
+2026-10-19T08:45:58.6284492Z hint: 	git config --global init.defaultBranch <name>
+2026-10-19T08:45:58.6286472Z hint:
+2026-10-19T08:45:58.6288459Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-10-19T08:45:58.6291393Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-10-19T08:45:58.6292967Z hint:
+2026-10-19T08:45:58.6294422Z hint: 	git branch -m <name>
+2026-10-19T08:45:58.6296111Z hint:
+2026-10-19T08:45:58.6298092Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-10-19T08:45:58.6301924Z Initialized empty Git repository in /home/runner/work/2.0.0-alpha/2.0.0-alpha/.git/
+2026-10-19T08:45:58.6307733Z [command]/usr/bin/git remote add origin https://github.com/ResonantOS/2.0.0-alpha
+2026-10-19T08:45:58.6354002Z ##[endgroup]
+2026-10-19T08:45:58.6356931Z ##[group]Disabling automatic garbage collection
+2026-10-19T08:45:58.6359449Z [command]/usr/bin/git config --local gc.auto 0
+2026-10-19T08:45:58.6389887Z ##[endgroup]
+2026-10-19T08:45:58.6392344Z ##[group]Setting up auth
+2026-10-19T08:45:58.6396743Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T08:45:58.6431407Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-19T08:45:58.6861898Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T08:45:58.6902921Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-19T08:45:58.7134405Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T08:45:58.7191713Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-19T08:45:58.7431116Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-10-19T08:45:58.7480959Z ##[endgroup]
+2026-10-19T08:45:58.7482697Z ##[group]Fetching the repository
+2026-10-19T08:45:58.7495998Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +578fbbc3c1c854b192318b3d2163b138fb45d8bd:refs/remotes/origin/dev
+2026-10-19T08:46:00.1731614Z From https://github.com/ResonantOS/2.0.0-alpha
+2026-10-19T08:46:00.1743770Z  * [new ref]         578fbbc3c1c854b192318b3d2163b138fb45d8bd -> origin/dev
+2026-10-19T08:46:00.1745997Z ##[endgroup]
+2026-10-19T08:46:00.1746656Z ##[group]Determining the checkout info
+2026-10-19T08:46:00.1747413Z ##[endgroup]
+2026-10-19T08:46:00.1750546Z [command]/usr/bin/git sparse-checkout disable
+2026-10-19T08:46:00.1809761Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-10-19T08:46:00.1843361Z ##[group]Checking out the ref
+2026-10-19T08:46:00.1850395Z [command]/usr/bin/git checkout --progress --force -B dev refs/remotes/origin/dev
+2026-10-19T08:46:00.2792045Z Switched to a new branch 'dev'
+2026-10-19T08:46:00.2796667Z branch 'dev' set up to track 'origin/dev'.
+2026-10-19T08:46:00.2806666Z ##[endgroup]
+2026-10-19T08:46:00.2870450Z [command]/usr/bin/git log -1 --format=%H
+2026-10-19T08:46:00.2901255Z 578fbbc3c1c854b192318b3d2163b138fb45d8bd
+2026-10-19T08:46:00.3236461Z ##[group]Run actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+2026-10-19T08:46:00.3236900Z with:
+2026-10-19T08:46:00.3237112Z   node-version-file: .nvmrc
+2026-10-19T08:46:00.3237349Z   cache: npm
+2026-10-19T08:46:00.3237542Z   always-auth: false
+2026-10-19T08:46:00.3237766Z   check-latest: false
+2026-10-19T08:46:00.3240179Z   token: ***
+2026-10-19T08:46:00.3240378Z ##[endgroup]
+2026-10-19T08:46:00.4605747Z Node version file is not JSON file
+2026-10-19T08:46:00.4607483Z Resolved .nvmrc as 24.21.0
+2026-10-19T08:46:00.4636315Z Found in cache @ /opt/hostedtoolcache/node/24.21.0/x64
+2026-10-19T08:46:00.4640132Z (node:2316) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T08:46:00.4641124Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T08:46:00.4643667Z ##[group]Environment details
+2026-10-19T08:46:00.8949372Z node: v24.21.0
+2026-10-19T08:46:00.8949814Z npm: 11.19.0
+2026-10-19T08:46:00.8950149Z yarn: 1.22.22
+2026-10-19T08:46:00.8951251Z ##[endgroup]
+2026-10-19T08:46:00.8997190Z [command]/opt/hostedtoolcache/node/24.21.0/x64/bin/npm config get cache
+2026-10-19T08:46:01.0201753Z /home/runner/.npm
+2026-10-19T08:46:01.2687811Z Cache hit for: node-cache-Linux-x64-npm-9d35832f4d974bb2d27f07998c251ce4ebed5f2fb719a90fced3e44874e4f686
+2026-10-19T08:46:01.2791976Z (node:2316) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-19T08:46:02.4749632Z Received 23037197 of 27231501 (84.6%), 22.0 MBs/sec
+2026-10-19T08:46:02.4940912Z Received 27231501 of 27231501 (100.0%), 25.5 MBs/sec
+2026-10-19T08:46:02.4941557Z Cache Size: ~26 MB (27231501 B)
+2026-10-19T08:46:02.4970309Z [command]/usr/bin/tar -xf /home/runner/work/_temp/ca65fe33-110d-418e-a6ed-f74adf19ce91/cache.tzst -P -C /home/runner/work/2.0.0-alpha/2.0.0-alpha --use-compress-program unzstd
+2026-10-19T08:46:02.5918302Z Cache restored successfully
+2026-10-19T08:46:02.5934736Z Cache restored from key: node-cache-Linux-x64-npm-9d35832f4d974bb2d27f07998c251ce4ebed5f2fb719a90fced3e44874e4f686
+2026-10-19T08:46:02.6120640Z ##[group]Run npm ci
+2026-10-19T08:46:02.6121723Z [36;1mnpm ci[0m
+2026-10-19T08:46:02.6400254Z shell: /usr/bin/bash -e {0}
+2026-10-19T08:46:02.6400546Z ##[endgroup]
+2026-10-19T08:46:05.9376492Z 
+2026-10-19T08:46:05.9385004Z added 277 packages, and audited 278 packages in 3s
+2026-10-19T08:46:05.9385351Z 
+2026-10-19T08:46:05.9385581Z 112 packages are looking for funding
+2026-10-19T08:46:05.9385933Z   run `npm fund` for details
+2026-10-19T08:46:05.9390586Z 
+2026-10-19T08:46:05.9391208Z found 0 vulnerabilities
+2026-10-19T08:46:05.9401174Z npm warn install-scripts 1 package has install scripts not yet covered by allowScripts:
+2026-10-19T08:46:05.9401997Z npm warn install-scripts   esbuild@0.25.12 (postinstall: node install.js)
+2026-10-19T08:46:05.9402475Z npm warn install-scripts
+2026-10-19T08:46:05.9403101Z npm warn install-scripts Run `npm install-scripts ls` to review, or `npm install-scripts approve <pkg>` to allow.
+2026-10-19T08:46:06.0036662Z ##[group]Run browser-actions/setup-chrome@2e1d749697dd1612b833dba4a722266286fbefcd
+2026-10-19T08:46:06.0037130Z with:
+2026-10-19T08:46:06.0037340Z   chrome-version: stable
+2026-10-19T08:46:06.0037591Z   install-dependencies: true
+2026-10-19T08:46:06.0037852Z   install-chromedriver: false
+2026-10-19T08:46:06.0038102Z   no-sudo: false
+2026-10-19T08:46:06.0038305Z ##[endgroup]
+2026-10-19T08:46:06.0742187Z Installing dependencies
+2026-10-19T08:46:06.0810048Z [command]/usr/bin/sudo apt-get update
+2026-10-19T08:46:06.2177200Z Get:1 file:/etc/apt/apt-mirrors.txt Mirrorlist [144 B]
+2026-10-19T08:46:06.2492809Z Hit:2 http://azure.archive.ubuntu.com/ubuntu noble InRelease
+2026-10-19T08:46:06.2494407Z Get:6 https://packages.microsoft.com/ubuntu/24.04/prod noble InRelease [3600 B]
+2026-10-19T08:46:06.2514558Z Get:3 http://azure.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+2026-10-19T08:46:06.2581949Z Get:4 http://azure.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+2026-10-19T08:46:06.2636060Z Get:5 http://azure.archive.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+2026-10-19T08:46:06.3898873Z Get:7 https://packages.microsoft.com/ubuntu/24.04/prod noble/main amd64 Packages [618 kB]
+2026-10-19T08:46:06.4040056Z Get:8 https://packages.microsoft.com/ubuntu/24.04/prod noble/main armhf Packages [12.4 kB]
+2026-10-19T08:46:06.4092123Z Get:9 https://packages.microsoft.com/ubuntu/24.04/prod noble/main arm64 Packages [557 kB]
+2026-10-19T08:46:06.4432994Z Get:10 http://azure.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1397 kB]
+2026-10-19T08:46:06.4512340Z Get:11 http://azure.archive.ubuntu.com/ubuntu noble-updates/main Translation-en [308 kB]
+2026-10-19T08:46:06.4527278Z Get:12 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1704 kB]
+2026-10-19T08:46:06.4605112Z Get:13 http://azure.archive.ubuntu.com/ubuntu noble-updates/universe Translation-en [342 kB]
+2026-10-19T08:46:06.4628986Z Get:14 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [1805 kB]
+2026-10-19T08:46:06.4716262Z Get:15 http://azure.archive.ubuntu.com/ubuntu noble-updates/restricted Translation-en [411 kB]
+2026-10-19T08:46:06.5505645Z Get:16 http://azure.archive.ubuntu.com/ubuntu noble-security/main amd64 Packages [1144 kB]
+2026-10-19T08:46:06.5545816Z Get:17 http://azure.archive.ubuntu.com/ubuntu noble-security/main Translation-en [231 kB]
+2026-10-19T08:46:06.5565489Z Get:18 http://azure.archive.ubuntu.com/ubuntu noble-security/universe amd64 Packages [1222 kB]
+2026-10-19T08:46:06.5633432Z Get:19 http://azure.archive.ubuntu.com/ubuntu noble-security/universe Translation-en [246 kB]
+2026-10-19T08:46:06.6063491Z Get:20 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [1713 kB]
+2026-10-19T08:46:06.6237843Z Get:21 http://azure.archive.ubuntu.com/ubuntu noble-security/restricted Translation-en [392 kB]
+2026-10-19T08:46:09.4818221Z Fetched 12.5 MB in 1s (9561 kB/s)
+2026-10-19T08:46:10.3838947Z Reading package lists...
+2026-10-19T08:46:10.3983630Z [command]/usr/bin/sudo apt-get install --yes --no-install-recommends libasound2t64 libatk-bridge2.0-0t64 libatk1.0-0t64 libcairo2 libcups2t64 libdbus-1-3 libexpat1 libgbm1 libglib2.0-0t64 libnss3 libpango-1.0-0 libxcomposite1 libxdamage1 libxfixes3 libxkbcommon0 libxrandr2
+2026-10-19T08:46:10.4190789Z Reading package lists...
+2026-10-19T08:46:10.6191732Z Building dependency tree...
+2026-10-19T08:46:10.6198536Z Reading state information...
+2026-10-19T08:46:10.7957051Z libasound2t64 is already the newest version (1.2.11-1ubuntu0.3).
+2026-10-19T08:46:10.7957828Z libasound2t64 set to manually installed.
+2026-10-19T08:46:10.7958729Z libatk-bridge2.0-0t64 is already the newest version (2.52.0-1build1).
+2026-10-19T08:46:10.7959677Z libatk-bridge2.0-0t64 set to manually installed.
+2026-10-19T08:46:10.7960469Z libatk1.0-0t64 is already the newest version (2.52.0-1build1).
+2026-10-19T08:46:10.7971950Z libatk1.0-0t64 set to manually installed.
+2026-10-19T08:46:10.7973351Z libcairo2 is already the newest version (1.18.0-3build1).
+2026-10-19T08:46:10.7974158Z libcairo2 set to manually installed.
+2026-10-19T08:46:10.7974964Z libcups2t64 is already the newest version (2.4.7-1.2ubuntu7.14).
+2026-10-19T08:46:10.7976083Z libcups2t64 set to manually installed.
+2026-10-19T08:46:10.7976835Z libdbus-1-3 is already the newest version (1.14.10-4ubuntu4.1).
+2026-10-19T08:46:10.7977492Z libdbus-1-3 set to manually installed.
+2026-10-19T08:46:10.7978181Z libexpat1 is already the newest version (2.6.1-2ubuntu0.6).
+2026-10-19T08:46:10.7978875Z libexpat1 set to manually installed.
+2026-10-19T08:46:10.7979663Z libgbm1 is already the newest version (25.2.8-0ubuntu0.24.04.4).
+2026-10-19T08:46:10.7980418Z libgbm1 set to manually installed.
+2026-10-19T08:46:10.7981472Z libglib2.0-0t64 is already the newest version (2.80.0-6ubuntu3.9).
+2026-10-19T08:46:10.7982552Z libglib2.0-0t64 set to manually installed.
+2026-10-19T08:46:10.7983272Z libnss3 is already the newest version (2:3.98-1ubuntu0.2).
+2026-10-19T08:46:10.7983944Z libnss3 set to manually installed.
+2026-10-19T08:46:10.7984670Z libpango-1.0-0 is already the newest version (1.52.1+ds-1build1).
+2026-10-19T08:46:10.7985407Z libpango-1.0-0 set to manually installed.
+2026-10-19T08:46:10.7986211Z libxcomposite1 is already the newest version (1:0.4.5-1build3).
+2026-10-19T08:46:10.7987097Z libxcomposite1 set to manually installed.
+2026-10-19T08:46:10.7987891Z libxdamage1 is already the newest version (1:1.1.6-1build1).
+2026-10-19T08:46:10.7988624Z libxdamage1 set to manually installed.
+2026-10-19T08:46:10.7989376Z libxfixes3 is already the newest version (1:6.0.0-2build1).
+2026-10-19T08:46:10.7990123Z libxfixes3 set to manually installed.
+2026-10-19T08:46:10.7991157Z libxkbcommon0 is already the newest version (1.6.0-1build1).
+2026-10-19T08:46:10.7992022Z libxkbcommon0 set to manually installed.
+2026-10-19T08:46:10.7992871Z libxrandr2 is already the newest version (2:1.5.2-2build1).
+2026-10-19T08:46:10.7993608Z libxrandr2 set to manually installed.
+2026-10-19T08:46:10.7994402Z 0 upgraded, 0 newly installed, 0 to remove and 44 not upgraded.
+2026-10-19T08:46:10.7995315Z Setup chrome stable
+2026-10-19T08:46:10.7996293Z Attempting to download chrome stable...
+2026-10-19T08:46:10.9116177Z Acquiring chrome stable from https://storage.googleapis.com/chrome-for-testing-public/155.0.8059.84/linux64/chrome-linux64.zip
+2026-10-19T08:46:11.8330396Z Installing chrome...
+2026-10-19T08:46:11.8366742Z [command]/usr/bin/unzip -o -q /home/runner/work/_temp/28fb2a18-6683-4268-ac58-b0255e751cde
+2026-10-19T08:46:15.7138881Z Successfully Installed chrome to /opt/hostedtoolcache/setup-chrome/chrome/stable/x64
+2026-10-19T08:46:15.7149094Z [command]/opt/hostedtoolcache/setup-chrome/chrome/stable/x64/chrome --version
+2026-10-19T08:46:15.8608688Z Google Chrome for Testing 155.0.8059.84 
+2026-10-19T08:46:15.8634855Z Successfully setup chrome 155.0.8059.84
+2026-10-19T08:46:15.8846212Z ##[group]Run npm run test:browser-first:settings-shapes
+2026-10-19T08:46:15.8846688Z [36;1mnpm run test:browser-first:settings-shapes[0m
+2026-10-19T08:46:15.8911923Z shell: /usr/bin/bash -e {0}
+2026-10-19T08:46:15.8912180Z env:
+2026-10-19T08:46:15.8912369Z   CI: true
+2026-10-19T08:46:15.8912755Z   RESONANTOS_LIVE_CHROME_PATH: /opt/hostedtoolcache/setup-chrome/chrome/stable/x64/chrome
+2026-10-19T08:46:15.8913451Z   RESONANTOS_SETTINGS_ARTIFACT_DIR: /home/runner/work/_temp/agent-control-live/39225094790-1/settings-shapes
+2026-10-19T08:46:15.8913955Z ##[endgroup]
+2026-10-19T08:46:15.9933587Z 
+2026-10-19T08:46:15.9935595Z > resonantos-vnext@2.0.0-beta.1 test:browser-first:settings-shapes
+2026-10-19T08:46:15.9936613Z > node browser-first/test/settings-shapes-live.mjs
+2026-10-19T08:46:15.9937050Z 
+2026-10-19T08:46:20.2366726Z {"passed":true,"chrome":"155.0.8059.84","viewports":[1280,768,390],"densities":["comfortable","compact","touch"],"injectedOverrideDetected":true,"injectedPillDetected":true}
+2026-10-19T08:46:20.3282833Z ##[group]Run xvfb-run -a npm run test:browser-first:live
+2026-10-19T08:46:20.3283285Z [36;1mxvfb-run -a npm run test:browser-first:live[0m
+2026-10-19T08:46:20.3346735Z shell: /usr/bin/bash -e {0}
+2026-10-19T08:46:20.3346993Z env:
+2026-10-19T08:46:20.3347186Z   CI: true
+2026-10-19T08:46:20.3347404Z   RESONANTOS_LIVE_PROFILE: agent-control
+2026-10-19T08:46:20.3347869Z   RESONANTOS_LIVE_CHROME_PATH: /opt/hostedtoolcache/setup-chrome/chrome/stable/x64/chrome
+2026-10-19T08:46:20.3348461Z   RESONANTOS_LIVE_ARTIFACT_DIR: /home/runner/work/_temp/agent-control-live/39225094790-1
+2026-10-19T08:46:20.3349199Z   RESONANTOS_PUBLIC_SUBMIT_CONTRACT: auto
+2026-10-19T08:46:20.3349499Z ##[endgroup]
+2026-10-19T08:46:20.7667600Z 
+2026-10-19T08:46:20.7668769Z > resonantos-vnext@2.0.0-beta.1 test:browser-first:live
+2026-10-19T08:46:20.7669377Z > node browser-first/test/agent-control-live.mjs
+2026-10-19T08:46:20.7669646Z 
+2026-10-19T08:46:57.2458401Z {
+2026-10-19T08:46:57.2459363Z   "ok": true,
+2026-10-19T08:46:57.2460074Z   "iframeContextVisible": true,
+2026-10-19T08:46:57.2460980Z   "bookingState": {
+2026-10-19T08:46:57.2461593Z     "slot": "Tuesday 10:00",
+2026-10-19T08:46:57.2462158Z     "status": "idle"
+2026-10-19T08:46:57.2462738Z   },
+2026-10-19T08:46:57.2463512Z   "cartState": {
+2026-10-19T08:46:57.2464113Z     "cart": "added",
+2026-10-19T08:46:57.2464673Z     "status": "cart-added"
+2026-10-19T08:46:57.2465228Z   },
+2026-10-19T08:46:57.2465758Z   "safeState": {
+2026-10-19T08:46:57.2466659Z     "details": "safe details opened",
+2026-10-19T08:46:57.2467658Z     "input": "find resonantos",
+2026-10-19T08:46:57.2468531Z     "scrollY": 410,
+2026-10-19T08:46:57.2469119Z     "submitted": false,
+2026-10-19T08:46:57.2469724Z     "doc": "Draft starts here."
+2026-10-19T08:46:57.2470313Z   },
+2026-10-19T08:46:57.2471405Z   "documentState": {
+2026-10-19T08:46:57.2472129Z     "doc": "ResonantOS wrote this draft."
+2026-10-19T08:46:57.2472835Z   },
+2026-10-19T08:46:57.2473532Z   "blockedState": {
+2026-10-19T08:46:57.2474252Z     "submitted": false,
+2026-10-19T08:46:57.2474861Z     "status": "idle"
+2026-10-19T08:46:57.2475416Z   },
+2026-10-19T08:46:57.2475910Z   "approvalState": {
+2026-10-19T08:46:57.2476487Z     "submitted": false,
+2026-10-19T08:46:57.2477138Z     "status": "clicked"
+2026-10-19T08:46:57.2477871Z   },
+2026-10-19T08:46:57.2478322Z   "screenshots": [
+2026-10-19T08:46:57.2478872Z     {
+2026-10-19T08:46:57.2479338Z       "ok": true,
+2026-10-19T08:46:57.2479858Z       "path": "panel.png"
+2026-10-19T08:46:57.2480431Z     },
+2026-10-19T08:46:57.2481130Z     {
+2026-10-19T08:46:57.2481629Z       "ok": true,
+2026-10-19T08:46:57.2482269Z       "path": "page.png"
+2026-10-19T08:46:57.2482797Z     }
+2026-10-19T08:46:57.2483237Z   ]
+2026-10-19T08:46:57.2483692Z }
+2026-10-19T08:46:58.9498952Z ##[group]Run npm run test:browser-first:harness-demo
+2026-10-19T08:46:58.9499682Z [36;1mnpm run test:browser-first:harness-demo[0m
+2026-10-19T08:46:58.9592265Z shell: /usr/bin/bash -e {0}
+2026-10-19T08:46:58.9592544Z env:
+2026-10-19T08:46:58.9592736Z   CI: true
+2026-10-19T08:46:58.9593112Z   RESONANTOS_LIVE_CHROME_PATH: /opt/hostedtoolcache/setup-chrome/chrome/stable/x64/chrome
+2026-10-19T08:46:58.9593563Z ##[endgroup]
+2026-10-19T08:46:59.0645546Z 
+2026-10-19T08:46:59.0646331Z > resonantos-vnext@2.0.0-beta.1 test:browser-first:harness-demo
+2026-10-19T08:46:59.0647098Z > node --test browser-first/test/harness-swap-demo-bridge.live.mjs
+2026-10-19T08:46:59.0647431Z 
+2026-10-19T08:47:09.1740988Z ✔ fixture demo through the real bridge completes and verifies (9820.716115ms)
+2026-10-19T08:47:09.1955612Z ℹ tests 1
+2026-10-19T08:47:09.1956036Z ℹ suites 0
+2026-10-19T08:47:09.1956393Z ℹ pass 1
+2026-10-19T08:47:09.1956746Z ℹ fail 0
+2026-10-19T08:47:09.1957152Z ℹ cancelled 0
+2026-10-19T08:47:09.1957618Z ℹ skipped 0
+2026-10-19T08:47:09.1958000Z ℹ todo 0
+2026-10-19T08:47:09.1958430Z ℹ duration_ms 10092.218003
+2026-10-19T08:47:09.2159123Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+2026-10-19T08:47:09.2159841Z with:
+2026-10-19T08:47:09.2160202Z   name: agent-control-live-39225094790-1
+2026-10-19T08:47:09.2161961Z   path: /home/runner/work/_temp/agent-control-live/39225094790-1
+2026-10-19T08:47:09.2162579Z   if-no-files-found: error
+2026-10-19T08:47:09.2162980Z   retention-days: 14
+2026-10-19T08:47:09.2163349Z   compression-level: 6
+2026-10-19T08:47:09.2163717Z   overwrite: false
+2026-10-19T08:47:09.2164086Z   include-hidden-files: false
+2026-10-19T08:47:09.2164490Z ##[endgroup]
+2026-10-19T08:47:09.3866999Z (node:3235) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T08:47:09.3868522Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T08:47:09.3952668Z With the provided path, there will be 10 files uploaded
+2026-10-19T08:47:09.3962981Z Artifact name is valid!
+2026-10-19T08:47:09.3964761Z Root directory input is valid!
+2026-10-19T08:47:09.7499650Z Beginning upload of artifact content to blob storage
+2026-10-19T08:47:09.8689819Z (node:3235) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-10-19T08:47:10.4864718Z Uploaded bytes 2160306
+2026-10-19T08:47:10.5517951Z Finished uploading artifact content to blob storage!
+2026-10-19T08:47:10.5519481Z SHA256 digest of uploaded artifact zip is a0dbd34279f50b91c1dc23a60233f5c1d9a7c6aac42928b72bf5e111b4ddd4ff
+2026-10-19T08:47:10.5522186Z Finalizing artifact upload
+2026-10-19T08:47:10.7936360Z Artifact agent-control-live-39225094790-1.zip successfully finalized. Artifact ID 12172999137
+2026-10-19T08:47:10.7938062Z Artifact agent-control-live-39225094790-1 has been successfully uploaded! Final size is 2160306 bytes. Artifact ID is 12172999137
+2026-10-19T08:47:10.7939876Z Artifact download URL: https://github.com/ResonantOS/2.0.0-alpha/actions/runs/39225094790/artifacts/12172999137
+2026-10-19T08:47:10.8129082Z Post job cleanup.
+2026-10-19T08:47:10.9586110Z (node:3247) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-19T08:47:10.9587492Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-19T08:47:10.9590422Z Cache hit occurred on the primary key node-cache-Linux-x64-npm-9d35832f4d974bb2d27f07998c251ce4ebed5f2fb719a90fced3e44874e4f686, not saving cache.
+2026-10-19T08:47:10.9755340Z Post job cleanup.
+2026-10-19T08:47:11.0703308Z [command]/usr/bin/git version
+2026-10-19T08:47:11.0741547Z git version 2.55.0
+2026-10-19T08:47:11.0786637Z Temporarily overriding HOME='/home/runner/work/_temp/e856079b-2921-471d-875a-4da83e7e9a0a' before making global git config changes
+2026-10-19T08:47:11.0788240Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-19T08:47:11.0794068Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/2.0.0-alpha/2.0.0-alpha
+2026-10-19T08:47:11.0850172Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-10-19T08:47:11.0903339Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-10-19T08:47:11.1283049Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-19T08:47:11.1331525Z http.https://github.com/.extraheader
+2026-10-19T08:47:11.1421773Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-10-19T08:47:11.1444299Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-10-19T08:47:11.1838110Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-19T08:47:11.1917269Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-10-19T08:47:11.2427856Z Cleaning up orphan processes
+2026-10-19T08:47:11.2740294Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5, actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020, actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

@@ -1,0 +1,21 @@
+codebase_id,profile,requirement_ids,requirement_fit,demonstrated_maturity,isolation_and_security,licence_suitability,integration_effort,maintenance_sustainability,sovereignty_and_portability,interoperability,operational_complexity,source
+eclipse-biscuit,os_kernel,R01,3,3,2,5,4,2,5,4,5,dossiers/eclipse-biscuit.md s13 (amended 2026-10-21)
+anthropics-sandbox-runtime,os_kernel,R02,4,3,3,5,4,4,5,4,3,dossiers/anthropics-sandbox-runtime.md s13 R02 view (amended 2026-10-21)
+anthropics-sandbox-runtime@R03,os_kernel,R03,3,2,2,5,3,4,5,4,3,dossiers/anthropics-sandbox-runtime.md s13 R03 view (amended 2026-10-21)
+convira-convira-sandbox,os_kernel,R02,3,1,3,5,4,1,5,3,4,dossiers/convira-sandbox.md s13 (amended 2026-10-21)
+getaegis-aegis,os_kernel,R03;R01,3,1,0,5,3,1,4,3,4,dossiers/getaegis-aegis.md s13 (amended 2026-10-21; isolation per lead ruling D3.11)
+dapr-durabletask-go,os_kernel,R10;R11,3,3,1,5,2,3,4,4,3,dossiers/dapr-durabletask-go.md s13 (amended 2026-10-21)
+openworkflowdev-openworkflow,os_kernel,R10,3,3,1,5,4,3,5,2,5,"dossiers/openworkflow.md s13 (amended 2026-10-21, no score change)"
+holepunchto-hypercore,os_kernel,R11,2,4,2,5,4,3,3,2,4,"dossiers/holepunchto-hypercore.md s13 (amended 2026-10-21, no score change; D3.12)"
+transparency-dev-tessera,os_kernel,R11,2,4,3,5,1,4,4,5,3,"dossiers/transparency-dev-tessera.md s13 (R11 view, amended 2026-10-21, no score change)"
+transparency-dev-tessera,dao_contract,R30,3,4,2,5,1,4,4,5,2,"dossiers/transparency-dev-tessera.md s13 (R30 view, amended 2026-10-21; isolation per lead ruling D3.9)"
+nanobrowser-nanobrowser,os_kernel,R19,3,2,2,5,2,2,4,1,5,dossiers/nanobrowser.md s13 (amended 2026-10-21; isolation per D3.13)
+nanobrowser-nanobrowser,user_facing_app,R29,2,2,2,5,2,2,4,1,5,dossiers/nanobrowser.md s13 R29 view (amended 2026-10-21; isolation per D3.13)
+datalad-datalad,user_facing_app,R14;R13,3,4,1,3,1,2,4,4,3,"dossiers/datalad.md s13 (amended 2026-10-21, no score change)"
+hypercerts-org-hypercerts-lexicon,dao_contract,R26;R12,2,3,0,5,4,3,3,4,4,dossiers/hypercerts-lexicon.md s13 (amended 2026-10-21)
+openwallet-foundation-labs-identity-common-ts,dao_contract,R12,3,3,3,5,5,3,4,5,4,dossiers/identity-common-ts.md s13 R12 row (amended 2026-10-21)
+openwallet-foundation-labs-identity-common-ts@R23,dao_contract,R23,2,3,3,5,5,3,4,5,4,dossiers/identity-common-ts.md s13 R23 row (amended 2026-10-21)
+solana-foundation-rewards,dao_contract,R22;R23,1,2,0,5,1,3,3,4,3,dossiers/solana-foundation-rewards.md s13 (amended 2026-10-21)
+theupdateframework-tuf-js,os_kernel,R18,4,4,3,5,5,2,4,5,3,"dossiers/tuf-js.md s13 (amended 2026-10-21, no score change)"
+aaif-goose-goose,user_facing_app,R29;R06;R07,3,4,2,5,3,4,4,4,3,"dossiers/aaif-goose.md s13 (amended 2026-10-21, no score change)"
+mythic-project-spl-governance-v3-1-3,dao_contract,R24,3,2,2,5,2,1,3,4,3,dossiers/realms-spl-governance.md s13 (amended 2026-10-21)

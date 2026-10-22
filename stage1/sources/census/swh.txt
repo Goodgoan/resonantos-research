@@ -1,0 +1,43 @@
+Software Heritage origin lookups, 2026-10-20
+## ResonantOS/2.0.0-alpha
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/2.0.0-alpha not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/2.0.0-alpha not found!"}
+## ResonantOS/resonantos-website
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/resonantos-website not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/resonantos-website not found!"}
+## ResonantOS/augmentatism.com
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/augmentatism.com not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/augmentatism.com not found!"}
+## ResonantOS/rcode
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/rcode not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/rcode not found!"}
+## ResonantOS/resonant-hub
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/resonant-hub not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/resonant-hub not found!"}
+## ResonantOS/resonantos-economy-research
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/resonantos-economy-research not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/resonantos-economy-research not found!"}
+## ResonantOS/ResonantOS-Team-Coordination-Hub
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/ResonantOS-Team-Coordination-Hub not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/ResonantOS-Team-Coordination-Hub not found!"}
+## ResonantOS/akashic-records
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/akashic-records not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ResonantOS/akashic-records not found!"}
+## ManoloRemiddi/ResonantDAO.com
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ManoloRemiddi/ResonantDAO.com not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ManoloRemiddi/ResonantDAO.com not found!"}
+## ManoloRemiddi/augmentor-agent
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ManoloRemiddi/augmentor-agent not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ManoloRemiddi/augmentor-agent not found!"}
+## ManoloRemiddi/augmentor-app-sdk
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ManoloRemiddi/augmentor-app-sdk not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ManoloRemiddi/augmentor-app-sdk not found!"}
+## ManoloRemiddi/ResonantOS-Open-Toolkit
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ManoloRemiddi/ResonantOS-Open-Toolkit not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/ManoloRemiddi/ResonantOS-Open-Toolkit not found!"}
+## tompennington/2.0.0-alpha
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/tompennington/2.0.0-alpha not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/tompennington/2.0.0-alpha not found!"}
+## vrondelli/living-archive
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/vrondelli/living-archive not found!"}
+{"exception":"NotFoundExc","reason":"Origin with url https://github.com/vrondelli/living-archive not found!"}

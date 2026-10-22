@@ -1,0 +1,32 @@
+committed private key material (gating)	Set up job	success
+committed private key material (gating)	Checkout	success
+committed private key material (gating)	Setup Node.js	success
+committed private key material (gating)	Test committed private key material check	success
+committed private key material (gating)	Run committed private key material check	success
+committed private key material (gating)	Post Setup Node.js	success
+committed private key material (gating)	Post Checkout	success
+committed private key material (gating)	Complete job	success
+repository hygiene: workflow allowlist (gating)	Set up job	success
+repository hygiene: workflow allowlist (gating)	Checkout	success
+repository hygiene: workflow allowlist (gating)	Setup Node.js	success
+repository hygiene: workflow allowlist (gating)	Install dependencies (no lifecycle scripts)	success
+repository hygiene: workflow allowlist (gating)	Test repository hygiene guard	success
+repository hygiene: workflow allowlist (gating)	Run repository hygiene guard	success
+repository hygiene: workflow allowlist (gating)	Post Setup Node.js	success
+repository hygiene: workflow allowlist (gating)	Post Checkout	success
+repository hygiene: workflow allowlist (gating)	Complete job	success
+subprocess no shell-string (gate)	Set up job	success
+subprocess no shell-string (gate)	Checkout	success
+subprocess no shell-string (gate)	Setup Node.js	success
+subprocess no shell-string (gate)	Test subprocess-no-shell-string check	success
+subprocess no shell-string (gate)	Run subprocess-no-shell-string check (gating)	success
+subprocess no shell-string (gate)	Post Setup Node.js	success
+subprocess no shell-string (gate)	Post Checkout	success
+subprocess no shell-string (gate)	Complete job	success
+security pipeline (observe)	Set up job	success
+security pipeline (observe)	Checkout	success
+security pipeline (observe)	Setup Node.js	success
+security pipeline (observe)	Run security-pipeline registry (observe, non-gating)	success
+security pipeline (observe)	Post Setup Node.js	success
+security pipeline (observe)	Post Checkout	success
+security pipeline (observe)	Complete job	success
